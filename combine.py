@@ -32,7 +32,7 @@ for dirName, subdirList, fileList in os.walk(rootDir):
             year = "?"
             document_title = "?"
             congress = "?"
-            if day_xml is not None
+            if day_xml is not None:
                 day = day_xml.text
             if month_xml is not None:
                 month = month_xml.text
