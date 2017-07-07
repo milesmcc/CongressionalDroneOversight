@@ -65,8 +65,9 @@ for dirName, subdirList, fileList in os.walk(rootDir):
                         "speaker": speaker,
                         "text": text
                     })
-                except:
+                except Exception as e:
                     print "[errored]"
+                    print e
             if date not in dates:
                 dates[date] = {
                     "speakers": {},
