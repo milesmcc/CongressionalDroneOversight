@@ -7,6 +7,7 @@ dates = {}
 def escape( q ):
     q = q.replace("&", "&amp;")
     q = q.replace("<greek-m>", "")
+    q = q.replace("<High School", "less than High School")
     return q
 
 rootDir = '.'
