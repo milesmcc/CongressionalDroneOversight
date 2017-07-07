@@ -1,13 +1,14 @@
 import os
 from lxml import etree
 import json
+import StringIO
 
 dates = {}
 
 def escape( q ):
     q = q.replace("&", "&amp;")
     q = q.replace("<greek-m>", "")
-    q = q.replace("<High School", "less than High School")
+    #q = q.replace("<High School", "less than High School")
     return q
 
 rootDir = '.'
@@ -19,7 +20,8 @@ for dirName, subdirList, fileList in os.walk(rootDir):
             with open(dirName + "/" + f, "r") as infile:
                 data = escape(infile.read())
                 #print data
-            tree = etree.fromstring(data)
+            parser = etree.XMLParser(recover=True).fromstring(data)
+            tree = etree.parse(StringIO(data), parser)
             day = tree.find("day").text
             month = tree.find("month").text
             year = tree.find("year").text
