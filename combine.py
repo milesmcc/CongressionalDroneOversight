@@ -42,28 +42,28 @@ for dirName, subdirList, fileList in os.walk(rootDir):
                 try:
                     text = speaking.text.replace("\n", "")
                     speaker = speaking.get("name")
+                    speaker_sex = "?"
                     try:
                         speaker = speaker.split(' of ')[0]
+                        if speaker.startswith("Mr. "):
+                            speaker_sex = "male"
+                            speaker = speaker[4:]
+                        if speaker.startswith("Ms. "):
+                            speaker_sex = "female"
+                            speaker = speaker[4:]
+                        if speaker.startswith("Dr. "):
+                            speaker_sex = "?"
+                            speaker = speaker[4:]
+                        for title in titles:
+                            if speaker in title:
+                                speaker = title
+                        if speaker not in speakers:
+                            speakers[speaker] = {
+                                "name": speaker,
+                                "sex": speaker_sex
+                            }
                     except:
                         print text
-                    speaker_sex = "?"
-                    if speaker.startswith("Mr. "):
-                        speaker_sex = "male"
-                        speaker = speaker[4:]
-                    if speaker.startswith("Ms. "):
-                        speaker_sex = "female"
-                        speaker = speaker[4:]
-                    if speaker.startswith("Dr. "):
-                        speaker_sex = "?"
-                        speaker = speaker[4:]
-                    for title in titles:
-                        if speaker in title:
-                            speaker = title
-                    if speaker not in speakers:
-                        speakers[speaker] = {
-                            "name": speaker,
-                            "sex": speaker_sex
-                        }
                     spoken.append({
                         "speaker": speaker,
                         "text": text
