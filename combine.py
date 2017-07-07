@@ -20,7 +20,7 @@ for dirName, subdirList, fileList in os.walk(rootDir):
             with open(dirName + "/" + f, "r") as infile:
                 data = escape(infile.read())
                 #print data
-            parser = etree.XMLParser(recover=True).fromstring(data)
+            parser = etree.XMLParser(recover=True)
             tree = etree.parse(StringIO(data), parser)
             day = tree.find("day").text
             month = tree.find("month").text
