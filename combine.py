@@ -47,7 +47,7 @@ for dirName, subdirList, fileList in os.walk(rootDir):
             location_mappings = {}
             for i in range(len(titles)):
                 title = titles[i]
-                if title.startswith("HON. "):
+                if title is not None and title.startswith("HON. "):
                     titles[i] = title[5:]
                     if len(titles) > i + 1:
                         titles[i] += " " + titles[i+1]
