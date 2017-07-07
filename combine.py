@@ -1,7 +1,7 @@
 import os
 from lxml import etree
 import json
-import StringIO
+from StringIO import StringIO
 
 dates = {}
 
