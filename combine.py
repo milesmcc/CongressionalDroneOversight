@@ -79,9 +79,6 @@ for dirName, subdirList, fileList in os.walk(rootDir):
                 "congress": congress,
                 "spoken": spoken
             })
-
-            print json.dumps(dates[date])
-
 with open("congressional_record.json", "w") as outfile:
     print "Writing..."
     json.dump(dates, outfile, indent=4)
