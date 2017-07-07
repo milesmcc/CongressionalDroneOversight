@@ -6,8 +6,8 @@ from StringIO import StringIO
 dates = {}
 
 def escape( q ):
-    q = q.replace("&", "&amp;")
-    q = q.replace("<greek-m>", "")
+    # q = q.replace("&", "&amp;")
+    # q = q.replace("<greek-m>", "")
     #q = q.replace("<High School", "less than High School")
     return q
 
@@ -68,6 +68,12 @@ for dirName, subdirList, fileList in os.walk(rootDir):
                             speaker_sex = "male"
                             speaker = speaker[4:]
                         if speaker.startswith("Ms. "):
+                            speaker_sex = "female"
+                            speaker = speaker[4:]
+                        if speaker.startswith("Mrs. "):
+                            speaker_sex = "female"
+                            speaker = speaker[4:]
+                        if speaker.startswith("Miss. "):
                             speaker_sex = "female"
                             speaker = speaker[4:]
                         if speaker.startswith("Dr. "):
