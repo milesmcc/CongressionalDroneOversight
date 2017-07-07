@@ -42,7 +42,10 @@ for dirName, subdirList, fileList in os.walk(rootDir):
                 try:
                     text = speaking.text.replace("\n", "")
                     speaker = speaking.get("name")
-                    speaker = speaker.split(' of ')[0]
+                    try:
+                        speaker = speaker.split(' of ')[0]
+                    except:
+                        print text
                     speaker_sex = "?"
                     if speaker.startswith("Mr. "):
                         speaker_sex = "male"
