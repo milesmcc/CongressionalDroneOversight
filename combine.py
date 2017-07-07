@@ -22,12 +22,27 @@ for dirName, subdirList, fileList in os.walk(rootDir):
                 #print data
             parser = etree.XMLParser(recover=True)
             tree = etree.parse(StringIO(data), parser)
-            day = tree.find("day").text
-            month = tree.find("month").text
-            year = tree.find("year").text
+            day_xml = tree.find("day")
+            month_xml = tree.find("month")
+            year_xml = tree.find("year")
+            document_title_xml = tree.find("document_title")
+            congress_xml = tree.find("congress")
+            day = "?"
+            month = "?"
+            year = "?"
+            document_title = "?"
+            congress = "?"
+            if day_xml is not None
+                day = day_xml.text
+            if month_xml is not None:
+                month = month_xml.text
+            if year_xml is not None:
+                year = year_xml.text
             date = "-".join([year, month, day])
-            document_title = tree.find("document_title").text
-            congress = tree.find("congress").text
+            if document_title_xml is not None:
+                document_title = document_title_xml.text
+            if congress_xml is not None:
+                congress = congress_xml.text
             titles = [z.text for z in tree.findall("title")]
             location_mappings = {}
             for i in range(len(titles)):
