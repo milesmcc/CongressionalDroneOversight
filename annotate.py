@@ -169,8 +169,8 @@ else:
                                 print "state match"
                                 possibles += 1
                                 speaker['bio'] = legislator
-                    # if possibles > 1:
-                    #     speaker['bio'] = None # we must be very conservative and careful!
+                    if possibles > 1:
+                        speaker['bio'] = None # we must be very conservative and careful!
             for record in value["records"]:
                 doctitle = record["title"]
                 for speeked in record["spoken"]:
