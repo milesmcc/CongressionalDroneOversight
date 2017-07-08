@@ -160,13 +160,13 @@ else:
                 if speaker_last_normalized in legislators:
                     possibles = 0
                     for legislator in legislators[speaker_last_normalized]:
-                        print speaker_last_normalized
+                        # print speaker_last_normalized
                         if legislator["sex"].upper() == speaker_sex.upper() or legislator["sex"] == "?" or speaker_sex == "?":
-                            print "sex match"
-                            print legislator["state"]
-                            print speaker_state
+                            # print "sex match"
+                            # print legislator["state"]
+                            # print speaker_state
                             if legislator["state"] == "?" or speaker_state == "?" or legislator["state"].upper().strip() == speaker_state.upper().strip():
-                                print "state match"
+                                # print "state match"
                                 possibles += 1
                                 speaker['bio'] = legislator
                     if possibles > 1:
@@ -174,12 +174,17 @@ else:
             for record in value["records"]:
                 doctitle = record["title"]
                 for speeked in record["spoken"]:
-                    legislator = value["speakers"][speeked["speaker"]]
-                    if 'bio' in legislator:
-                        legislator = prep_legislator_for_json(legislator['bio'])
-                        bio_found_count += 1
-                    else:
-                        legislator = None
+                    legislator = None
+                    try:
+                        legislator = value["speakers"][speeked["speaker"]]
+                        if 'bio' in legislator:
+                            legislator = prep_legislator_for_json(legislator['bio'])
+                            bio_found_count += 1
+                        else:
+                            legislator = None
+                    except Exception as e:
+                        print e
+                        print "(moving on...)"
                     statements.append({
                         "statement": speeked["text"],
                         "speaker": speeked["speaker"],
@@ -189,7 +194,8 @@ else:
                     })
     print "Processing complete!"
     print "{}/{} statements have biographies associated with them ({}%).".format(bio_found_count, len(statements), (bio_found_count+0.0)/len(statements)*100)
-    print "Writing to disk as `annotated_congressional_record.json`"
-    with open("annotated_congressional_record.json", "w") as out:
+    outloc = "annotated_congressional_record.json"
+    print "Writing to disk as `{}`".format(outloc)
+    with open(outloc, "w") as out:
         json.dump(statements, out, indent=4)
     print "Done!"
