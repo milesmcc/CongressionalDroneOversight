@@ -2,6 +2,7 @@ import sys
 import json
 import datetime
 import re
+import unicodecsv as csv
 
 def match(record):
     """
@@ -24,11 +25,25 @@ def match(record):
         #        party = bio['party']
         #    if "first_name" in bio and "last_name" in bio:
         #        name = bio["first_name"] + " " + bio["last_name"]
+
+        # special logic
+
+        # [!] match border unless Pakistan or Afghanistan is present
+        if "border" in text:
+            if not ("pakistan" in text or "afghan" in text):
+                return False
+
+        # [!] remove "american soil"  unless "foreign" or "somalia" or "afghanistan" or "pakistan" or "yemen" present
+        if "american soil" in text:
+            if not ("foreign" in text or "somalia" in text or "afghanistan" in text or "pakistan" in text or "yemen" in text):
+                return False
+
+        # general terms
         required = [
             re.compile("drone|uav|unmanned aerial vehicle")
         ]
         disallowed = [
-            re.compile("(border|commerc|amazon|bezos|homeland security|dhs|faa|federal aviation administration|police|secret service|pipeline|survey|on american soil|in this country)")
+            re.compile("(commerc|amazon|bezos|homeland security|dhs|faa|federal aviation administration|police|secret service|pipeline|survey)")
                         # NOT ON PAKISTAN BORDER - FIX
         ]
         for term in required:
@@ -37,11 +52,12 @@ def match(record):
         for term in disallowed:
             if term.search(text):
                 return False
+
         return True
     except Exception as e:
         print e
 
-output_columnns = {
+output_columns = {
     "bio_columns": [
         "first_name",
         "last_name",
@@ -53,8 +69,32 @@ output_columnns = {
         "date",
         "statement",
         "title"
+    ],
+    "order": [
+        "date",
+        "title",
+        "first_name",
+        "last_name",
+        "party",
+        "sex",
+        "state",
+        "statement"
     ]
 }
+
+def generate_row(record):
+    row = []
+    for column in output_columns['order']:
+        value = "Unknown"
+        if column in output_columns["bio_columns"]:
+            if record['bio'] is not None:
+                if column in record['bio']:
+                    value = record['bio'][column]
+        if column in output_columns['record_columns']:
+            if column in record:
+                value = record[column]
+        row.append(value)
+    return row
 
 if len(sys.argv) < 3:
     print "Usage: <Annotated CGRecord (JSON) location> <output (JSON) location> [csv location]"
@@ -83,12 +123,12 @@ for record in matched:
     trimmed_record = {}
     # try:
     if "bio" in record:
-        for column in output_columnns["bio_columns"]:
+        for column in output_columns["bio_columns"]:
             if record["bio"] is not None and column in record["bio"]:
                 trimmed_record[column] = record["bio"][column]
             else:
                 trimmed_record[column] = "Unknown"
-    for column in output_columnns["record_columns"]:
+    for column in output_columns["record_columns"]:
         if column in record:
             trimmed_record[column] = record[column]
         else:
@@ -103,5 +143,9 @@ with open(output_location, "w") as jsonout:
     json.dump(output, jsonout, indent=4)
 if csv_location is not None:
     print "Writing CSV..."
-    # todo
+    with open(csv_location, "w") as csvfile:
+        writer = csv.writer(csvfile, encoding="utf-8")
+        writer.writerow(output_columns["order"])
+        for match in matched:
+            writer.writerow(generate_row(match))
 print "Done!"
