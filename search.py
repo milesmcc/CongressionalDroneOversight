@@ -12,8 +12,6 @@ def match(record):
         text = record["statement"].lower()
         title = record["title"]
         
-        if title in ignored_titles:
-            return False
         #date = datetime.datetime.strptime(record["date"], "%Y-%m-%d")
         #bio = record["bio"]
         #party = "Unknown"
