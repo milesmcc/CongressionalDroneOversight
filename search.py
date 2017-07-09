@@ -11,9 +11,7 @@ def match(record):
     try:
         text = record["statement"].lower()
         title = record["title"]
-        ignored_titles = [
-            "THE SPYING DRONE OVER A VIRGINIA NEIGHBORHOOD"
-        ]
+        
         if title in ignored_titles:
             return False
         #date = datetime.datetime.strptime(record["date"], "%Y-%m-%d")
