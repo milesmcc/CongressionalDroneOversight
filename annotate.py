@@ -5,6 +5,12 @@ Beware: this is Spaghetti code
 import sys
 import json
 import datetime
+import unicodedata
+
+def remove_accents(input_str):
+    nfkd_form = unicodedata.normalize('NFKD', input_str)
+    only_ascii = nfkd_form.encode('ASCII', 'ignore')
+    return only_ascii
 
 states = {
         'AK': 'Alaska',
@@ -87,10 +93,11 @@ def parse_legislator_file_into_legislators(f):
     global legislators
     data = json.load(f)
     for legislator in data:
+        standard_name = remove_accents(legislator["name"]["last"].lower())
         if datetime.datetime.strptime(legislator["terms"][-1]["end"], "%Y-%m-%d").date() >= earliest:
-            if legislator["name"]["last"].lower() not in legislators:
-                legislators[legislator["name"]["last"].lower()] = []
-            legislators[legislator["name"]["last"].lower()].append({
+            if standard_name not in legislators:
+                legislators[standard_name] = []
+            legislators[standard_name].append({
                 "first_name": legislator["name"]["first"],
                 "last_name": legislator["name"]["last"],
                 "party": legislator["terms"][-1]["party"], # caveat: could have switched // this is very rare, though
@@ -100,10 +107,18 @@ def parse_legislator_file_into_legislators(f):
                 "periods": [
                     {
                         "start": datetime.datetime.strptime(term["start"], "%Y-%m-%d").date(),
-                        "end": datetime.datetime.strptime(term["start"], "%Y-%m-%d").date()
+                        "end": datetime.datetime.strptime(term["end"], "%Y-%m-%d").date()
                     } for term in legislator["terms"]
                 ]
             })
+
+def get_next_election_date(date, periods):
+    try:
+        for term in periods:
+            if term["start"] <= date and term["end"] >= date:
+                return term["end"]
+    except e:
+        print "[!!]" + str(e)
 
 
 if len(sys.argv) != 2:
@@ -156,7 +171,7 @@ else:
                     speaker_sex = "m"
                 if speaker["sex"] == "female":
                     speaker_sex = "f"
-                speaker_last_normalized = speaker_last.strip().lower().replace(")","").replace("(", "")
+                speaker_last_normalized = remove_accents(speaker_last.strip().lower().replace(")","").replace("(", ""))
                 if speaker_last_normalized in legislators:
                     possibles = 0
                     for legislator in legislators[speaker_last_normalized]:
@@ -174,11 +189,22 @@ else:
             for record in value["records"]:
                 doctitle = record["title"]
                 for speeked in record["spoken"]:
-                    legislator = None
+                    # print speeked
                     try:
-                        legislator = value["speakers"][speeked["speaker"]]
-                        if 'bio' in legislator:
-                            legislator = prep_legislator_for_json(legislator['bio'])
+                        legislator_full = value["speakers"][speeked["speaker"]]
+                        # print legislator_full
+                        if 'bio' in legislator_full and legislator_full['bio'] is not None:
+                            legislator = prep_legislator_for_json(legislator_full['bio'])
+                            try:
+                                legislator["term_ends"] = "Unknown"
+                                legislator["days_until_term_ends"] = "Unknown"
+                                if "periods" in legislator_full['bio']:
+                                    legislator["term_ends"] = get_next_election_date(date, legislator_full['bio']["periods"])
+                                    legislator["days_until_term_ends"] = (legislator["term_ends"] - date)
+                                    legislator["term_ends"] = str(legislator["term_ends"])
+                                    legislator["days_until_term_ends"] = legislator["days_until_term_ends"].days
+                            except Exception as e:
+                                print "[!] " + str(e)
                             bio_found_count += 1
                         else:
                             legislator = None
