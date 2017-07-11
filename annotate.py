@@ -6,6 +6,7 @@ import sys
 import json
 import datetime
 import unicodedata
+import md5
 
 def remove_accents(input_str):
     nfkd_form = unicodedata.normalize('NFKD', input_str)
@@ -167,10 +168,10 @@ else:
                 if len(speaker_names) == 1:
                     speaker_first = "?"
                 speaker_sex = "?"
-                if speaker["sex"] == "male":
-                    speaker_sex = "m"
-                if speaker["sex"] == "female":
+                if speaker["sex"] == "female" or speaker["name"].startswith("Mrs. ") or speaker["name"].startswith("Ms. ") or speaker["name"].startswith("Miss. "):
                     speaker_sex = "f"
+                if speaker["sex"] == "male" or speaker["name"].startswith("Mr. "):
+                    speaker_sex = "m"
                 speaker_last_normalized = remove_accents(speaker_last.strip().lower().replace(")","").replace("(", ""))
                 if speaker_last_normalized in legislators:
                     possibles = 0
@@ -211,12 +212,18 @@ else:
                     except Exception as e:
                         print e
                         print "(moving on...)"
+                    md5sum = md5.md5()
+                    md5sum.update(str(date))
+                    md5sum.update(speeked["text"])
+                    md5sum.update(doctitle)
+                    md5sum.update(speeked["speaker"])
                     statements.append({
                         "statement": speeked["text"],
                         "speaker": speeked["speaker"],
                         "bio": legislator,
                         "date": str(date),
-                        "title": doctitle
+                        "title": doctitle,
+                        "id": md5sum.hexdigest()
                     })
     print "Processing complete!"
     print "{}/{} statements have biographies associated with them ({}%).".format(bio_found_count, len(statements), (bio_found_count+0.0)/len(statements)*100)
