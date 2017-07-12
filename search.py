@@ -11,7 +11,7 @@ def match(record):
     try:
         text = record["statement"].lower()
         title = record["title"]
-        
+
         #date = datetime.datetime.strptime(record["date"], "%Y-%m-%d")
         #bio = record["bio"]
         #party = "Unknown"
@@ -40,7 +40,6 @@ def match(record):
         ]
         disallowed = [
             re.compile("(commerc|amazon|bezos|homeland security|dhs|faa|federal aviation administration|police|secret service|pipeline|survey)")
-                        # NOT ON PAKISTAN BORDER - FIX
         ]
         for term in required:
             if not term.search(text):
@@ -59,14 +58,17 @@ output_columns = {
         "last_name",
         "party",
         "sex",
+        "days_until_term_ends",
         "state"
     ],
     "record_columns": [
         "date",
         "statement",
-        "title"
+        "title",
+        "id"
     ],
     "order": [
+        "id",
         "date",
         "title",
         "first_name",
@@ -74,6 +76,7 @@ output_columns = {
         "party",
         "sex",
         "state",
+        "days_until_term_ends",
         "statement"
     ]
 }
