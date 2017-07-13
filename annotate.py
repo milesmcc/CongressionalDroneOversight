@@ -8,6 +8,11 @@ import datetime
 import unicodedata
 import md5
 
+def load_dw_nominate_scores(filepath):
+    # Return all DW-NOMINATE scores in the file located at filepath
+    # in the following format:
+    # scores[last name][congress][state]
+
 def remove_accents(input_str):
     nfkd_form = unicodedata.normalize('NFKD', input_str)
     only_ascii = nfkd_form.encode('ASCII', 'ignore')
@@ -90,6 +95,12 @@ def prep_legislator_for_json(legislator):
         "sex": legislator["sex"],
     }
 
+def in_range(periods, date):
+    for period in periods:
+        if date >= period["start"] and date <= period["end"]:
+            return True
+    return False
+
 def parse_legislator_file_into_legislators(f):
     global legislators
     data = json.load(f)
@@ -98,6 +109,10 @@ def parse_legislator_file_into_legislators(f):
         if datetime.datetime.strptime(legislator["terms"][-1]["end"], "%Y-%m-%d").date() >= earliest:
             if standard_name not in legislators:
                 legislators[standard_name] = []
+            periods = [ {
+                "start": datetime.datetime.strptime(term["start"], "%Y-%m-%d").date(),
+                "end": datetime.datetime.strptime(term["end"], "%Y-%m-%d").date()
+            } for term in legislator["terms"] ]
             legislators[standard_name].append({
                 "first_name": legislator["name"]["first"],
                 "last_name": legislator["name"]["last"],
@@ -105,12 +120,7 @@ def parse_legislator_file_into_legislators(f):
                 "sex": legislator["bio"]["gender"], # the API says gender but they mean sex
                 "state": states[legislator["terms"][-1]["state"].upper()].upper(),
                 "govtrack": legislator["id"]["govtrack"],
-                "periods": [
-                    {
-                        "start": datetime.datetime.strptime(term["start"], "%Y-%m-%d").date(),
-                        "end": datetime.datetime.strptime(term["end"], "%Y-%m-%d").date()
-                    } for term in legislator["terms"]
-                ]
+                "periods": periods
             })
 
 def get_next_election_date(date, periods):
@@ -130,6 +140,7 @@ else:
         parse_legislator_file_into_legislators(lf)
     with open("data/legislators-historical.json", "r") as lf:
         parse_legislator_file_into_legislators(lf)
+    print legislators["paul"]
     print "Compiled!"
     overlap = 0
     total = 0
@@ -183,10 +194,12 @@ else:
                             # print speaker_state
                             if legislator["state"] == "?" or speaker_state == "?" or legislator["state"].upper().strip() == speaker_state.upper().strip():
                                 # print "state match"
-                                possibles += 1
-                                speaker['bio'] = legislator
+                                if in_range(legislator["periods"], date):
+                                    possibles += 1
+                                    speaker['bio'] = legislator
                     if possibles > 1:
                         speaker['bio'] = None # we must be very conservative and careful!
+
             for record in value["records"]:
                 doctitle = record["title"]
                 for speeked in record["spoken"]:
