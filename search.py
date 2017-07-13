@@ -4,33 +4,6 @@ import datetime
 import re
 import unicodecsv as csv
 
-def decode_dw_row(row):
-    # decodes row such as:
-    #  114   29774  71  24  CALIFOR    100  0  1   CAPPS         -0.389   -0.227      -81.84920   1077     26    0.927
-    # format: congress, icpsr, state code, district number (0 if senate or president), state name, party code (100=dem, 200=republican), occupancy, office attainment type, name, 1st dimension coord, 2nd dimension coord, log likelyhood, # of votes, # of classification errors, geometric mean probability
-    elements = [element.strip() for element in row.split("  ") if element.strip() != ""]
-    if len(elements) != 15:
-        print "error: != 15 elements in a row!"
-        print row
-        raise Exception("!= 15 elements in row")
-    return {
-        "congress": row[0],
-        "icpsr": row[1],
-        "state_code": row[2],
-        "district_number": row[3],
-        "state": row[4],
-        "party_code": row[5],
-        "occupancy": row[6],
-        "office_attainment_type": row[7],
-        "last_name": row[8].split(" ")[0],
-        "dim_1": row[9],
-        "dim_2": row[10],
-        "log_likelyhood": row[11],
-        "votes": row[12],
-        "classification_errors": row[13],
-        "geometric_mean_probability": row[14]
-    }
-
 def match(record):
     """
     Determine whether or not a record matches the search and should be included.
