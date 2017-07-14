@@ -36,10 +36,10 @@ def match(record):
 
         # general terms
         required = [
-            re.compile("drone| uav |unmanned aerial vehicle")
+            re.compile("drone|\" uav \"|unmanned aerial vehicle")
         ]
         disallowed = [
-            re.compile("(commerc|amazon|guava|bezos|cargo|homeland security|dhs|faa|federal aviation administration|police|secret service|pipeline|survey)")
+            re.compile("(commerc|amazon|droney|epa|guava|bezos|cargo|homeland security|dhs|faa|federal aviation administration|police|secret service|pipeline|survey)")
         ]
         for term in required:
             if not term.search(text):
