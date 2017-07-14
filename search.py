@@ -67,9 +67,19 @@ output_columns = {
         "title",
         "id"
     ],
+    "nominate_columns": [
+        "congress",
+        "dim_1",
+        "dim_2",
+        "log_likelyhood",
+        "votes",
+        "classification_errors",
+        "geometric_mean_probability"
+    ]
     "order": [
         "id",
         "date",
+        "congress"
         "title",
         "first_name",
         "last_name",
@@ -77,7 +87,13 @@ output_columns = {
         "sex",
         "state",
         "days_until_term_ends",
-        "statement"
+        "dim_1",
+        "dim_2",
+        "statement",
+        "log_likelyhood",
+        "votes",
+        "classification_errors",
+        "geometric_mean_probability"
     ]
 }
 
@@ -125,6 +141,12 @@ for record in matched:
         for column in output_columns["bio_columns"]:
             if record["bio"] is not None and column in record["bio"]:
                 trimmed_record[column] = record["bio"][column]
+            else:
+                trimmed_record[column] = "Unknown"
+    if "nominate" in record:
+        for column in output_columns["nominate_columns"]:
+            if record["nominate"] is not None and column in record["nominate"]:
+                trimmed_record[column] = record["nominate"][column]
             else:
                 trimmed_record[column] = "Unknown"
     for column in output_columns["record_columns"]:
