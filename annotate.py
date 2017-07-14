@@ -159,12 +159,23 @@ def parse_legislator_file_into_legislators(f):
                 "start": datetime.datetime.strptime(term["start"], "%Y-%m-%d").date(),
                 "end": datetime.datetime.strptime(term["end"], "%Y-%m-%d").date()
             } for term in legislator["terms"] ]
-            for name in standard_name.split(" "):
+            names = [standard_name]
+            if "-" in standard_name:
+                names.extend(standard_name.split("-"))
+            if " " in standard_name:
+                names.extend(standard_name.split(" "))
+            if standard_name not in names:
+                names.append(standard_name)
+            for name in names:
                 if name not in legislators:
                     legislators[name] = []
+                nickname = legislator['name']['first']
+                if "nickname" in legislator['name']:
+                    nickname = legislator["name"]["nickname"]
                 legislators[name].append({
-                    "first_name": legislator["name"]["first"],
-                    "last_name": legislator["name"]["last"],
+                    "first_name": legislator["name"]["first"].replace("-", "").replace(" ", ""),
+                    "last_name": legislator["name"]["last"].replace("-", "").replace(" ", ""),
+                    "nickname": nickname.replace("-", "").replace(" ", ""),
                     "party": legislator["terms"][-1]["party"], # caveat: could have switched // this is very rare, though
                     "sex": legislator["bio"]["gender"], # the API says gender but they mean sex
                     "state": states[legislator["terms"][-1]["state"].upper()].upper(),
@@ -217,16 +228,20 @@ else:
         biosa = 0
         nominatesa = 0
         totalnum = 0
+        nttotal = 0
+        trivial = ["The PRESIDING OFFICER", "The ACTING PRESIDENT pro tempore", "The Acting CHAIR", "The SPEAKER pro tempore (during the vote)", "The SPEAKER pro tempore", "recorder", ]
         for key, value in cg.iteritems():
             date = datetime.datetime.strptime(key, "%Y-%B-%d").date()
             print "..." + str(date) + " ({} records, {} speakers)".format(len(value["records"]), len(value["speakers"]))
             for speaker in value["speakers"].itervalues():
-                speaker_names = speaker["name"].split(" of ")[0].split(" ")
+                speaker_names = speaker["name"].split(" of ")[0].lower().replace(", jr.", "").replace(" II", "").replace("III", "").split(" ")
                 speaker_state = "?"
                 if len(speaker["name"].split(" of ")) > 1:
                     speaker_state = speaker["name"].split(" of ")[1]
                 speaker_last = speaker_names[-1].strip()
                 speaker_first = speaker_names[0].strip()
+                if speaker_first == speaker_last:
+                    speaker_first = "?"
                 if speaker_first is "The":
                     speaker_first = speaker["name"]
                     speaker_last = speaker["name"] # weird behavior, but go with it.
@@ -237,9 +252,10 @@ else:
                     speaker_sex = "f"
                 if speaker["sex"] == "male" or speaker["name"].startswith("Mr. "):
                     speaker_sex = "m"
-                speaker_last_normalized = remove_accents(speaker_last.strip().lower().replace(")","").replace("(", ""))
+                speaker_last_normalized = remove_accents(speaker_last.strip().lower().replace(")","").replace("(", "").replace("-", ""))
                 if speaker_last_normalized in legislators:
                     possibles = 0
+                    tlpossibles = len(legislators[speaker_last_normalized])
                     for legislator in legislators[speaker_last_normalized]:
                         # print speaker_last_normalized
                         if legislator["sex"].upper() == speaker_sex.upper() or legislator["sex"] == "?" or speaker_sex == "?":
@@ -248,24 +264,25 @@ else:
                             # print speaker_state
                             if legislator["state"] == "?" or speaker_state == "?" or legislator["state"].upper().strip() == speaker_state.upper().strip():
                                 # print "state match"
-                                if in_range(legislator["periods"], date):
-                                    possibles += 1
-                                    speaker['bio'] = legislator
-                                    congress = get_congress(date)
-                                    extrapolated = False
-                                    if congress > 114:
-                                        congress = 114
-                                        extrapolated = True
-                                    nominate_data = None
-                                    congress += 1
-                                    while nominate_data is None and not (congress < 100):
-                                        try:
-                                            congress -= 1
-                                            nominate_data = scores[speaker_last_normalized][legislator["state"].lower()[:7]][str(congress)]
-                                        except KeyError:
-                                            pass
-                                        # couldn't find NOMINATE data...
-                                    speaker['dwnominate'] = nominate_data
+                                if speaker_first == "?" or speaker_first == "the" or speaker_first.strip() == "" or remove_accents(legislator["first_name"].upper().strip()) == remove_accents(speaker_first.upper().strip()) or remove_accents(legislator["nickname"].upper().strip()) == remove_accents(speaker_first.upper().strip()) or tlpossibles == 1:
+                                    if in_range(legislator["periods"], date):
+                                        possibles += 1
+                                        speaker['bio'] = legislator
+                                        congress = get_congress(date)
+                                        extrapolated = False
+                                        if congress > 114:
+                                            congress = 114
+                                            extrapolated = True
+                                        nominate_data = None
+                                        congress += 1
+                                        while nominate_data is None and not (congress < 100):
+                                            try:
+                                                congress -= 1
+                                                nominate_data = scores[speaker_last_normalized[:11]][legislator["state"].lower()[:7]][str(congress)]
+                                            except KeyError:
+                                                pass
+                                            # couldn't find NOMINATE data...
+                                        speaker['dwnominate'] = nominate_data
                     if possibles > 1:
                         speaker['bio'] = None # we must be very conservative and careful!
                         speaker['dwnominate'] = None
@@ -306,6 +323,8 @@ else:
                         nominatesa += 1
                     if legislator is not None:
                         biosa += 1
+                    if speeked['speaker'] not in trivial:
+                        nttotal += 1
                     statements.append({
                         "statement": speeked["text"],
                         "speaker": speeked["speaker"],
@@ -316,8 +335,7 @@ else:
                         "id": md5sum.hexdigest()
                     })
     print "Processing complete!"
-    print len(statements)
-    print "{}/{} statements have biographies associated with them ({}%).".format(biosa, totalnum, (biosa+0.0)/totalnum*100)
+    print "{}/{} statements have biographies associated with them ({}% all, {}% nontrivial).".format(biosa, totalnum, (biosa+0.0)/totalnum*100, (biosa+0.0)/nttotal*100)
     print "{}/{} statements have nominate data associated with them ({}%).".format(nominatesa, totalnum, (nominatesa+0.0)/totalnum*100)
     outloc = "annotated_congressional_record.json"
     print "Writing to disk as `{}`".format(outloc)
