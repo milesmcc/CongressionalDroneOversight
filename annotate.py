@@ -229,12 +229,12 @@ else:
         nominatesa = 0
         totalnum = 0
         nttotal = 0
-        trivial = ["The PRESIDING OFFICER", "The ACTING PRESIDENT pro tempore", "The Acting CHAIR", "The SPEAKER pro tempore (during the vote)", "The SPEAKER pro tempore", "recorder", ]
+        trivial = ["The PRESIDING OFFICER", "The ACTING PRESIDENT pro tempore", "The CHAIR", "The SPEAKER", "The PRESIDENT pro tempore", "The PRESIDENT", "The CHAIRMAN", "The CHAIRMAN pro tempore" "The ACTING PRESIDENT pro tempore", "The Acting CHAIR", "The SPEAKER pro tempore (during the vote)", "The SPEAKER pro tempore", "recorder", ]
         for key, value in cg.iteritems():
             date = datetime.datetime.strptime(key, "%Y-%B-%d").date()
             print "..." + str(date) + " ({} records, {} speakers)".format(len(value["records"]), len(value["speakers"]))
             for speaker in value["speakers"].itervalues():
-                speaker_names = speaker["name"].split(" of ")[0].lower().replace(", jr.", "").replace(" II", "").replace("III", "").split(" ")
+                speaker_names = speaker["name"].split(" of ")[0].lower().replace(", jr.", "").replace(" ii", "").replace("iii", "").split(" ")
                 speaker_state = "?"
                 if len(speaker["name"].split(" of ")) > 1:
                     speaker_state = speaker["name"].split(" of ")[1]
@@ -252,7 +252,7 @@ else:
                     speaker_sex = "f"
                 if speaker["sex"] == "male" or speaker["name"].startswith("Mr. "):
                     speaker_sex = "m"
-                speaker_last_normalized = remove_accents(speaker_last.strip().lower().replace(")","").replace("(", "").replace("-", ""))
+                speaker_last_normalized = remove_accents(speaker_last.strip().lower().replace(")","").replace("(", ""))
                 if speaker_last_normalized in legislators:
                     possibles = 0
                     tlpossibles = len(legislators[speaker_last_normalized])
@@ -325,6 +325,8 @@ else:
                         biosa += 1
                     if speeked['speaker'] not in trivial:
                         nttotal += 1
+                        # if legislator is None:
+                        #     print speeked["speaker"]
                     statements.append({
                         "statement": speeked["text"],
                         "speaker": speeked["speaker"],
