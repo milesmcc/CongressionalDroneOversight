@@ -224,12 +224,12 @@ else:
     if not cg == None:
         print "Congressional record loaded!"
         print "Processing speakers and other elements..."
-        print statements
+        print legislators
         biosa = 0
         nominatesa = 0
         totalnum = 0
         nttotal = 0
-        trivial = ["The PRESIDING OFFICER", "The ACTING PRESIDENT pro tempore", "The CHAIR", "The SPEAKER", "The PRESIDENT pro tempore", "The PRESIDENT", "The CHAIRMAN", "The CHAIRMAN pro tempore" "The ACTING PRESIDENT pro tempore", "The Acting CHAIR", "The SPEAKER pro tempore (during the vote)", "The SPEAKER pro tempore", "recorder", ]
+        trivial = ["The PRESIDING OFFICER", "The ACTING PRESIDENT pro tempore", "The CHAIR", "The SPEAKER", "The PRESIDENT pro tempore", "The PRESIDENT", "The CHAIRMAN", "The CHAIRMAN pro tempore", "The ACTING PRESIDENT pro tempore", "The Acting CHAIR", "The SPEAKER pro tempore (during the vote)", "The SPEAKER pro tempore", "recorder", ]
         for key, value in cg.iteritems():
             date = datetime.datetime.strptime(key, "%Y-%B-%d").date()
             print "..." + str(date) + " ({} records, {} speakers)".format(len(value["records"]), len(value["speakers"]))
@@ -325,8 +325,8 @@ else:
                         biosa += 1
                     if speeked['speaker'] not in trivial:
                         nttotal += 1
-                        # if legislator is None:
-                        #     print speeked["speaker"]
+                        if legislator is None:
+                            print speeked["speaker"]
                     statements.append({
                         "statement": speeked["text"],
                         "speaker": speeked["speaker"],
