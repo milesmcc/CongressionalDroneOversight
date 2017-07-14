@@ -5,43 +5,59 @@ Beware: this is Spaghetti code
 import sys
 import json
 import datetime
+from datetime import timedelta
 import unicodedata
 import md5
+import math
 
 def decode_dw_row(row):
     # decodes row such as:
     #  114   29774  71  24  CALIFOR    100  0  1   CAPPS         -0.389   -0.227      -81.84920   1077     26    0.927
     # format: congress, icpsr, state code, district number (0 if senate or president), state name, party code (100=dem, 200=republican), occupancy, office attainment type, name, 1st dimension coord, 2nd dimension coord, log likelyhood, # of votes, # of classification errors, geometric mean probability
     elements = [element.strip() for element in row.split("  ") if element.strip() != ""]
+    if len(elements) == 16:
+        del elements[9]
     if len(elements) != 15:
-        print "error: != 15 elements in a row!"
+        print "error: != 15 elements in a row! {}".format(len(elements))
         print row
         raise Exception("!= 15 elements in row")
     return {
-        "congress": row[0],
-        "icpsr": row[1],
-        "state_code": row[2],
-        "district_number": row[3],
-        "state": row[4],
-        "party_code": row[5],
-        "occupancy": row[6],
-        "office_attainment_type": row[7],
-        "last_name": row[8].split(" ")[0],
-        "dim_1": row[9],
-        "dim_2": row[10],
-        "log_likelyhood": row[11],
-        "votes": row[12],
-        "classification_errors": row[13],
-        "geometric_mean_probability": row[14]
+        "congress": elements[0],
+        "icpsr": elements[1],
+        "state_code": elements[2],
+        "district_number": elements[3],
+        "state": remove_accents(elements[4].lower()),
+        "party_code": int(elements[5]),
+        "occupancy": elements[6],
+        "office_attainment_type": elements[7],
+        "last_name": remove_accents(elements[8].split(" ")[0].lower()),
+        "dim_1": float(elements[9]),
+        "dim_2": float(elements[10]),
+        "log_likelyhood": float(elements[11]),
+        "votes": int(elements[12]),
+        "classification_errors": float(elements[13]),
+        "geometric_mean_probability": float(elements[14])
     }
 
-def load_dw_nominate_scores(filepath):
+def load_dw_nominate_scores(filepath, mincongress):
     # Return all DW-NOMINATE scores in the file located at filepath
     # in the following format:
-    # scores[last name][congress][state]
+    # scores[last name][congress][state] = data
+    scores = {}
+    with open(filepath, "r") as data:
+        for line in data.readlines():
+            score = decode_dw_row(line)
+            if int(score["congress"]) < mincongress:
+                continue
+            if score["last_name"] not in scores:
+                scores[score["last_name"]] = {}
+            if score["congress"] not in scores[score["last_name"]]:
+                scores[score["last_name"]][score["congress"]] = {}
+            scores[score["last_name"]][score["congress"]][score["state"]] = score
+    return scores
 
 def remove_accents(input_str):
-    nfkd_form = unicodedata.normalize('NFKD', input_str)
+    nfkd_form = unicodedata.normalize('NFKD', unicode(input_str))
     only_ascii = nfkd_form.encode('ASCII', 'ignore')
     return only_ascii
 
@@ -122,6 +138,11 @@ def prep_legislator_for_json(legislator):
         "sex": legislator["sex"],
     }
 
+def get_congress(time):
+    time = time - timedelta(days=3)
+    year = time.year
+    return int(math.ceil(0.5*year - 894))
+
 def in_range(periods, date):
     for period in periods:
         if date >= period["start"] and date <= period["end"]:
@@ -167,7 +188,9 @@ else:
         parse_legislator_file_into_legislators(lf)
     with open("data/legislators-historical.json", "r") as lf:
         parse_legislator_file_into_legislators(lf)
-    print legislators["paul"]
+    print "Getting DW-NOMINATE data..."
+    scores = load_dw_nominate_scores("data/DW-NOMINATE.txt", 105)
+    print scores
     print "Compiled!"
     overlap = 0
     total = 0
@@ -224,15 +247,31 @@ else:
                                 if in_range(legislator["periods"], date):
                                     possibles += 1
                                     speaker['bio'] = legislator
+                                    congress = get_congress(date)
+                                    extrapolated = False
+                                    if congress > 114:
+                                        congress = 114
+                                        extrapolated = True
+                                    congress = str(congress)
+                                    nominate_data = None
+                                    try:
+                                        nominate_data = scores[speaker_last_normalized][congress][legislator["state"][:7]]
+                                    except KeyError:
+                                        pass
+                                        # couldn't find NOMINATE data...
+                                    speaker['dwnominate'] = nominate_data
                     if possibles > 1:
                         speaker['bio'] = None # we must be very conservative and careful!
+                        speaker['dwnominate'] = None
 
             for record in value["records"]:
                 doctitle = record["title"]
                 for speeked in record["spoken"]:
+                    dwnominate = None
                     # print speeked
                     try:
                         legislator_full = value["speakers"][speeked["speaker"]]
+                        dwnominate = legislator_full["dwnominate"] # passalong code
                         # print legislator_full
                         if 'bio' in legislator_full and legislator_full['bio'] is not None:
                             legislator = prep_legislator_for_json(legislator_full['bio'])
@@ -257,10 +296,12 @@ else:
                     md5sum.update(speeked["text"])
                     md5sum.update(doctitle)
                     md5sum.update(speeked["speaker"])
+                    print speeked.keys()
                     statements.append({
                         "statement": speeked["text"],
                         "speaker": speeked["speaker"],
                         "bio": legislator,
+                        "nominate": dwnominate,
                         "date": str(date),
                         "title": doctitle,
                         "id": md5sum.hexdigest()
