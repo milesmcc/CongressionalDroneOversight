@@ -51,9 +51,9 @@ def load_dw_nominate_scores(filepath, mincongress):
                 continue
             if score["last_name"] not in scores:
                 scores[score["last_name"]] = {}
-            if score["congress"] not in scores[score["last_name"]]:
-                scores[score["last_name"]][score["congress"]] = {}
-            scores[score["last_name"]][score["congress"]][score["state"]] = score
+            if score["state"] not in scores[score["last_name"]]:
+                scores[score["last_name"]][score["state"]] = {}
+            scores[score["last_name"]][score["state"]][score["congress"]] = score
     return scores
 
 def remove_accents(input_str):
@@ -155,21 +155,22 @@ def parse_legislator_file_into_legislators(f):
     for legislator in data:
         standard_name = remove_accents(legislator["name"]["last"].lower())
         if datetime.datetime.strptime(legislator["terms"][-1]["end"], "%Y-%m-%d").date() >= earliest:
-            if standard_name not in legislators:
-                legislators[standard_name] = []
             periods = [ {
                 "start": datetime.datetime.strptime(term["start"], "%Y-%m-%d").date(),
                 "end": datetime.datetime.strptime(term["end"], "%Y-%m-%d").date()
             } for term in legislator["terms"] ]
-            legislators[standard_name].append({
-                "first_name": legislator["name"]["first"],
-                "last_name": legislator["name"]["last"],
-                "party": legislator["terms"][-1]["party"], # caveat: could have switched // this is very rare, though
-                "sex": legislator["bio"]["gender"], # the API says gender but they mean sex
-                "state": states[legislator["terms"][-1]["state"].upper()].upper(),
-                "govtrack": legislator["id"]["govtrack"],
-                "periods": periods
-            })
+            for name in standard_name.split(" "):
+                if name not in legislators:
+                    legislators[name] = []
+                legislators[name].append({
+                    "first_name": legislator["name"]["first"],
+                    "last_name": legislator["name"]["last"],
+                    "party": legislator["terms"][-1]["party"], # caveat: could have switched // this is very rare, though
+                    "sex": legislator["bio"]["gender"], # the API says gender but they mean sex
+                    "state": states[legislator["terms"][-1]["state"].upper()].upper(),
+                    "govtrack": legislator["id"]["govtrack"],
+                    "periods": periods
+                })
 
 def get_next_election_date(date, periods):
     try:
@@ -190,7 +191,6 @@ else:
         parse_legislator_file_into_legislators(lf)
     print "Getting DW-NOMINATE data..."
     scores = load_dw_nominate_scores("data/DW-NOMINATE.txt", 105)
-    print scores
     print "Compiled!"
     overlap = 0
     total = 0
@@ -213,6 +213,10 @@ else:
     if not cg == None:
         print "Congressional record loaded!"
         print "Processing speakers and other elements..."
+        print statements
+        biosa = 0
+        nominatesa = 0
+        totalnum = 0
         for key, value in cg.iteritems():
             date = datetime.datetime.strptime(key, "%Y-%B-%d").date()
             print "..." + str(date) + " ({} records, {} speakers)".format(len(value["records"]), len(value["speakers"]))
@@ -252,18 +256,19 @@ else:
                                     if congress > 114:
                                         congress = 114
                                         extrapolated = True
-                                    congress = str(congress)
                                     nominate_data = None
-                                    try:
-                                        nominate_data = scores[speaker_last_normalized][congress][legislator["state"][:7]]
-                                    except KeyError:
-                                        pass
+                                    congress += 1
+                                    while nominate_data is None and not (congress < 100):
+                                        try:
+                                            congress -= 1
+                                            nominate_data = scores[speaker_last_normalized][legislator["state"].lower()[:7]][str(congress)]
+                                        except KeyError:
+                                            pass
                                         # couldn't find NOMINATE data...
                                     speaker['dwnominate'] = nominate_data
                     if possibles > 1:
                         speaker['bio'] = None # we must be very conservative and careful!
                         speaker['dwnominate'] = None
-
             for record in value["records"]:
                 doctitle = record["title"]
                 for speeked in record["spoken"]:
@@ -271,7 +276,8 @@ else:
                     # print speeked
                     try:
                         legislator_full = value["speakers"][speeked["speaker"]]
-                        dwnominate = legislator_full["dwnominate"] # passalong code
+                        if "dwnominate" in legislator_full:
+                            dwnominate = legislator_full["dwnominate"] # passalong code
                         # print legislator_full
                         if 'bio' in legislator_full and legislator_full['bio'] is not None:
                             legislator = prep_legislator_for_json(legislator_full['bio'])
@@ -285,7 +291,6 @@ else:
                                     legislator["days_until_term_ends"] = legislator["days_until_term_ends"].days
                             except Exception as e:
                                 print "[!] " + str(e)
-                            bio_found_count += 1
                         else:
                             legislator = None
                     except Exception as e:
@@ -296,7 +301,11 @@ else:
                     md5sum.update(speeked["text"])
                     md5sum.update(doctitle)
                     md5sum.update(speeked["speaker"])
-                    print speeked.keys()
+                    totalnum += 1
+                    if dwnominate is not None:
+                        nominatesa += 1
+                    if legislator is not None:
+                        biosa += 1
                     statements.append({
                         "statement": speeked["text"],
                         "speaker": speeked["speaker"],
@@ -307,7 +316,9 @@ else:
                         "id": md5sum.hexdigest()
                     })
     print "Processing complete!"
-    print "{}/{} statements have biographies associated with them ({}%).".format(bio_found_count, len(statements), (bio_found_count+0.0)/len(statements)*100)
+    print len(statements)
+    print "{}/{} statements have biographies associated with them ({}%).".format(biosa, totalnum, (biosa+0.0)/totalnum*100)
+    print "{}/{} statements have nominate data associated with them ({}%).".format(nominatesa, totalnum, (nominatesa+0.0)/totalnum*100)
     outloc = "annotated_congressional_record.json"
     print "Writing to disk as `{}`".format(outloc)
     with open(outloc, "w") as out:
