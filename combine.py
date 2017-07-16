@@ -99,7 +99,7 @@ for dirName, subdirList, fileList in os.walk(rootDir):
             if date not in dates:
                 dates[date] = {
                     "speakers": {},
-                    "records": []
+                    "records": [] 
                 }
             for speaker in speakers:
                 dates[date]['speakers'][speaker] = speakers[speaker]
