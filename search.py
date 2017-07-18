@@ -79,7 +79,7 @@ output_columns = {
     "order": [
         "id",
         "date",
-        "congress"
+        "congress",
         "title",
         "first_name",
         "last_name",
