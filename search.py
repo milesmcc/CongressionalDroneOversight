@@ -75,7 +75,7 @@ output_columns = {
         "votes",
         "classification_errors",
         "geometric_mean_probability"
-    ]
+    ],
     "order": [
         "id",
         "date",
