@@ -3,7 +3,7 @@ import json
 import datetime
 import re
 import unicodecsv as csv
-from datetime.parser import parse
+from dateutil.parser import parse
 
 def match(record):
     """
