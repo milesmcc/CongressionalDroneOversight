@@ -108,6 +108,9 @@ def generate_row(record):
         if column in output_columns['record_columns']:
             if column in record:
                 value = record[column]
+        if column in output_columns['nominate_columns']:
+            if column in record:
+                value = record[column]
         row.append(value)
     return row
 
