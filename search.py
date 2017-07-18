@@ -3,6 +3,7 @@ import json
 import datetime
 import re
 import unicodecsv as csv
+from datetime.parser import parse
 
 def match(record):
     """
@@ -11,6 +12,7 @@ def match(record):
     try:
         text = record["statement"].lower()
         title = record["title"]
+        date = parse(record["date"])
 
         #date = datetime.datetime.strptime(record["date"], "%Y-%m-%d")
         #bio = record["bio"]
