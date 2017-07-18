@@ -109,8 +109,9 @@ def generate_row(record):
             if column in record:
                 value = record[column]
         if column in output_columns['nominate_columns']:
-            if column in record['nominate']:
-                value = record['nominate'][column]
+            if record['nominate'] is not None:
+                if column in record['nominate']:
+                    value = record['nominate'][column]
         row.append(value)
     return row
 
