@@ -1,4 +1,4 @@
-# combine-cr
+# combine-cr for DroneScout
 A series of scripts designed to make compiling a dataset on the congressional record as painless as possible.
 
 ## Replicate DroneScout's dataset
