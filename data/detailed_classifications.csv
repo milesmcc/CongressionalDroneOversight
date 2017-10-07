@@ -1,0 +1,1171 @@
+RELEVANT,CATEGORY,CATEGORICAL SENTIMENT,GENERAL SENTIMENT,JUSTIFICATION,ID
+RELEVANT,"PTSD,JOBS","ANTI,NEUTRAL",ANTI,"The statement discusses how drones--even the ""unmanned"" drones--require maneuver by human beings and cause psychological wear to those involved in drone strikes.",15a32d0019d99afa553576e446886659
+IRRELEVANT,,,,The statement mentions drones in a surveillance role.,a1448df29fffdb4f9e6042ff1270a2ac
+RELEVANT,REFERENCE,PRO,NEUTRAL,"The statement refers to a drone strike in Yemen that successfully removed a target (pro categorical sentiment), but is more focused on how dangerous the target was to the U.S. security than on the drone strike itself (neutral general sentiment). ",313c49a818b53d5ccb9d5e0b7cf3255f
+RELEVANT,REFERENCE,PRO,NEUTRAL,"The statement refers to a drone strike in Yemen, but is more focused on how dangerous the target was to the U.S. security than on the drone strike itself.",1501bcc75ca50542c0ebf6f62e67f6ab
+RELEVANT,JOBS,PRO,PRO,The statement discusses how the federal budget spent for national defense including building drones can contribute to creating new jobs.,9689e1b200e250d4acdeab1268345baa
+IRRELEVANT,,,,The statement refers to drones in a surveillance role. ,1dd308fd2968470292bdacbcd040bc5e
+RELEVANT,REFERENCE,PRO,PRO,The statement mentions drone strikes can remove former detainees who return to terrorism and pose security threats. ,257bf697eacaacf5d820d6253a814e83
+IRRELEVANT,,,,The statement talks about using drones for a domestic agricultural purpose.,1dca6f6fff237a98bedcc5bd6e3f6bba
+RELEVANT,FOREIGNPOLICY,ANTI,ANTI,The statement discusses how drone strikes kill civilians and antagonize the local populations.,e9eae2d8d3799c67c117c77e0c6e9839
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement discusses four different options presented to Obama regarding sending more U.S. troops to Afghanistan. Drones are mentioned in the third option where the United States can adopt drone strikes to complement the relatively small number of U.S. troops as part of counterterrorism strategies. ,7718e494aa237ef3be0ea1712c752cf4
+IRRELEVANT,,,,The statement refers to how drones detected a plane with narcotics in it.,00e570c76f3b7adcb6985dc550bab872
+RELEVANT,"HUMANITARIAN,FINANCE","ANTI,NEUTRAL",ANTI,"The statements discusses how drone strikes cause civilian deaths, and mentions the bill that funds drones.",9458ac71362e6f00bcc6fdcf96d45b42
+RELEVANT,FOREIGNPOLICY,ANTI,ANTI,The statement discusses how military strategeis including drone strikes antagonize the Muslim people against the United States.,5e2b060bf80432d356163d8c3b9344de
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement discusses how effective and successful drones have been in  protecting the U.S. national security. ,a0616ba0b45dc7dc70731a85e58cdf27
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to the significance of balancing manned and unmanned drones. ,276239f4eeb725777410586e9b3a7d39
+IRRELEVANT,,,,The statement relates to the domestic use of drones. ,3a71fd3931cc4b143f819b120c3cd4b8
+IRRELEVANT,,,,The statement relates to the domestic use of drones.,f88c8755e71c36d2e32a6401f647ebcb
+IRRELEVANT,,,,The statement talks about using drones to collect information (drones in a surveillance role).,1a6f38426c5f6c576dfb867baed5974f
+IRRELEVANT,,,,The statement mentions drones in a surveillance role.,65fc74aa8b91e9566a1c3f6391bf4626
+IRRELEVANT,,,,The statement refers to using drones domestically in the context of the right of privacy. ,10c0d95fc526722a52b223962dbd54f7
+IRRELEVANT,,,,The statement refers to using drones domestically in the context of the right of privacy. ,c4b21930fb281864c71b67b0ffa5c000
+IRRELEVANT,,,,The statement refers to using drones domestically in the context of the right of privacy. ,e2e7a0bf760e5c8756b6aa3d9aa69675
+IRRELEVANT,,,,The statement refers to using drones domestically in the context of the right of privacy. ,d90a992684609968d37a72db44dc57bb
+IRRELEVANT,,,,The statement refers to using drones domestically in the context of the right of privacy.,fdde5601179f6fbe5b22df42ebf44f0e
+RELEVANT,FOREIGNPOLICY,PRO,PRO,"[NON-OBVIOUS] I initially classified the statement as REFERENCE, but changed it to FOREIGNPOLICY because I thought the message this statement delivers is how unmanned drones do not violate no-fly zone and yet demonstrate U.S. resolution.",5416e40b30ef3bd3783662fc8f1f942d
+IRRELEVANT,,,,The statement refers to the domestic use of drones. ,4f4e3b6bd1284ed15ba1231ba1672a88
+RELEVANT,FOREIGNUSE,NEUTRAL,,"The statement mentions drones in the context of discredited allegations that Iraq had military drones. I leave general sentiment blank because the statement mentions drones not to discuss drone programs or strikes per se, but to criticize the Iraq War.  ",8054ffa9d70e63b2766d9ec9f1b6b478
+IRRELEVANT,,,,The statement refers to the use of drones in the U.S. homeland.,ffa5d2051c58fc46a0fd021aeb135742
+RELEVANT,DISCLOSURE,ANTI,NEUTRAL,The statement is critical of the media divulging classified information regarding drone strikes. ,e1cda220e83bd9c7b05f92cd088b776b
+RELEVANT,DISCLOSURE,ANTI,NEUTRAL,The statement refers to drone strikes in the context of journalism divulging classified information.,f4a390acf29730817311f610313aba08
+RELEVANT,DISCLOSURE,ANTI,PRO,The statement discusses how confidentiality is key to conducting drone strikes effectively. ,d0afa7ab3de07bc34aa5affa9f527333
+RELEVANT,DISCLOSURE,ANTI,PRO,The statement discusses how leaks of information damage the effectiveness of drone strikes and those who divulged the information should be held accountable.,1a9259e975f29c934ebac9457d30f943
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement points out that drone programs are classified information. ,fe24aa815f7f3acc13c9cae5fa4c8ec6
+RELEVANT,"FOREIGNPOLICY,DISCLOSURE","PRO,ANTI",PRO,"The statement discusses how effective drone strikes can be in curbing radical terrorists, but points out how leaks of information allowed enemies to learn U.S. decision-making processes.",ae5380a78e6b6649dcad18daa2066efa
+RELEVANT,DISCLOSURE,ANTI,PRO,The statement points out how drone programs are covert programs and should not be discussed publicly in principle.,06d592ee20e63ea806c361ce3093ee45
+RELEVANT,REFERENCE,ANTI,ANTI,"The statement argues that empowering people through SMART security, instead of attacking them with drones, is the right thing to do.",6b59f4c9c31595bad0129bfa77168608
+RELEVANT,FOREIGNPOLICY,PRO,NEUTRAL,"The statement refers to a drone strike in Pakistan that successfully decapitated a leader of a terrorist organization (pro categorical sentiment). However, the essence of the statement relates to Pakista's responsibility to cooperate in fighting and not harboring terrorists.  ",2ee78783b2182feb9006f903dd3ea736
+IRRELEVANT,,,,The statement lists names of military officials.,37ef09ab9b48fe460d9e809cf3708b2c
+RELEVANT,"FOREIGNPOLICY,INTERNATIONAL-LEGALITY,DOMESTIC-LEGALITY","ANTI,ANTI,ANTI",NEUTRAL,"[NON-OBVIOUS] The statement discusses how unrestricted use of drones embroils the United States in unwanted wars and violates international and domestic laws. However, I marked it as NON-OBVIOUS because the statement talks about ""unrestricted"" use of drones specifically, not drone strikes in general (neutral general sentiment).",c9a775dd5ab2417209003ba9100b73cf
+RELEVANT,"FOREIGNPOLICY, HUMANITARIAN,DOMESTIC-LEGALITY","ANTI,ANTI,ANTI",NEUTRAL,"The statement continues to discuss brutality of drone strikes--they kill innocent civilians, not just militants--and the lack of clear rules and legal justification.",f56da6cd8f559d2422dc25ed8a2eba29
+RELEVANT,"FOREIGNPOLICY,HUMANITARIAN,DOMESTIC-LEGALITY","ANTI,ANTI,NEUTRAL",NEUTRAL,"The statement discusses how unrestricted use of drones not only can be interpreted as an act of war but also kills innocent civilians. For such a reason, it demands legal justification for drone strikes.",295f5c6d8cdfb5978e342fe40153a6d7
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,The statement points out that a bill should regulate the use of drones against American citizens.,49ab71fb971c74816fbcc1a3910c4f82
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement discusses how unmanned drone strikes can effectively win battles.,ea80d97913a532475263ff18687625fb
+IRRELEVANT,,,,The statement refers to drones in a surveillance role. ,fd6920515b619d81ec342002ba9b66bc
+RELEVANT,"FOREIGNPOLICY,FINANCE","PRO,PRO",PRO,"The statement discusses how investing more on military readiness is crucial to national security, and especially so when it comes to fighting ISIL with aerial vehicles including drones. ",4a2b01206a762fb6ce6be52656367320
+RELEVANT,"FOREIGNPOLICY,FINANCE","PRO,NEUTRAL",PRO,The statement explains that drones have become successful in fighting the war against terror but the Pentagon has not included them in budget requests. ,bf7d8693ff43608aa360728723bc5049
+RELEVANT,"FOREIGNPOLICY,JOBS,FINANCE","PRO,PRO,NEUTRAL",PRO,The statement discusses how drones contribute to conducting operations successfully and creating jobs. It also mentions the specific figure invested in drones. ,bb2fbe1ff25722ce43cb39c7e508138a
+IRRELEVANT,,,,The statement discusses drones in a surveillance role.,bc6d82da1b6feecd80895bdd80413096
+RELEVANT,"FOREIGNPOLICY,HUMANITARIAN","ANTI,ANTI",ANTI,The statement discusses how drone strikes kill civilians and antagonize the local populations.,0154c5bdeaab8f7394e5c7f390bdfe30
+RELEVANT,FOREIGNPOLICY,ANTI,ANTI,The statement discusses how drone strikes propagate extremism in targeted areas.,e7ef9ced9036419a9694baa0abd8cb59
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,"The statement is somewhat ambiguous in the sense whether the speaker supports or opposes drone attacks, but does mention that drones alone are insufficient (neutral general sentiment).",6a6469f7b81ab16e5f510c2dd83f73e3
+RELEVANT,"FOREIGNPOLICY,HUMANITARIAN,FINANCE","ANTI,ANTI,ANTI",ANTI,The statement opposes funding drone projects because drone strikes are counterproductive as they inflame the radicals and kills civilians.,b636c6e3c54dac12339412bc82b2fc35
+IRRELEVANT,,,,The statement mentions drones in a surveillance role.,66680773bc76f116d1e6cfc12df677e3
+IRRELEVANT,,,,The statement refers to drones in a surveillance role. ,10af3b34fb16948e5a4d547a47757ead
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement discusses how cooperation between the U.S. and Israeli Air Force has improved operability of drones. ,77389fb40dc2197cf34bc85811cf38ae
+RELEVANT,"FOREIGNUSE,HUMANITARIAN","ANTI,ANTI",ANTI,"The statement refers to potential drone strikes by Hezbollah, which killed Israeli citizens.",46928aad2c483e1af782832cc6618b64
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement discusses how tax cuts attract businesses including a company that builds drones. ,5949febf8e2e6d8fe3f2231a69278caa
+IRRELEVANT,,,,The statement mentions the use of drones domestically for the purpose of monitoring.,809c29e9354adb20e24594d023895302
+RELEVANT,FINANCE,PRO,PRO,The statement supports funding for drones. ,d350bfd2680dbfc9d74d7bc54d852f91
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,"The statement refers to amendments for important topics including drones, but it is unclear whether the speaker supports or opposes the use of drones.",23d93a15cdd5a1f945a71539310ff793
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,The statement discusses the significance of regulating the use of drones.,8a1bd079123f60692a2b0d487972bdd4
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,The statement discusses the significance of regulating the use of drones.,deb6d2b94f25ad2133f4e7a60fc1a5d1
+IRRELEVANT,,,,"The statement refers to a drone used domestically, if not civilian drones. ",ebcb0cac63e73d0af76ad033c7b6f276
+IRRELEVANT,,,,"The statement refers to a drone used domestically, if not civilian drones. ",e28fa12c0e12c3cab92710c7a4087b82
+IRRELEVANT,,,,The statement pertains to civilian drones.,06edc664edd7c181c1d442aa7093331c
+IRRELEVANT,,,,The statement pertains to the use of drones in a domestic context. ,c6a9d444c5d09193cdac38425ed79bef
+IRRELEVANT,,,,The statement pertains to the use of drones in a domestic context.,13ac7bc5081e7303ccddfa291e99e392
+IRRELEVANT,,,,The statement pertains to the use of drones in a domestic context.,435f1c1abb2f88f3dd6378d48c2fcfe4
+IRRELEVANT,,,,The statement pertains to the use of drones in a domestic context.,bfd09f4a14075f46a4ba74a38de052ad
+IRRELEVANT,,,,The statement pertains to the use of drones in a domestic context.,3b434346a28a3aef1aadd6275aeb1882
+RELEVANT,DISCLOSURE,NEUTRAL,NEUTRAL,The statement refers to an act that requires prompt report regarding lethal or capture operations including those conducted by unmanned drones. ,ef4e91a1fcd661e2ac9a028de9062578
+RELEVANT,REFERENCE,PRO,PRO,"[NON-OBVIOUS] The statement relates to drone technology, but the context in which the speaker considers using drones is unclear. If the speaker is talking about civilian or surveillance drones, the statement should be classified as IRRELEVANT.",cf3b075f27015a367b66feeaa5a35e0a
+IRRELEVANT,,,,"The statement mentions how drones are new technology, but the speaker seems to refer to surveillance drones instead of lethal ones.",44c75048b18af282348da575a03c0cc8
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,The statement calls for transparency and clear legal justification in conducting drone strikes.,53eedc72bd9d85fdddf2f99104ba1ebb
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,"[NON-OBVIOUS] The statement mentions lethal drone strikes because the speaker wants to propose an amendment to a defense appropriations bill. In terms of general sentiment, ANTI could be appropriate as she phrases drones with a negative term, ""lethal."" However, it is not a direct criticism of the use of drones in a military context so I put NEUTRAL instead. My justification for general sentiments for the following statements from 77 to 82 is the same.",5805f1331025f4967c4e135092e519b1
+RELEVANT,FINANCE,PRO,NEUTRAL,The speaker's sentiment toward drones themselves is somewhat ambiguous. However she makes it clear that drone strikes conducted by a non-member of the Armed Forces should not be funded. This in turn potentially implies that she supports funding for drones as long as they are used by the rightful authority (pro categorical sentiment).,8b3d97d8f3da54983e5a551fd926bdf4
+RELEVANT,"FOREIGNPOLICY,HUMANITARIAN","PRO,ANTI",NEUTRAL,"The statement points out that drones can be used for targeted-killing, but also can cause innocent deaths. I put NEUTRAL to general sentiment because she recognizes both pros and cons of drone strikes.",d622f8c1dcd9f1c7ce056339c4aea60f
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,"The statement does not necessarily support or oppose drone strikes. Rather, it emphasizes the significance of legal accountability in conducting drone attacks.",db32541174b752d71fc551c01cb20e10
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,"The statement does not necessarily support or oppose drone strikes. Rather, it emphasizes the significance of legal accountability in conducting drone attacks.",8d877661b5ece260c47a5165c78c5570
+RELEVANT,"DOMESTIC-LEGALITY,DISCLOSURE","PRO,PRO",NEUTRAL,The statement discusses the significance of conducting drone strikes with transparency and legal accountability.,a56932b21a28a1dd89d802a9ef3ee9ea
+RELEVANT,"DOMESTIC-LEGALITY,DISCLOSURE","PRO,PRO",NEUTRAL,The statement discusses the significance of conducting drone strikes with transparency and legal accountability.,d0b02341a7befb1daf0ea65965860433
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,ANTI,The statement refers to a targeted drone killing which made people to question whether it is right to do so or not.,3d1e58ec6a2762ca65d37e3b9015a24a
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to how people want to double the number of drones.,22fa393501506c77bb9b2c78a765a22e
+RELEVANT,TECHNOLOGY,NEUTRAL,NEUTRAL,The statement explains what an aerial drone is and does.,014ddb231ece8f9e39e2d8352b9e80c7
+RELEVANT,REFERENCE,NEUTRAL,PRO,"The statement refers to how the United States plans to cooperate with Nigeria, including sending more drones, to combat Boko Haram. ",dfea176856d029b296d233a541692506
+RELEVANT,FINANCE,PRO,PRO,The statement discusses how it supports funding to drones which have been proved to be useful.,bff523c5a2b7f87cafced01bf312412f
+RELEVANT,FINANCE,PRO,PRO,The statement discusses how it supports funding to drones which have been proved to be useful.,2eedb0ad01f495da99b144b998809cbe
+RELEVANT,"FOREIGNPOLICY,HUMANITARIAN","ANTI,ANTI",ANTI,The statement discusses how drone strikes are ineffective in fighting Pakistan and causes civilian casualties.,067ab63fdb5f7b03b551ace290175244
+IRRELEVANT,,,,The statement refers to the use of drones domestically. ,a2eb7db8449446342e252faea2f99580
+RELEVANT,FOREIGNUSE,ANTI,,The statement lists China's drone drills as an example of China's increased aggression. I leave general sentiment blank because the statement is not a direct criticism of the use of drones in a military context. ,21ffce1c9bc0d0b7b002f28b693b63c3
+RELEVANT,HUMANITARIAN,ANTI,ANTI,The statement talks about an innocent civilian killed in a drone strike.,0479deda92b095f417322fcd7667e434
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,,086d641b37e882387dece3e9d340d977
+RELEVANT,"FINANCE,TECHNOLOGY","PRO,PRO",PRO,The statement discusses how state-of-the-art equipments should be available to the military as quickly as possible. The fact that the speaker lists drones as one of these equipments implies that he is favorable of drones. ,b73d1fa77368ea8bd3a22ce19a1aac3e
+RELEVANT,"FINANCE,TECHNOLOGY,FOREIGNPOLICY","PRO,PRO,PRO",NEUTRAL,"The statement discusses how an additional financial support to the improvement of technology will be beneficial, including countering (enemy's) drones, to fighting war on terror. ",8f45e674152ee67c300d5e8c40a5930a
+RELEVANT,FOREIGNUSE,ANTI,,"The statement discusses how drones possessed by Saddam can pose security challenges to the United States. I leave general sentiment blank because the speaker talks about drones possessed by an enemy, and hence his attitude toward drones in general is not clear based on the statement.",13996a2a56fd2d2e7417cfb0aa03e618
+RELEVANT,FOREIGNUSE,ANTI,,"The statement discusses how drones possessed by Iraq can pose security challenges to the United States. I leave general sentiment blank because the speaker talks about drones possessed by an enemy, and hence his/her attitude toward drones in general is not clear based on the statement.",a5f6f834e73ca97de39ad432ed3b8a07
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to special operation forces provided by foreign countries.,f9f25abb6d684171215caaa0c5fbbd40
+RELEVANT,FOREIGNUSE,ANTI,,"The statement discusses how drones possessed by Saddam can pose security challenges to the United States. I leave general sentiment blank because the speaker talks about drones possessed by an enemy, and hence his attitude toward drones in a military context in general is not clear based on the statement.",de014fef84377585ed59455c6fa12aa3
+RELEVANT,FOREIGNUSE,ANTI,,"The statement discusses how drones possessed by Saddam Hussein can pose security challenges to the United States. I leave general sentiment blank because the speaker talks about drones possessed by an enemy, and hence his attitude toward drones in general is not clear based on the statement.",f628063e04e267dd90be20812c1e59b6
+RELEVANT,FOREIGNUSE,ANTI,,"The statement discusses how drones possessed by Saddam can pose security challenges to the United States. I leave general sentiment blank because the speaker talks about drones possessed by an enemy, and hence his attitude toward drones in general is not clear based on the statement.",313377109949b61e7a42dc1e8952f3c8
+RELEVANT,FOREIGNUSE,ANTI,,"The statement discusses how drones possessed by Saddam Hussein can pose security challenges to the United States. I leave general sentiment blank because the speaker talks about drones possessed by an enemy, and hence his attitude toward drones in general is not clear based on the statement.",a0d52e59a1522205481cb694e08a5c08
+RELEVANT,FOREIGNUSE,ANTI,,"The statement discusses how drones possessed by Saddam can pose security challenges to the United States. I leave general sentiment blank because the speaker talks about drones possessed by an enemy, and hence his attitude toward drones in general is not clear based on the statement.",e0c978b82b0de3377eb2737950ac37b2
+RELEVANT,FOREIGNUSE,ANTI,,"The statement discusses how drones possessed by Saddam Hussein can pose security challenges to the United States. I leave general sentiment blank because the speaker talks about drones possessed by an enemy, and hence his attitude toward drones in general is not clear based on the statement.",dceb1568c08f832d6aaf136238c7a583
+RELEVANT,FOREIGNUSE,ANTI,,"The statement discusses how drones possessed by Saddam can pose security challenges to the United States. I leave general sentiment blank because the speaker talks about drones possessed by an enemy, and hence his attitude toward drones in general is not clear based on the statement.",77d7843761f88d51088af792c02e0c1c
+RELEVANT,FOREIGNUSE,ANTI,,"The statement discusses how drones possessed by Saddam Hussein can pose security challenges to the United States. I leave general sentiment blank because the speaker talks about drones possessed by an enemy, and hence his attitude toward drones in general is not clear based on the statement.",a7fc5a4780fddfc2158c8fdc876ce66c
+RELEVANT,FOREIGNUSE,ANTI,,"The statement discusses how drones possessed by Saddam can pose security challenges to the United States. I leave general sentiment blank because the speaker talks about drones possessed by an enemy, and hence his attitude toward drones in general is not clear based on the statement.",c8f80a9a275377833b930868da9227b2
+RELEVANT,FOREIGNUSE,ANTI,,"The statement discusses how drones possessed by Saddam Hussein can pose security challenges to the United States. I leave general sentiment blank because the speaker talks about drones possessed by an enemy, and hence his attitude toward drones in general is not clear based on the statement.",6dc534a44248764bd0a9552ac7167ad1
+RELEVANT,FOREIGNUSE,ANTI,,"The statement discusses how drones possessed by Saddam can pose security challenges to the United States. I leave general sentiment blank because the speaker talks about drones possessed by an enemy, and hence his/her attitude toward drones in general is not clear based on the statement.",6bff16e278fbc37bce4ecab07225f4c9
+RELEVANT,FOREIGNUSE,ANTI,,"The statement discusses how drones possessed by Saddam Hussein can pose security challenges to the United States. I leave general sentiment blank because the speaker talks about drones possessed by an enemy, and hence his attitude toward drones in general is not clear based on the statement.",c02d738459153c71d51d3c1e0fb152bb
+RELEVANT,FOREIGNUSE,ANTI,,"The statement discusses how drones possessed by Saddam can pose security challenges to the United States. I leave general sentiment blank because the speaker talks about drones possessed by an enemy, and hence his attitude toward drones in general is not clear based on the statement.",f5d07bf0b5ab4acc61b6c2dc3c01ae74
+RELEVANT,FOREIGNUSE,ANTI,,"The statement discusses how drones possessed by Saddam Hussein can pose security challenges to the United States. I leave general sentiment blank because the speaker talks about drones possessed by an enemy, and hence her attitude toward drones in general is not clear based on the statement.",6be3bc6a74641127cb623f5b3e935966
+RELEVANT,FOREIGNUSE,ANTI,,"The statement refers to drones in the context of discussing Saddam Hussein's disarmament and the U.S. attack against him. I leave general sentiment blank because the speaker talks about drones possessed by an enemy, and hence his attitude toward drones in general is not clear based on the statement.",5fbe4ee55b9d0333f5df3dd64aa50dd0
+RELEVANT,FOREIGNUSE,ANTI,,"The statement discusses how drones possessed by Saddam Hussein can pose security challenges to the United States. I leave general sentiment blank because the speaker talks about drones possessed by an enemy, and hence her attitude toward drones in general is not clear based on the statement.",8678ab603279b8c436e6d87926d21846
+RELEVANT,FOREIGNUSE,ANTI,,"The statement discusses how drones possessed by Saddam can pose security challenges to the United States. I leave general sentiment blank because the speaker talks about drones possessed by an enemy, and hence his attitude toward drones in general is not clear based on the statement.",979386bac16a8545b5adce2acebfb543
+RELEVANT,FOREIGNUSE,ANTI,,"The statement discusses how drones possessed by Iraq can pose security challenges to the United States. I leave general sentiment blank because the speaker talks about drones possessed by an enemy, and hence his/her attitude toward drones in general is not clear based on the statement.",fa5906a059cc0a7321a5523cfe747eb8
+RELEVANT,FOREIGNUSE,ANTI,,"The statement discusses how drones possessed by Iraq can pose security challenges to the United States. I leave general sentiment blank because the speaker talks about drones possessed by an enemy, and hence his attitude toward drones in general is not clear based on the statement.",914d12217de65727573acbbdd6f34e48
+RELEVANT,FOREIGNUSE,ANTI,,"The statement discusses how drones possessed by Iraq can pose security challenges to the United States. I leave general sentiment blank because the speaker talks about drones possessed by an enemy, and hence his attitude toward drones in general is not clear based on the statement.",44b1944e1e68fe171993f9506957c9f5
+RELEVANT,FOREIGNPOLICY,PRO,PRO,"The statement discusses how U.S. security commitments, including deploying drones to its allies, defend them.",5876dad4ecec5baed41114256243f43c
+IRRELEVANT,,,,The statement refers to the use of drones domestically.,6fc546689b92f13c9a8e20997e2217aa
+RELEVANT,HUMANITARIAN,ANTI,ANTI,The statement opposes drone strikes because they can cause innocent civilian casualties. ,a06416f573fb200c2d2d9ee07b1d2337
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement discusses how air strikes including drone attacks can keep U.S. aviators safe.,43027f0d74ba648406293db9b2dd81ce
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to drones possessed by Romania.,6c15bbe179cb135f3cf32c1ef1502d67
+IRRELEVANT,,,,The statement mentions drones in a surveillance role.,cf86c0e9bb3d2c3765501e8c25f8054d
+RELEVANT,FINANCE,PRO,PRO,The statement mentions funding to advance drones.,f9dcaae51261917c80db07aae0f6a395
+RELEVANT,"FINANCE,TECHNOLOGY","PRO,NEUTRAL",PRO,The statement mentions technology that relates to cheap drones.,40bade4809a4692b1ca9637dd81e687a
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,,8fe49282286df06089e62461dfb9083d
+IRRELEVANT,,,,The statement relates to drones in a surveillance role.,0b3c35fca32e9d5a0b9b9a2037056d5d
+RELEVANT,"FOREIGNPOLICY,FINANCE","PRO,PRO",PRO,The statement refers to drones to demonstrate the necessity of improving other aircraft programs.,6540e65a0b2d9c5d2bca2306ab1ca0af
+RELEVANT,"FOREIGNPOLICY,DOMESTIC-LEGALITY","PRO,NEUTRAL",PRO,The statement lists drones as an example that is included in a bill and that contributes to providing national security to the United States.,71b75dc2b9495a2fffb171d086316d25
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement discusses how drones contribute to protecting U.S. citizens.,07bdd2e564f46f415df897941ad0c322
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement discusses how drones contribute to protecting U.S. citizens.,9e933fe95f8f0c21a34d0d3c12ac2a6b
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement discusses how drones contribute to protecting U.S. citizens.,610a8642e29f9bec95f84d4848d6a2e5
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,055f3840e4a555a0ffef57e7e5e6d053
+RELEVANT,REFERENCE,PRO,PRO,The statement refers to drones as an example where an operational testing had occurred after deployment.,3335ca726cbf37fcc8ab58dfc5a9ca02
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to drones as an example where an operational testing has occurred after deployment.,249725b0d26bea97c313a2d6cf6c8323
+IRRELEVANT,,,,"[NON-OBVIOUS] I initially classified this statement as RELEVANT-FOREIGNPOLICY because it mentions how drones were valuable assets in fighting terrorism. However, after reading a statement from Row 189, which is also a statement by Jon Kyl, it appears that he refers to surveillance drones, not lethal drones. Therefore I back-tracked and reclassified this statement as IRRELEVANT.",2a5ddf7bcae284ac45494c9eb5556427
+RELEVANT,"FOREIGNPOLICY,FINANCE","PRO,PRO",PRO,"The statement talks about an earmark for various military programs, including drones, which he/she argues are necessary for national defense.",a6b4f76ace535aca0bf2071fa3345a97
+RELEVANT,FOREIGNUSE,ANTI,,"The statement discusses how drones possessed by Iraq can pose security challenges to the United States. I leave general sentiment blank because the speaker talks about drones possessed by an enemy, and hence his attitude toward drones in general is not clear based on the statement.",5adec567667a499274c9f426aaf3ed94
+RELEVANT,FOREIGNUSE,ANTI,,The statement describes two contradictory reports on the role of Iraqi drones.,5e59283f28dc1b2860d5c7e978cfdf8d
+RELEVANT,FOREIGNUSE,ANTI,,"The statement refers to drones as an example where reports the United States received turned out to be false (blank for general sentiment). However, the speaker mentions that drones can carry hazardous biological and chemical material to the United States (anti categorical sentiment).",5604121ca7e141d7a8df3b550902f34e
+RELEVANT,FOREIGNUSE,ANTI,,The statement refers to drones as an example where reports the United States received turned out to be false (blank for general sentiment). The speaker's phrasing of drones is rather neutral compared to other statements (neutral categorical sentiment).,10c54f78832ba29a48f5a11c2a2c1f7f
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drones in a context of referencing a gentleman.,2b5de0914a9836ce87323caf74727108
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drones in referencing a book written by an ambassador.,1661d323ceee3c1358b7a04e7c0c8689
+RELEVANT,REFERENCE,ANTI,ANTI,"The statement mentions drones in discussing what the book (book introduced in statement 144) is about, and phrases them with negative terms such as ""targeted"" and ""war on terror.""",3d79328fb33e08e8b26d5867d79f7388
+RELEVANT,"FOREIGNPOLICY,HUMANITARIAN","ANTI,ANTI",ANTI,The statement discusses how drone strikes causes innocent civilian casualties and stirs sympathy for terrorists.,f7c9741d71e1a2f31c63f6cb6629dd3b
+RELEVANT,REFERENCE,ANTI,ANTI,The statement mentions drones in addressing the necessity to reconsider the future of drone.,335c33ff03c5b10a4599bd68fac258dd
+IRRELEVANT,,,,The statement discusses using drones in a domestic context of securing border. ,8da5d3bdd2c1f637c4a0f4e9a2a71f09
+RELEVANT,"FOREIGNPOLICY,FINANCE","PRO,PRO",PRO,The statement discusses how the government can use its budget more efficiently by funding drones instead of manned jet fighters. ,0cac1a8f2c95c4676b1271ba073eaadf
+RELEVANT,REFERENCE,PRO,PRO,"The statement refers to a man who made the Predator, which has proven valuable in fighting the Middle East.",8894b36938f61b51bd84372fa2c0c90d
+RELEVANT,"INTERNATIONAL-LEGALITY,DOMESTIC-LEGALITY,DISCLOSURE,HUMANITARIAN","ANTI,NEUTRAL,PRO,ANTI",ANTI,The statement discusses how the United States has failed to comply with international law by not providing the information it should have.,03de71840e4f22ed36c8ed2979be1164
+RELEVANT,"INTERNATIONAL-LEGALITY,FOREIGNPOLICY","ANTI,ANTI",ANTI,The statement mentions how drone strikes violate the rule of law and inflame anti-U.S. sentiment. ,1232f6603bdbf913e44fc832ddd51c6f
+RELEVANT,REFERENCE,NEUTRAL,,The statement mentions drones in a context of explaining China's artillery systems. ,e687f8beaca238ad5d1b90e159da662a
+RELEVANT,REFERENCE,PRO,PRO,"The statement refers to a drone strike in Yemen that removed al-Awlaki, who radicalized people in the United States.",cb80e82b7ab847bb759f426591e7e5f3
+IRRELEVANT,,,,The statement discusses drones in a surveillance role and the contribution of a firm in Utah to building those drones.,6b6e3371ab7b31113f91d803a6a3d72e
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drones to list specific clauses of a treaty.,5af53c07a34c3c1b3f9ef5cf8bda7610
+RELEVANT,FINANCE,PRO,PRO,"The statement explains an amendment can secure revenues for replacing lost military equipments, including those of high priority such as drones.",a5beef4e9ebd155a7b337a9dd6db2190
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement lists drones as an example of things that can be purchased with ill-gotten gains.,4836a68d8dff2ba912cc42cb8bc27227
+RELEVANT,FOREIGNUSE,ANTI,,"The statement refers to drones as an example where reports the United States received turned out to be false (blank for general sentiment). However, the speaker mentions that drones are capable of carrying hazardous biological and chemical material to the United States (anti categorical sentiment).",7b0b794a5c3eb4dcb1b7b0ad88f564f7
+IRRELEVANT,,,,The statement relates to taxes and tax cuts. ,4ea8f08868df655bad873107df2a7b36
+RELEVANT,"INTERNATIONAL-LEGALITY,HUMANITARIAN","ANTI,ANTI",ANTI,The statement mentions how drone strikes violate international law and causes civilian deaths.,2693c1cbd3daeffa11f39ce6ee6abfd8
+RELEVANT,"FOREIGNPOLICY,HUMANITARIAN","ANTI,ANTI",ANTI,The statement argues that drones are not only ineffective for targeted killing but also responsible for innocent civilian casualties.,afe6c55804853569d299bc7150fa3870
+RELEVANT,DOMESTIC-LEGALITY,PRO,ANTI,The statement relates to the significance of legal accountability in conducting drone strikes. ,b2d76c10cc9d9ee4bdf4c8ae1f4d30c1
+RELEVANT,"DOMESTIC-LEGALITY,DISCLOSURE","PRO,PRO",NEUTRAL,The statement relates to the significance of transparency and legal accountability in conducting drone strikes. ,4b06312da8e376d322f16665e9ac4768
+IRRELEVANT,,,,The statement talks about an impeachment trial.,e9b9bd9bc11fcd83017487da10f53141
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement says that unmanned drones in Pakistan are unlawful.,0097e97dea96d5a77e00e6117ee19d40
+RELEVANT,"FOREIGNPOLICY,DOMESTIC-LEGALITY","ANTI,ANTI",ANTI,The statement points out that military actions in Afghanistan has instigated unauthorized drone strikes in another country. ,c00ef11f14b6b33debf86beb3518c7cd
+RELEVANT,"FOREIGNPOLICY,HUMANITARIAN","NEUTRAL,ANTI",ANTI,"The statement recognizes that drones can be used to remove terrorists, but is critical of the fact that drone strikes contradict liberal values the United States pursues.",6984ee428a2b394e7e6a7396b8c57773
+RELEVANT,HUMANITARIAN,ANTI,ANTI,The statement is critical of the fact that drone strikes cause innocent civilian deaths.,46028119ef5a300d0830f804452fc73e
+RELEVANT,"DOMESTIC-LEGALITY,HUMANITARIAN","ANTI,ANTI",ANTI,The statement points out that drone strikes that target jihadist groups not related to al Qaeda or the Taliban are unauthorized strikes. ,5bd1a81fbf98328381ac87675b7ac02b
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement mentions how drone strikes violate certain articles of a law.,4ca58504ab207b2fde2039d4843c93a5
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The state argues that drone strikes are incompatible with an article.,c2a45c943dbc28832ce28039edb9b64e
+RELEVANT,REFERENCE,ANTI,,"The statement refers to drones in a context of reports to U.S. officials about weapons Iraq was believed to possess, which undoubtedly posed security challenges to the United States. ",f7f0ecfbbb51fb77c1b08424c6147b90
+RELEVANT,REFERENCE,NEUTRAL,,The statement refers to drones to explain China's investment in weapons. ,0e570a808f8f1f59402bbab1289233c4
+RELEVANT,JOBS,PRO,PRO,"The statement mentions how a growing business can contribute to building drones, not how building drones will create more jobs. However, it still relates to a positive relation between jobs and drones.",58e5df08f43ca4bb335ceec5f40edffa
+RELEVANT,REFERENCE,PRO,PRO,The statement mentions drones in arguing how to support ground troops with responsive airpower.,8632872137f6c49cc1c521d39806a85a
+RELEVANT,REFERENCE,PRO,PRO,The statement mentions a base in Nevada where drones are kept in a positive tone.,3136dcef874d5c4e29f2ca776dc37ebf
+IRRELEVANT,,,,"[NON-OBVIOUS] The statement relates to the use of drones domestically. This was not clear at first because it does mention ""security risks."" However, reading following statements from Row 180 to 183, I judged the speaker is talkinb about the use of drones in a domestic context, so reclassified the statement to IRRELEVANT from RELEVANT.",6ac4c181d3f0e46291ac009816f08233
+IRRELEVANT,,,,"[NON-OBVIOUS] The statement relates to the use of drones domestically. This was not clear at first because it does mention ""security risks."" However, reading following statements from Row 180 to 183, I judged the speaker is talkinb about the use of drones in a domestic context, so reclassified the statement to IRRELEVANT from RELEVANT.",65e8716dad302eab07e3c1d70a91f9fc
+IRRELEVANT,,,,The statement relates to the use of drones domestically.,49c60b8717696887dfe5ff6627f0ce0f
+IRRELEVANT,,,,"[NON-OBVIOUS] Based on this statement alone, it is ambiguous whether the statement refers to the use of drones overseas or domestically. However, put in the context, it talks about the use of drones domestically. ",444ac30a9c51d65f610d23f56ea8c0e6
+IRRELEVANT,,,,The statement relates to the use of drones domestically.,c61533a02fef39ccf67056e95b111945
+IRRELEVANT,,,,The statement relates to the use of drones domestically.,a920fc55f6938eace6b48eaec8a59f1c
+RELEVANT,REFERENCE,ANTI,,"The statement refers to drones as an example where reports the United States received turned out to be false (blank for general sentiment). However, the speaker mentions that drones are capable of carrying hazardous biological and chemical material to the United States (anti categorical sentiment).",9a65655e3205ea1024643063c83f9c04
+RELEVANT,HUMANITARIAN,ANTI,ANTI,The statement mentions that the use or threat of drone strikes is against civil liberties. ,133161142f578ed3ef46dd061d4cc1b5
+RELEVANT,DISCLOSURE,ANTI,PRO,The statement questions whether information related to drone strikes should be disclosed or not.,65c9e3fb35bdcd81e217f638eb3182f6
+RELEVANT,DISCLOSURE,ANTI,NEUTRAL,The statement relates to the leak of information on drones that scared people.,181eb34ee662f07cc9449a7cf42fe731
+RELEVANT,REFERENCE,ANTI,,"The statement refers to drones as an example where reports the United States received turned out to be false (blank for general sentiment). However, the speaker mentions that drones are capable of carrying hazardous biological and chemical material to the United States (anti categorical sentiment).",a2c51b567c7a563d669451f15175f8fb
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,952842324d41c09fb4c08ee8eeab55f9
+RELEVANT,FOREIGNPOLICY,ANTI,ANTI,The statement mentions how concerning it is that drones that are supposed to be easy to spot have been found yet.,fd5c891a7188046f9cad69b7a7d65eef
+RELEVANT,REFERENCE,PRO,PRO,"[NON-OBVIOUS] The statement mentions drones in giving credit to an engineer. However, it is ambiguous whether the speaker refers to surveillance drones or lethal drones. If the statement relates to surveillance drones, it should be classified as IRRELEVANT.",e814f0ed4b82aebcd41b9c045ef5b1cc
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement mentions that massive air power intimidates an enemy psychologically. ,238ebdfc91b8ba0b7c750145981aa383
+RELEVANT,REFERENCE,ANTI,,The statement quotes an article from the New York Times. ,3ad9fb31b65a27b4d40263734c874b23
+RELEVANT,REFERENCE,PRO,PRO,The statement supports Obama's decision to use drones in fighting Pakistan and Afghanistan.,695ce996a30a77af8e5b1433b671fd91
+RELEVANT,REFERENCE,PRO,PRO,The statement refers to drone bases in Nevada.,ad5c60746fccf145e08f83f698b3c87c
+RELEVANT,REFERENCE,NEUTRAL,,The statement refers to drones as an example where reports the United States received turned out to be false (blank for general sentiment). It points out that Iraqi drones were not lethal drones. ,0eb61d1fa08f21a6ed2e342409872e47
+RELEVANT,FOREIGNPOLICY,ANTI,ANTI,The statement mentions that drones were not able to protect American soldiers when they were in danger.,8a8b31cca7d34e17f07e65ef5869d9a2
+IRRELEVANT,,,,The statement mentions drones for a metaphor.,d765a02f885f4dd0c2801eb4856b73e7
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement argues that drones have become an integral asset to conducting military operations.,961a921f55cb6cb5b0786e6ffcd60564
+RELEVANT,"FINANCE,FOREIGNPOLICY","PRO,PRO",PRO,The statement discusses that funding drones was worth it because they were effective in fighting terrorism.,ab83ae8f0b7ea03b7e75a50e3d80ffa7
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,10ac08a0877f6d1f2ef073afd19a6419
+RELEVANT,REFERENCE,ANTI,,"The statement refers to drones as an example where reports the United States received turned out to be false (blank for general sentiment). However, the speaker mentions that drones are capable of carrying hazardous biological and chemical material to the United States (anti categorical sentiment).",01abfe885ba149b1b260381fff2356b3
+IRRELEVANT,,,,The statement mentions drones in a surveillance role.,aa2ff13a90ca83940f904ade5b6628f7
+RELEVANT,REFERENCE,PRO,PRO,The statement argues that state-of-the-art equipments including drones should be available quickly. ,51910a9b66ca351015596a055e2c6f02
+RELEVANT,REFERENCE,ANTI,ANTI,"The statement discusses how importing oil from Iraq increases the vulnerability of the United States, and how even drones were shot down.",5fe0312189d41aec5dd53d0536e6f4dd
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to a drone strike in Yemen that killed al-Awlaqi.,fe3567e5f42f5de179eff35910d0a15d
+RELEVANT,FOREIGNPOLICY,PRO,PRO,"The statement refers to a drone strike in Yemen that killed al-Awlaqi, which the speaker thinks was the right thing to do.",45e33e9361da3bd391045eea988c2943
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement introduces an American soldier killed in action.,2de014e1c14f9812ce40f641dbfb9ce6
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drone strikes in Pakistan as an example that gets the attention from the media.,09ea3464e3feaf09362c6daab50e0b79
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement talks about how unmanned drone attacks do not risk sacrifices on the American side. ,4fe70959f35c93ba6c70da51ee019fe8
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement talks about how unmanned drone attacks do not risk sacrifices on the American side.,122ef363fc83ad4f4926d3c6b660bfdd
+RELEVANT,REFERENCE,ANTI,,"The statement discusses how drones possessed by Saddam Hussein can pose security challenges to the United States. I left general sentiment blank because the speaker talks about drones possessed by an enemy, and hence his attitude toward drones in general is not clear based on the statement.",6690cce8de5b192158362e2e8f678a21
+RELEVANT,REFERENCE,ANTI,,"The statement discusses how drones possessed by Saddam Hussein can pose security challenges to the United States. I left general sentiment blank because the speaker talks about drones possessed by an enemy, and hence his attitude toward drones in general is not clear based on the statement.",042c817a8c0e9c77ccfb091f1fda983b
+RELEVANT,REFERENCE,ANTI,,"The statement discusses how drones possessed by Saddam Hussein can pose security challenges to the United States. I left general sentiment blank because the speaker talks about drones possessed by an enemy, and hence his attitude toward drones in general is not clear based on the statement.",628e03b75d9e8ec2e6cc4a3fccfa3b0b
+RELEVANT,REFERENCE,ANTI,,"The statement discusses how drones possessed by Saddam Hussein can pose security challenges to the United States. I left general sentiment blank because the speaker talks about drones possessed by an enemy, and hence his attitude toward drones in general is not clear based on the statement.",b768fd32874fd82063d06d4ae519c2f1
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,f8b055e122d99e14db842fe000842f24
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,2d42f32ce5e68c0d138266691c3d59d9
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,The statement discusses the significance of congressional oversight in deploying drones. ,fdc9d54d006b6e867a52c1cad0038b4c
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement introduces drone strikes in Libya that were conducted against specifically identified targets.,40a683a47540a5deeb176b88092226e5
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,The statement discusses the necessity of proper regulations regarding drone strikes. ,8a6394c8b0d46394451225b95ce30c45
+RELEVANT,FOREIGNPOLICY,ANTI,ANTI,The statement mentions that drones may not be necessarily effective in removing terrorists because they do not exist in an organized form. ,c84c210b15d3411409afe1e196616d6c
+RELEVANT,"FOREIGNPOLICY,HUMANITARIAN","ANTI,ANTI",ANTI,The statement argues that drone attacks only have perverse effects such as creating more enemies and killing innocents. ,0a7fc99e4a19c7e333709b02b788cd22
+RELEVANT,REFERENCE,ANTI,ANTI,The statement explains that the United States is not welcome in Afghanistan.,524b70d15c3a7470e72a5e8f554fd75a
+RELEVANT,"HUMANITARIAN,FOREIGNPOLICY","ANTI,NEUTRAL",NEUTRAL,"The statement points out that it is safer (pro humanitarian) and more effective to use drones if you want to remove a target, but then it would not be able to use the target as an intelligence source (neutral foreignpolicy, neutral general sentiment). ",bc119199a53227733718633bfade5118
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,25d1186adf600676a592de2c08b60cbb
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,"The statement mentions drones as one of sensitive technology that was hacked by China's PLA. However, it is somewhat ambiguous whether these drones are surveillance drones or weaponized drones. ",b76e4af7611b9a471c055837a7ffed82
+RELEVANT,"FOREIGNPOLICY,FINANCE","PRO,PRO",PRO,The statement argues that funding for drones contributes to the United States fighting terrorism more effectively. ,065881bf9d5a9b6507eca86f808074d9
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,"[NON-OBVIOUS] The statement is somewhat ambiguous because for the first half, it mentions drones in a military context but transits into a surveillance context in the second half. However, I classified the statement as RELEVANT because it includes a phrase that specifically discusses the necessity to regulate drone strikes. ",071fb09869eac90020da8661f7250e11
+RELEVANT,REFERENCE,PRO,NEUTRAL,"The statement refers to a drone strike in Yemen that successfully removed a target, but is more focused on how dangerous the target was to the U.S. security than on the drone strike itself.",ff1062baf1d81123591f7586a02a0c52
+IRRELEVANT,,,,The statement mentions the use of drones domestically. ,44243047a6d5c8d764adaeae8764a412
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to a drone strike in Yemen that killed al-Awlaki.,e6a313ba7914258501af3db4bd28bb0e
+RELEVANT,REFERENCE,PRO,NEUTRAL,"The statement mentions a drone strike that killed al-Awlaki, who actively radicalized terrorists to attack Americans. ",8d39641331ff0034697d295d7327cd8d
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to a drone strike in Yemen that killed al-Awlaki.,92e5bff5a8fda89aee80f375691b00e2
+IRRELEVANT,,,,The statement mentions drones in discussing a filibuster. ,4728880ac9b6ed9994d8d08700709502
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to a drone strike that removed al-Awlaki.,193362b3441ef0635642b6deaaab64a6
+RELEVANT,REFERENCE,ANTI,,"The statement discusses how drones possessed by Iran can pose security challenges to the United States. I left general sentiment blank because the speaker talks about drones possessed by an enemy, and hence his attitude toward drones in general is not clear based on the statement.",68a3b2b5808b420e8d12422ee8947575
+IRRELEVANT,,,,The statement is about series of personal comments on a politician.,6186bf824d278cf55a1906967346a271
+IRRELEVANT,,,,The statement refers to the use of drones irrelevant to a military context. ,adbd2e23296eae2e9272af42c969721a
+RELEVANT,REFERENCE,PRO,NEUTRAL,"The statement refers to a drone strike in Yemen that successfully removed a target, but is more focused on how dangerous the target was to the U.S. security than on the drone strike itself.",71e261126737ce9126b18538b7843eda
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement introduces a briefing that explained why the United States sent troops instead of drones to Afghanistan.,72d5c8909fe9cec56c77dbdd2a7f8cf0
+IRRELEVANT,,,,The statement refers to using drones domestically in the context of the right of privacy.,e51cb3468e7c93a77d8df6afe2e0e0b5
+IRRELEVANT,,,,The statement refers to using drones domestically in the context of the right of privacy.,40f50aa1dc075bffe30f06ad28351ddd
+IRRELEVANT,,,,The statement refers to using drones domestically in the context of the right of privacy.,8558b10dc79f9ce667c931970a4e03f2
+IRRELEVANT,,,,The statement refers to using drones domestically in the context of the right of privacy.,e8d0bac3026c208838789759c685e737
+IRRELEVANT,,,,The statement refers to using drones domestically in the context of the right of privacy.,208459742711a0ab66c71473786c9b32
+IRRELEVANT,,,,The statement refers to using drones domestically in the context of the right of privacy.,479ae3669700cf214ca157bfe99fa263
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to a drone strike that killed al-Awlaki.,1eb66112f310c6a9d1418277b78cbc6c
+RELEVANT,REFERENCE,PRO,NEUTRAL,The statement refers to a drone strike that removed the leader of the Taliban. ,26087143e5a6e583020957938d4d44f9
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to a drone strike that killed al-Awlaki.,360a01c9eeeb846ecc3e8c541aa0689f
+RELEVANT,FOREIGNPOLICY,ANTI,,"The statement discusses how drones possessed by Iraq can pose security challenges to the United States. I left general sentiment blank because the speaker talks about drones possessed by an enemy, and hence his/her attitude toward drones in general is not clear based on the statement.",35d6ce85f12f5047e700568b2599d6e6
+RELEVANT,REFERENCE,NEUTRAL,,The statement refers to drones as an example where reports the United States received turned out to be false (blank for general sentiment). ,639501584d7aabd68d5413f2201e4673
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to attack drones to explain a deployment of U.S. troops to Iraq.,b28b9c32833ef3cafce391f95a74d9f8
+RELEVANT,DOMESTIC-LEGALITY,ANTI,NEUTRAL,"The statement argues that the absence of full debate led the Congress to pass a bill that authorized unnecessary drone strikes (anti categorical sentiment). However, it does not mean that the speaker is necessarily anti-drones in general (neutral general sentiment).",b67ee1284f6e33ac5c9ce2e54470c39b
+RELEVANT,REFERENCE,,,"[NON-OBVIOUS] The statement mentions drones in listing U.S. troops that are in danger. I left sentiments blank because the speaker is critical of the President invoking an Act, not of drone strikes. On a side note, based on the statement alone, it is not completely clear whether the speaker refers to attack drones or surveillance drones. If the latter, the statement is IRRELEVANT.",15bfb6e00d7d451c4c8dc9aebd7195a0
+RELEVANT,FOREIGNPOLICY,PRO,PRO,"The statement criticizes the President not authorizing drone strikes, which the speaker argues can effectively remove ISIS combatants.",aaf62cd6d4700cf8c8eb23cc5d46d7c1
+RELEVANT,REFERENCE,NEUTRAL,,The statement refers to drones as an example where reports the United States received turned out to be false (blank for general sentiment).,8b9376c22d8c34d4a335737eecfb5b17
+RELEVANT,REFERENCE,ANTI,ANTI,The statement mentions how drone strikes by Hamas threaten Israeli citizens.,75a60121cc5f232b3ed53d8230882178
+RELEVANT,REFERENCE,PRO,PRO,The statement says that it is appropriate to expedite delivery of UAVs.,ec50b4d103d24a3e330a94a708a96c4e
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,"The statement refers to a drone strike in Yemen, but is more focused on how dangerous the target was to the U.S. security than on the drone strike itself.",3062ee3d2ddd2e9de85f90c5371bcae2
+IRRELEVANT,,,,The statement discusses the DTA.,a70017f6c79e179ca2450af9481a5c24
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to Russia shooting down a Georgian UAV.,33be740f62e8157216a66d8d71d625f2
+RELEVANT,FINANCE,NEUTRAL,NEUTRAL,The statement specifies the amount of funds for UAVs. ,02b1ea1255e83d4135a2090b27c8b492
+IRRELEVANT,,,,The statement is a tribute to a deceased veteran.,6a3a0f8186dfe340f4dca8b70ba86ca0
+IRRELEVANT,,,,The statement mentions drones in a surveillance role.,a0dd51d4dce4d7c2ef5339a216a92af7
+RELEVANT,REFERENCE,NEUTRAL,,The statement refers to drones as an example where reports the United States received turned out to be false (blank for general sentiment).,f24234fb64a1c455aa856b47fc336e38
+RELEVANT,REFERENCE,ANTI,,The statement mentions drones in discussing how the speaker did not buy a claim that Iraq possessed deadly weapons. ,07a1a0c24c7f191f47d872d5485fbd48
+IRRELEVANT,,,,The statement refers to the domestic use of drones.,f8fd238f275d3f8f89126027922dfb16
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to a drone strike in Yemen that killed al-Awlaki.,477073489308c382cec394f0622d3fa3
+RELEVANT,REFERENCE,NEUTRAL,PRO,"The statement refers to a drone strike in Yemen that killed al-Awlaki, and implies that the speaker supports using drone strikes to remove terrorists who killed American ambassadors.",968053ea5558e2a476db754d55883fff
+RELEVANT,REFERENCE,NEUTRAL,PRO,The statement refers to a drone strike in Yemen that killed al-Awlaki.,d3ae098647ce612ce44ddec922cda081
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to a drone strike in Yemen that killed al-Awlaki.,abff937b45e95cd985798db9960695f8
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to drone strikes the United States conducted to hunt and kill those responsible for the 2001 attacks.,efe0a11c488a4e8c32d95001fce43a7c
+IRRELEVANT,,,,The statement relates to the freedom of speech. ,c498fda59ffe7b2db27d72321a043407
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement quotes the title of a newspaper article that talks about CIA role in drone attacks.,0eca6e1930bba3377a7610ed657749a9
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to a drone strike that killed al-Libi.,d5dec668f3818c65e93ee802ecd6cb9c
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,The statement discusses the significance of congressional oversight in conducting drone strikes.,ad58368fad525bc4b69c7664324e9df1
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,The statement emphasizes the necessity to revisit the War Powers Resolution and update it accordingly to regulate the use of drones. ,5113c07b90e5970feb18c4f58d9c2d7e
+IRRELEVANT,,,,The statement is about trade deals. ,75fa09633242a495ddd472e674051d79
+RELEVANT,REFERENCE,ANTI,ANTI,The statement argues that the United States should not send drones to the Middle East just to prove its righteousness.,ba4c0e1d89b06b2bebf18aadb5de9d04
+IRRELEVANT,,,,"The statement concerns the National Airspace System, which is irrelevant to a military context",3813ee2d08e1023d63abee47fc78db15
+IRRELEVANT,,,,The statement is a greeting to a chairman and a senator the speaker will work with.,4c1a97bca98f6e29e7db7198c996ea02
+IRRELEVANT,,,,"The statement concerns the National Airspace System, which is irrelevant to a military context",e97e020830291b15b49e711be76fc92d
+RELEVANT,FOREIGNPOLICY,PRO,NEUTRAL,"The statement says that the Predator drone was the most effective weapon in Afghanistan (pro categorical sentiment). However, the message the speaker wants to convey is that small businesses have been successful in innovating military technologies. ",2375d494775cdc8e8a82071627b02775
+RELEVANT,FINANCE,PRO,PRO,The statement says that drones are comparatively cheap.,942fd1c8378a98e2e501d972bc9a00bc
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement argues that drones are the most effective warfighting weapon.,2878c82ed2114858a7aa857051b0b51d
+RELEVANT,REFERENCE,PRO,NEUTRAL,"The statement refers to a drone strike in Yemen, but is more focused on how dangerous the target was to the U.S. security than on the drone strike itself.",f78ec094a354e6699b5d153977f42356
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,,The statement argues that regulations on drones do not hinder development of drones. ,3f8ac9b76de1fafd37930a9f6758fdb8
+IRRELEVANT,,,,"The statement talks about the Global Hawk UAV, which is a surveillance drone.",10f8af4f68b772028ebe448f15ef44c7
+RELEVANT,REFERENCE,PRO,PRO,The statement talks about a drone strike Obama refused to conduct. I put PRO for sentiments because the speaker implies that the United States would have been able to take out the leadership of ISIS with drone strikes.,f031dc084e69e3304a3b607695dad568
+RELEVANT,REFERENCE,PRO,PRO,The statement talks about a drone strike Obama refused to conduct. I put PRO for sentiments because the speaker implies that the United States would have been able to take out the leadership of ISIS with drone strikes.,d19d244646397d61ad66c1114234d798
+IRRELEVANT,,,,The statement is a tribute to a deceased lieutenant. ,cf0d12047aef0de49169d01517addde9
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,3d7edef061ad5ab2982c4c5f37ce008f
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,be7c2a6fe3766166b5aabba1c20507bd
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,e4071f41b03a4d78180501b9d554675d
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,32e79559c8a1a0ba438fe7d8248d79c8
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to a drone strike in Pakistan.,fc606158d4aa60fe307f4878a411b37c
+RELEVANT,FOREIGNPOLICY,ANTI,ANTI,The statement argues that the international community does not support U.S. drone strikes which potentially cause unchecked devastation.,05a5b30086c0794c00ab66e35034fe4d
+IRRELEVANT,,,,"[NON-OBVIOUS] The statement does mention that drones are valuable assets in the war against terrorism. However, I judged IRRELEVANT (rather than FOREIGNPOLICY) is a more appropriate classification considering the message the statement delivers. The speaker is concerned with easy access to drones in the domestic market, not drone warfare overseas.",231ad548ee916eedfd8746a6ae58cfa2
+IRRELEVANT,,,,The statement discusses the necessity to regulate selling drones in the domestic market.,05bc2f5c7ffe8b63bd74e25c8333a44f
+IRRELEVANT,,,,The statement discusses the necessity to regulate the domestic use of drones. ,c1163cd833ce22d90a93db1b77775e57
+RELEVANT,"FINANCE,HUMANITARIAN,INTERNATIONAL-LEGALITY,FOREIGNPOLICY","ANTI,ANTI,ANTI,ANTI",ANTI,"The statement opposes financing military operations in Pakistan, listing negative side-effects of conducting drone strikes. ",82ea9c2aad9fdce0f355ac1df45fd295
+RELEVANT,FOREIGNPOLICY,ANTI,ANTI,The statement emphasizes that it is necessary to end drone strikes in Pakistan to stop antagonizing the Middle East. ,a00bd1b4efe818cc4908d2b15d83e850
+RELEVANT,"FOREIGNPOLICY,HUMANITARIAN","ANTI,ANTI",ANTI,The statement argues that drone strikes not only cause civilian deaths but also incite anti-American sentiment. ,dd45c707b92bd9d396f62c5ec7271bf3
+RELEVANT,FOREIGNPOLICY,ANTI,ANTI,The statement mentions that drone strikes may not necessarily be effective in terrorists considering how they react to the threat of drone strikes.,b8ac6aef424ab7bddbc124de34f6daeb
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement introduces that the House will vote on legal justification of drone strikes. ,a47e52db5062eb12df612d9b3b42350e
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement explains what the vote on drone strikes is and is not about. ,d72d4d031ecda20f2ef07cde74e87b7c
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,The statement calls for clear regulations on conducting drone strikes. ,d8a610c304b132ffb9dec8435f38c663
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,The statement calls for clear regulations on conducting drone strikes. ,814a85e0099a25a78a2107d3bafff5aa
+IRRELEVANT,,,,The statement is irrelevant to warfare-drones overseas. ,1705daffb166d13357f7a597bfbe4c72
+IRRELEVANT,,,,The statement refers to the domestic use of drones. ,12d003719799203f2434e85e605181c4
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to a drone strike in Yemen that removed al-Awlaki.,6efdbbbbf7b9466e23fc1e7789b6c796
+IRRELEVANT,,,,The statement is a tribute to a congressman.,d86ad4607e575e64ceb5a01604c789c9
+RELEVANT,FINANCE,PRO,PRO,The statement says that investment in drones potentially contributes to the United States playing a leading role in keeping the peace. ,506cb5c2a84e4255970d9400985dc80a
+RELEVANT,FINANCE,PRO,PRO,The statement mentions that drone programs would not have been improved had it not been for deliberate efforts of the Congress to fund them.,632b3f33285e212e9f45ed0ea964a67d
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement praises that drones have been successful in finding and targeting terrorists. ,db914e868b9804b485fbfabb142e4129
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement praises that drones have been successful in finding and targeting terrorists. ,3e5ec4aee8471e08304209a607927981
+RELEVANT,REFERENCE,NEUTRAL,,The statement refers to drones as an example where reports the United States received turned out to be misinformation (blank for general sentiment). ,5f262007aa0e65c2a14beef3e9be5829
+RELEVANT,HUMANITARIAN,ANTI,ANTI,The statement points out that millions of civilians have been sacrificed in drone attacks.,96e684bd6070036a4af3a99a92ba9890
+IRRELEVANT,,,,The statement is about a filibuster. ,c425659e39de952356ac7b9c60c1911a
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to a drone strike in Yemen that removed al-Awlaki.,eb917c2307d2e48530b492b1b40d4be0
+IRRELEVANT,,,,The statement refers to the domestic use of drones. ,98d801f90518caba15da51b66f4c9cbb
+IRRELEVANT,,,,The statement refers to the domestic use of drones. ,172f74b408adf3d27c63f59dc9c0719c
+IRRELEVANT,,,,The statement refers to the domestic use of drones. ,79cdd51aa082337f2567f200712b5f55
+IRRELEVANT,,,,The statement refers to the domestic use of drones. ,44129b82cc08666fac14c73720a9fd22
+IRRELEVANT,,,,The statement refers to the domestic use of drones. ,556cd3a21b4a5fbef2af4dfa93ba88c3
+IRRELEVANT,,,,The statement refers to the domestic use of drones. ,d9b2aa953c041ea8703c6cc503324e1c
+IRRELEVANT,,,,The statement refers to the domestic use of drones. ,aedd531007755817807d7799ae87c40c
+IRRELEVANT,,,,The statement refers to the domestic use of drones. ,5876dc27e3f22b573b47882e84823736
+IRRELEVANT,,,,The statement refers to the domestic use of drones. ,2463ad2ce97ba1c26af72d067175b198
+IRRELEVANT,,,,The statement refers to the domestic use of drones. ,35445a6ed99e2e34d6f3337689c1b8ab
+IRRELEVANT,,,,The statement refers to the domestic use of drones. ,d74aabd341415bc8d6429f4bba26987f
+IRRELEVANT,,,,The statement refers to the domestic use of drones. ,a9d709f58a0be3cf89b7eac9fb92c894
+IRRELEVANT,,,,The statement refers to the domestic use of drones. ,e4f136f59afc322e31cff78062bd8c00
+IRRELEVANT,,,,The statement refers to the domestic use of drones. ,500d69e8292cd8a34c46dd7e083e8a1b
+IRRELEVANT,,,,The statement refers to the domestic use of drones. ,d1965363610e645878d63168413e9fda
+IRRELEVANT,,,,The statement refers to the domestic use of drones. ,98b997b8a613e89f20c9736d90b6de38
+IRRELEVANT,,,,The statement refers to the domestic use of drones. ,ba56d1916a9789db4eea371bca126958
+IRRELEVANT,,,,The statement refers to the domestic use of drones. ,54ee88b11058d4d1ea6f57c99a14142f
+IRRELEVANT,,,,The statement refers to the domestic use of drones. ,dc7f93023513f408c9ca2c33bda7d3ef
+IRRELEVANT,,,,The statement refers to the domestic use of drones. ,c79b45d2699d6860cf3897f92c6d6ffa
+IRRELEVANT,,,,The statement refers to the domestic use of drones. ,73111d6b43a0d215fabbe602c3afc964
+IRRELEVANT,,,,The statement refers to the domestic use of drones. ,858b96a498f6b8855e885673b2161667
+RELEVANT,JOBS,PRO,PRO,The statement mentions a drone industry in Mississippi. ,9c78cfd876095a38f17f8db0fe12029c
+IRRELEVANT,,,,The statement refers to the domestic use of drones. ,5d7d358bbe3fe6baa3d574a449c0329e
+IRRELEVANT,,,,The statement refers to drones in a surveillance role. ,b376675f5786f1281530b09f6bcd2847
+IRRELEVANT,,,,"The statement highlights a technological advantage of the Global Hawk, which is a surveillance drone. ",517f86e141ac706cbeec25742959a6d2
+RELEVANT,REFERENCE,,,The statement refers to misinformation during the Iraq War.,496def7e58d32823bcdb7a677e869d81
+RELEVANT,REFERENCE,,,The statement refers to intelligence reports on Iraq's military capabilities that turned out to be false.,b8954a5bf964426c0537cad571d3d7d6
+RELEVANT,REFERENCE,,,The statement refers to intelligence reports on Iraq's military capabilities that turned out to be false.,d54e3f9f2fa5a1af9d0d311f05ff0155
+IRRELEVANT,,,,The statement refers to the domestic use of drones. ,148a48f55206b9b9f3f5066ed0d6f2f2
+IRRELEVANT,,,,The statement is a tribute to a senator.,2961d9cecb994d492ab3defa42b98b00
+IRRELEVANT,,,,The statement is a tribute to a colonel. ,986ad66ace76be34b15fcbd4bbbf1738
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement says drones are effective in fighting terrorism. ,ee48b7d7dbdf18475495a06e8d52483f
+IRRELEVANT,,,,The statement is a tribute to a pianist. ,18588faa16b0180d0affb2dbcff50863
+IRRELEVANT,,,,The statement is a tribute to a pianist. ,b16c1e58c35ce2d5bac04c2fd33df315
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement argues that drones are the most appropriate weapons to fight terrorists. ,1b137aebc035362e5cb6dd850e25c66b
+RELEVANT,FOREIGNPOLICY,ANTI,ANTI,The statement agrees with an editorial that says drone strikes can be interpreted as state-sponsorred terrorism.,170c47cd3d972b05b9726a313ef46a29
+RELEVANT,REFERENCE,,,The statement relates to the U.S. decision to go to war against Iraq.,eef753203732037c99baf37ee5ece0af
+RELEVANT,REFERENCE,,,The statement refers to intelligence reports on Iraq's military capabilities that turned out to be false. ,af774b74644f120b949d91cf406aef54
+RELEVANT,REFERENCE,PRO,PRO,The statement says that drone technology may obviate the need to send military troops in the future. ,fb48e28f9cc86bf649f96a7d3d5befed
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,The statement explains that contents relevant to drones were added to a bill after the 9/11 attacks.,2b7029ec2cc030ced33707b5003186a5
+RELEVANT,REFERENCE,ANTI,NEUTRAL,"The statement refers to a drone strike that killed al-Alwaki, but contemplates the idea of capturing instead of removing him, which would have provided an opportunity to listen to what he had got to say about his connections with the Congress.",d0bc9a8a401f2fee25f14a2aa1ed2c7d
+RELEVANT,REFERENCE,ANTI,NEUTRAL,"The statement criticizes the CIA taking over Pentagon functions, such as conducting drone strikes. However, it is not critical of drone strikes themselves.",06eb21f53fe6fe083dd4f7546caa233d
+RELEVANT,"FINANCE,FOREIGNPOLICY","PRO,PRO",PRO,"The statement calls for an additional funding for Predator drones, which have become a valuable asset in the war on terrorism.",76d1ed09f82ca0d4999c260dbe24f263
+RELEVANT,"FINANCE,FOREIGNPOLICY","PRO,PRO",PRO,"The statement calls for an additional funding for Predator drones, which have become a valuable asset in the war on terrorism.",d87012b84724151be4c7bf20245cda76
+IRRELEVANT,,,,The statement relates to drones in a surveillance role.,2f825c69fd00e504becff6ac73421f33
+IRRELEVANT,,,,Thhe statement relates to drones in a surveillance role.,7920466cc1717f826000acefb59d64cc
+IRRELEVANT,,,,The statement relates to drones in a surveillance role.,91f151b7d662f8f73090a65acfef2e0b
+IRRELEVANT,,,,The statement relates to the domestic use of drones.,6ad11b27d3f06823236f0f13083356a1
+IRRELEVANT,,,,The statement relates to the domestic use of drones.,f1ee9458f06c1c317e162d5882aeedd1
+RELEVANT,FINANCE,PRO,PRO,The statement requests full funding for UAVs. ,25be56f079e02bf04890797f6c4cb966
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,ANTI,"The statement argues that drone strikes blur the distinction between war and peace, and calls for the constitutional basis for using drones. ",3c94079c892e056e6e92feca3d03090e
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement praises servicemembers of the Air Force who are in charge of drone attacks.,21e111f4a109fb57e7e8ef58688d0d49
+RELEVANT,"FOREIGNPOLICY,HUMANITARIAN","PRO,ANTI",NEUTRAL,The statement points out both merits (precision strikes against terrorists) and demerits (sacrifice of civilians) of drone strikes. ,5293d75682ca2e03a9a5cf95b4ba7299
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement refers to how drones can be used effectively in Nigeria to fight Boko Haram. ,008ecaa77b9bcab57efb2f9068e8c88f
+IRRELEVANT,,,,The statement relates to drones in a surveillance role.,d0f559513d75392c8094be945a7ece94
+IRRELEVANT,,,,The statement relates to drones in a surveillance role.,49c307d29d69329fce984ca435081c67
+IRRELEVANT,,,,The statement relates to drones in a surveillance role.,790f789f9a194a88f6eefb96da025922
+RELEVANT,REFERENCE,PRO,PRO,The statement mentions drones in the context of discussing congressional earmarks.,fbb6da5aaa3f4089226ad75715736239
+RELEVANT,"FINANCE,FOREIGNPOLICY","PRO,PRO",PRO,The statement says that the Predator program is vital in fighting the war on terrorism.,cdf6e68ea1bb7e77b02e6668fa60ef87
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drones in discussing a military mission line.,b79351b001d25ba1743b5884c4c33244
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drones in discussing a military mission line.,f6113a659f2b28fdae35eecce42fb811
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drones in discussing a military mission line.,7b0ecd11b529d3378d894d7e7a936bb5
+IRRELEVANT,,,,"[NON-OBVIOUS] The statement itself seems to discuss TECHNOLOGY and FINANCE, but considering the title of the statement, it is most likely that the speaker refers to drones in a surveillance role.",e07ae77fc24134ed61faf39bd1e63757
+IRRELEVANT,,,,"The statement is about Project Children, irrelevant to drones. ",40150f3a234a3e96d2c2ce1733aae595
+RELEVANT,FOREIGNUSE,ANTI,,The statement argues Iraqi drones potentially pose a security challenge to the United States. I leave general sentiment blank because the statement is not a direct criticism of the use of drones in a military context. ,445de83442dc398f380dbaccfa26b545
+IRRELEVANT,,,,The statement pertains to judicial nomination.,e8be42fc6aad892d251601fda58df0ee
+RELEVANT,DISCLOSURE,PRO,NEUTRAL,The statement supports transparency and public debate on drone policy.,073248049d9792f0355ddc3ae6916991
+RELEVANT,REFERENCE,NEUTRAL,,The statement mentions drones in discussing an appointment of a lawyer. I leave general sentiment blank because it is not a direct criticism of drone/drone strikes per se. ,00e3db60352f5048d7f989e49f255738
+RELEVANT,REFERENCE,NEUTRAL,,The statement mentions drones in discussing an appointment of a lawyer. I leave general sentiment blank because it is not a direct criticism of drone/drone strikes per se. ,74e4c90c34e15eb278c97214fa9e581d
+RELEVANT,DISCLOSURE,PRO,,The statement supports transparency and public debate on drone policy. I leave general sentiment blank because it is not a direct criticism of drone/drone strikes per se. ,c6929fc2b2cd2a83c53423f1a06d38ba
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to a drone strike that removed al-Awlaki.,06317beb376e044f30abd2a73a75a254
+IRRELEVANT,,,,The statement is a tribute to a U.S. captain. ,a35c6498cdbbdea25964d05d26bfb439
+RELEVANT,DISCLOSURE,PRO,NEUTRAL,The statement supports transparency and public debate on drone policy.,5412dd4e591fb5476ab39233586b2628
+RELEVANT,REFERENCE,ANTI,,"The statement criticizes David Barron's decision regarding a drone strike that killed al-Awlaki (anti categorical sentiment). However, it is not a direct criticism of drone strikes per se (blank general sentiment).",dd23d4c8a39c7deedc5d79f8c3f0ab29
+RELEVANT,REFERENCE,ANTI,,"The statement criticizes David Barron's decision regarding a drone strike that killed al-Awlaki (anti categorical sentiment). However, it is not a direct criticism of drone strikes per se (blank general sentiment).",b37849758544679ccacd183a8fd8e8e5
+RELEVANT,"DISCLOSURE,DOMESTIC-LEGALITY","PRO,NEUTRAL",NEUTRAL,The statement calls for transparency and checks and balances regarding drone executions.,7873aac1d90dd9571d6d53d758738b32
+IRRELEVANT,,,,The statement appreciates hard work of a senator.,4094d3cda16db8e5951fbe78b8f0844e
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement opposes drones strikes without judicial process.,545fb1b5ef71d17014c0044bfb9e58b9
+RELEVANT,DISCLOSURE,PRO,,The statement criticizes the White House for not providing full information regarding the drone program. I leave general sentiment blank because it is not a direct criticism of drone/drone strikes per se.,7d74e316fe40142fe2105f2442d8d21e
+RELEVANT,DISCLOSURE,PRO,,The statement criticizes the White House for not providing full information regarding the drone program. I leave general sentiment blank because it is not a direct criticism of drone/drone strikes per se.,9ce0284a865b428a05f7c97b49bd0651
+RELEVANT,DISCLOSURE,PRO,,The statement criticizes the White House for not providing full information regarding the drone program. I leave general sentiment blank because it is not a direct criticism of drone/drone strikes per se. ,cb54bf3f0e4c79d49c3b8345890afbe7
+RELEVANT,REFERENCE,ANTI,,"The statement criticizes David Barron's decision regarding a drone strike that killed al-Awlaki (anti categorical sentiment). However, it is not a direct criticism of drone strikes per se (blank general sentiment).",47d9391283928e4edc9c99a7bd62fc7a
+RELEVANT,DISCLOSURE,PRO,,The statement criticizes the White House for not providing full information regarding the drone program. I leave general sentiment blank because it is not a direct criticism of drone/drone strikes per se.,7ed338880a66da26fa9fb031021ebc04
+RELEVANT,DISCLOSURE,PRO,,The statement criticizes the White House for not providing full information regarding the drone program. I leave general sentiment blank because it is not a direct criticism of drone/drone strikes per se.,4d9ca8e19c81d389a5b866fa802c0e5c
+RELEVANT,DISCLOSURE,PRO,,The statement criticizes the White House for not providing full information regarding the drone program. I leave general sentiment blank because it is not a direct criticism of drone/drone strikes per se.,2b25f026111d7440ff734e8340f79897
+RELEVANT,DISCLOSURE,PRO,,The statement criticizes the White House for not providing full information regarding the drone program. I leave general sentiment blank because it is not a direct criticism of drone/drone strikes per se.,94cd8f467f4dc3a25d31bbee9ed0cb6d
+RELEVANT,DISCLOSURE,PRO,,The statement criticizes the White House for not providing full information regarding the drone program. I leave general sentiment blank because it is not a direct criticism of drone/drone strikes per se.,88ee6f31c887e13bc735ba66f24d400f
+RELEVANT,DISCLOSURE,PRO,,The statement criticizes the White House for not providing full information regarding the drone program. I leave general sentiment blank because it is not a direct criticism of drone/drone strikes per se.,e9747f8f38cc22037c67e459920271bc
+RELEVANT,DISCLOSURE,PRO,,The statement criticizes the White House for not providing full information regarding the drone program. I leave general sentiment blank because it is not a direct criticism of drone/drone strikes per se.,caa6493313c2924a796bd25cc356e3de
+RELEVANT,DISCLOSURE,PRO,,The statement criticizes the White House for not providing full information regarding the drone program. I leave general sentiment blank because it is not a direct criticism of drone/drone strikes per se.,cf5357cb1265845fdef5cb30b7a089d2
+RELEVANT,DISCLOSURE,PRO,,The statement criticizes the White House for not providing full information regarding the drone program. I leave general sentiment blank because it is not a direct criticism of drone/drone strikes per se.,2bab822dc811bcb08ca3580da3da2103
+RELEVANT,DISCLOSURE,PRO,,The statement criticizes the White House for not providing full information regarding the drone program. I leave general sentiment blank because it is not a direct criticism of drone/drone strikes per se.,2e96bf3ef7a455f6099625bd58e4ea09
+RELEVANT,DISCLOSURE,PRO,,The statement criticizes the White House for not providing full information regarding the drone program. I leave general sentiment blank because it is not a direct criticism of drone/drone strikes per se.,ec085d7dad8962bd9e596a56b96bee11
+RELEVANT,DISCLOSURE,PRO,,The statement criticizes the White House for not providing full information regarding the drone program. I leave general sentiment blank because it is not a direct criticism of drone/drone strikes per se.,e16c5c136c640db2b0d72e67cbd9c101
+RELEVANT,"FINANCE,TECHNOLOGY","PRO,PRO",PRO,"The statement supports funding for drones, which will lower costs while increasing mission effectiveness.",f3081bea7aa6fefc100a43e59def1c2f
+RELEVANT,TECHNOLOGY,PRO,PRO,The statement explains that advanced technology will increase mission effectiveness.,77ea4d1c7284d2a27d5816c4fdd4b1b0
+RELEVANT,FINANCE,PRO,PRO,"The statement lists procurement of military assets, including UAVs.",c0f7bf30322019c87ef2a6b0e94ccd5a
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,52e2fcf8a40eb5364d4ad5b03780e62f
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,139c939b0691316cbc07c38e6964a2db
+RELEVANT,"FINANCE,FOREIGNPOLICY","PRO,PRO",PRO,The statement supports investing in drones because they are more suited to fighting battles in the modern era.,7188214d2d827cb5c9d56f90afd91e06
+IRRELEVANT,,,,The statement refers to the domestic use of drones.,d95358206551b79c83389156c7bc4a44
+IRRELEVANT,,,,The statement refers to the domestic use of drones.,b4316957fef6face6f1bcce27e19fd98
+IRRELEVANT,,,,The statement refers to the domestic use of drones.,a4e02b9b27944984dd0f7729f2f8e800
+IRRELEVANT,,,,The statement refers to political rhetoric. ,129bf210f1768f971c88c872f8e37aa9
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,70319929f6e0104cf242a31315f74466
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,24fb12fe84d18f866912f326f5edd372
+RELEVANT,REFERENCE,ANTI,ANTI,"The statement defines drone strikes as predatory interventionism, and urges the US to stop them.",0e256d9485fac18a86cd1f9a2f682af2
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement cites an op-ed by a former president.,fc06de1d4c599218adc562352fc67bb3
+RELEVANT,"HUMANITARIAN,FOREIGNPOLICY","ANTI,ANTI",ANTI,The statement explains that drone strikes not only violate human rights but also turn aggrieved civilians toward terrorist organizations.,d72f53b02fb7bb10fdc8bac6355d0197
+IRRELEVANT,,,,The statement discusses the domestic use of drones.,8c47af618615caa687a3bdf0aade842a
+IRRELEVANT,,,,The statement discusses the domestic use of drones.,faffbdd9c950b059978514949a073526
+IRRELEVANT,,,,The statement discusses the domestic use of drones.,45eeebf6c438122651b0afee443d242b
+IRRELEVANT,,,,The statement discusses the domestic use of drones.,51baf96310eee848a1faec1d664431aa
+RELEVANT,DISCLOSURE,PRO,NEUTRAL,The statement is critical of the contradictory attitude of the White House regarding the disclosure of information on drone attacks.,3767e959ad9d23277e1d969c6c8bfcc5
+IRRELEVANT,,,,The statement refers to the domestic use of drones. ,3d1a2685c2e67d105e59c5a5984d95c7
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions that the speaker has an issue with drones.,aef86b711accd0744814e588efa7fa2c
+RELEVANT,FOREIGNPOLICY,ANTI,ANTI,The statement opposes a military strategy in question because it puts a U.S. mission at risk.,e4364929ae41ddb84da67944293d8675
+RELEVANT,"TECHNOLOGY,FOREIGNPOLICY","PRO,PRO",PRO,The statement praises the effectiveness of drones in fighting the war on terrorism.,ab7b150997936efcb4f0c0db9443ef5e
+RELEVANT,DISCLOSURE,PRO,NEUTRAL,The statement criticizes the administration for rejecting congressional oversight on drone attacks.,a923c133d520e106a95aba9ffc60aad2
+RELEVANT,DISCLOSURE,NEUTRAL,NEUTRAL,The statement explains how it has become tricky to declare a war in the modern era.,0f06be1e106282763c0b0f7dd5f099e7
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement explains U.S. missions in Libya.,b7e082526dd74c52d668dacfb93e80e0
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drones in discussing Obama's decision to withdraw from Afghanistan.,e2902b354d44affcd8bac63d84bae9cd
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drones in criticizing the executive branch's argument on drone strikes.,f56f365dee77ad84e319cc2b1b125f69
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drones in quoting an article from a newspaper.,ce089d08889424cce68b54b2a89fb03d
+RELEVANT,DISCLOSURE,PRO,ANTI,The statement criticizes the White House for failing to provide clear answers to some of crticial questions.,89d85b08f18a93f0059b055d7822e8b2
+RELEVANT,DISCLOSURE,PRO,NEUTRAL,The statement criticizes the White House for failing to provide clear answers to some of crticial questions.,cad022414f790f29b279f926df87f3c1
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement argues that drone strikes to deter Qadhafi should be authorized.,6282e62114def432a10ff1a3ae9e15ce
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,c91f09415ac1e44dc3215664b5190e47
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions a drone strike in discussing its legal justification.,7b10960f6c09818aedc26df9e4d3d213
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to Americans killed by overseas drone strikes.,400eeb4c9f5d3f4e07aabb34325db629
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drones in discussing an appointment of a lawyer. ,19dcd034e30ea31d8361324f64a96331
+RELEVANT,DISCLOSURE,PRO,NEUTRAL,The statement is critical of the Second Circuit not disclosing full information on a drone strike.,d44f6475c006981261ae9b6cc4bd3acb
+RELEVANT,DISCLOSURE,PRO,NEUTRAL,The statement is critical of the Second Circuit not disclosing full information on a drone strike.,46bbaf62b02a23059224338ec8d55767
+RELEVANT,DISCLOSURE,PRO,NEUTRAL,The statement is critical of the fact that the Senate does not have full access to information pertinent to drone strikes/programs.,2a9ac20303f545740da136f6d750c295
+RELEVANT,DISCLOSURE,PRO,NEUTRAL,The statement emphasizes the significance of transparency regarding information relevant to drone strikes.,a4e31684b6a2a5f96155171d76a93d76
+RELEVANT,DISCLOSURE,PRO,NEUTRAL,The statement emphasizes the significance of transparency regarding information relevant to drone strikes.,669838a4a16af68726586a31b91924ae
+RELEVANT,DISCLOSURE,PRO,NEUTRAL,The statement emphasizes the significance of transparency regarding information relevant to drone strikes.,5716afbd250cc593b8b9fe5cef044a08
+RELEVANT,DISCLOSURE,PRO,NEUTRAL,The statement emphasizes the significance of transparency regarding information relevant to drone strikes.,9316c9ef418be439daba31f976d2973e
+RELEVANT,DISCLOSURE,PRO,NEUTRAL,The statement calls for the White House to disclose full information on a drone strike.,5b0fbbb2288a221c867f2e25c69fcc26
+RELEVANT,DISCLOSURE,PRO,NEUTRAL,The statement calls for the White House to disclose full information on a drone strike.,c2afe8a0a6f3319a8ab304bba2872521
+RELEVANT,DISCLOSURE,PRO,NEUTRAL,The statement calls for the White House to disclose full information on a drone strike.,ffa6cef192f698ceb726aaaf1af61b64
+RELEVANT,DISCLOSURE,PRO,NEUTRAL,The statement calls for the White House to disclose full information on a drone strike.,67283068cbd0bf70caf10da6684f5aeb
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,f3df1c0d68b72975d382fef1593b655d
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to a drone strike that killed the leader of the Taliban.,5a86ac16ace929845f0d269f10d23c56
+IRRELEVANT,,,,The statement is a tribute to a general.,043f0c446093ffb85d8100150e0904d8
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement introduces a briefing that explained why the United States sent troops instead of drones to Afghanistan.,bbe8631e78c9d1bf27733f1f4e74a6bf
+RELEVANT,"HUMANITARIAN,DOMESTIC-LEGALITY","ANTI,NEUTRAL",NEUTRAL,"The statement argues that drone strikes, which kill civilians, constitute hostilities and hence the Congress has responsibility to them.",f6584d9b39141bb19ac107ec2bc84789
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to drone strikes in Pakistan.,95e375bae140f5b976cecb9e4e318482
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,"The statement is critical of defining drone strikes for regime change as something less than hostilities. However, it is not a direct criticism of drones per se.",cdb1c47a0146a965d481bb539752e5fd
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,8876a59045497ea2ebcaaeaf8ebffee4
+RELEVANT,REFERENCE,NEUTRAL,PRO,The statement says the PREDATOR can hit targets before they do U.S. fighters.,0ecb0c9f63ea9f287d32dc3e00758df1
+RELEVANT,DOMESTIC-LEGALITY,PRO,PRO,"The statement says that it supports drone strikes in Yemen, but cautions the executive branch to define them as a hostile act.",664eb0ccf251717e309ea6db4503fcea
+IRRELEVANT,,,,The statement is a tribute.,d03d0929da8630754e0c0dfdabb5533d
+IRRELEVANT,,,,The statement refers to the domestic use of drones.,4ad67b1a0bc81884af202fa629522ea1
+RELEVANT,FINANCE,NEUTRAL,NEUTRAL,"The statement mentions the specific amount of budget for drones. However, I classify sentiments as NEUTRAL instead of PRO since it is not clear whether the speaker simply confirms the fact that $14 million was spent or suggests funding for drones.",b976906b57037de2cd6c5985e7265059
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,edc16a42f44f0f43e374fbf197019efa
+IRRELEVANT,,,,The statement is a tribute to a U.S. soldier.,fe4890c6bd5ac66f36ab2d5ff386ba47
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement mentions that drones are valuable assets in the battlefield.,7cc7df86d7444d32b1751e687d1494f1
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,5df71aa70204979be3200807bca73cdf
+RELEVANT,FINANCE,NEUTRAL,NEUTRAL,"The statement mentions the cost over 10 years for the war on terror, including drone strikes.",f7e7e7b91d5d043906b38301bbee314a
+RELEVANT,FINANCE,NEUTRAL,NEUTRAL,"The statement mentions the cost over 10 years for the war on terror, including drone strikes.",de6905b71f0bee643c17754e2ac989b7
+RELEVANT,FINANCE,ANTI,ANTI,"The statement suggests to stop operations in the Middle East, including drone strikes, as it will save a significant amount of money.",211ddcabac57048a41e265d87dfe88bb
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,716d18414a44d71471217d79cd6990db
+IRRELEVANT,,,,The statement refers to an accident caused by a commercial drone.,689d982b55c11b2fe7ba9136ca11846d
+IRRELEVANT,,,,The statement discusses potential accidents that can be caused by commercial drones.,6ad0d98d26b8b4af1a4c1a45b7ceb2d3
+IRRELEVANT,,,,The statement discusses potential accidents that can be caused by commercial drones.,312966839a886ad09cd86840ee51713c
+IRRELEVANT,,,,The statement relates to the domestic use of drones.,b971d46ac7ba7c9bf8e073ca01578a9b
+IRRELEVANT,,,,The statement relates to the domestic use of drones.,eba5062b8bc62f6984d36f6585847789
+IRRELEVANT,,,,The statement relates to the domestic use of drones.,b3ab48e19a3f01aa18f6ddf37928f8b7
+IRRELEVANT,,,,The statement relates to the domestic use of drones.,c279c542b05c5aeb255380856d14430f
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement explains that a PREDATOR drone did not used to be lethal.,2eb0114d5788e9f46821a5016a38f6d1
+RELEVANT,FOREIGNUSE,NEUTRAL,NEUTRAL,The statement refers to debates during the Iraq War that Saddam Hussein may possess drones.,5ff41492d46377ccce28f366e39b161c
+RELEVANT,FOREIGNUSE,NEUTRAL,NEUTRAL,"The statement discusses intelligence reports on the potential use of drones by Iraq, which turned out to be false.",7fb46ed7d72a665926eddd8ba61edbdd
+RELEVANT,"DOMESTIC-LEGALITY,FOREIGNPOLICY","PRO,PRO",PRO,"The statement argues that the Patriot Act provided law enforcement agencies with more tools to combat terrorism, including drones.",b58fe77f58212492b54b5df802db6808
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,"The statement urges intelligence agencies to analyze national security issues, including the use of drones, independently.",94a02712af0d1deb7bc86a5023a3f107
+RELEVANT,FOREIGNUSE,ANTI,NEUTRAL,The statement refers to an intelligence report during the Iraq War that Saddam Hussein may possess drones that can pose a security challenge to the United States.,a38cb03766350c48f513e70e3c437bd5
+RELEVANT,FOREIGNUSE,NEUTRAL,NEUTRAL,"The statement mentions that Iraqi drones were likely for reconnaissance, not offensive, purposes. ",8e03dd055f56d9bc38daaf453fa46237
+RELEVANT,HUMANITARIAN,ANTI,ANTI,The statement mentions that drones kill innocent civilians.,28f4b4f8f5577fe33a0cdc889a605e1d
+RELEVANT,HUMANITARIAN,ANTI,ANTI,The statement mentions that drones kill innocent civilians.,f538b922e3805f5708445c71acb66c96
+RELEVANT,"DISCLOSURE,DOMESTIC-LEGALITY","NEUTRAL,NEUTRAL",NEUTRAL,"The statement does not side with pro or anti regarding transparency and domestic-legality, but simply mentions that these issues were included in amendments.",c7f594dde329af4758761af41b8dc614
+RELEVANT,INTERNATIONAL-LEGALITY,NEUTRAL,NEUTRAL,"The statement notes that the United States should be more prudent with drone strikes, especially when they are conducted outside the boundaries of international law enforcement.",75bc00d8a153d7fd37728fcc05b96767
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement notes that there are many drone-related issues that deserve further discusssion.,8fc16edd35d0eda132263ac7280637ef
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement notes that there are many drone-related issues that deserve further discusssion.,02f9946a2c32fe060e35bdcc9901e529
+RELEVANT,"HUMANITARIAN,DISCLOSURE,DOMESTIC-LEGALITY","ANTI,PRO,NEUTRAL",NEUTRAL,"The statement explains how an amendment the speaker proposed addresses issues concerning civilian casualties, transparency, and domestic-legality.",97895bec56b9232b9fb95bc673fce4c1
+RELEVANT,HUMANITARIAN,NEUTRAL,NEUTRAL,The statement explains the significance of setting a humanitarian standard for the use of drones.,a4f30bea1f0ddc416db0dc7c77004a53
+RELEVANT,FOREIGNPOLICY,NEUTRAL,NEUTRAL,The statement argues that drone attacks are tactics rather than a strategy.,393d6945ef9fb43223a5ccd2453bb08b
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,6676177ce4e8a31c0af6229bd968413f
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,149dcc06305b292fa36df672a2ab3089
+RELEVANT,"FOREIGNPOLICY,HUMANITARIAN","PRO,PRO",PRO,The statement says that drones fight the war on terrorism effectively while minimizing civilian casualties.,0f257aba060af8d79ed80dd1e65501e4
+RELEVANT,"FINANCE,TECHNOLOGY","PRO,PRO",PRO,The statement explains that funding for drone technology would contribute to the development of UAV capability in the military.,1989927f0fdb3eddcf66d2d15de0757d
+RELEVANT,DISCLOSURE,ANTI,PRO,The statement is critical of releasing information that directly affects U.S. national security. ,d538492772d5ab142911b3c250600e28
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions the president's authority to choose who gets killed and who doesn't.,60050f50a6687096d3469009ae20833b
+RELEVANT,DISCLOSURE,ANTI,PRO,The statement concerns publicly discussing classified information such as drone strikes.,f74209f084ba38199bacd55f3a94f9b6
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement discusses the scope of investigation regarding drone strikes in Yemen and Iran.,94711ffa8b78af18b5d7833b1e5cd97c
+RELEVANT,DISCLOSURE,ANTI,NEUTRAL,"The statement frames disclosure of information as ""leaks.""",9ca0016c3fa7896695839fe9c5de73ae
+RELEVANT,REFERENCE,ANTI,NEUTRAL,The statement conveys a rather critical attitude concerning the way the president identifies targets.,28ee094dd5140b125aa6742548372f71
+RELEVANT,DISCLOSURE,ANTI,PRO,The statement argues that any leak of information undermines national security interests.,a90da2b7beb22fa509d51663619841b2
+IRRELEVANT,,,,The statement relates to the domestic use of drones.,34a41236d069052adcd96b0aa191da7a
+IRRELEVANT,,,,The statement relates to the domestic use of drones.,dac7003e153018b787c2a24a653c7407
+IRRELEVANT,,,,The statement relates to the domestic use of drones.,8ca2c1db05a64912303ff0ffc02480bf
+IRRELEVANT,,,,The statement relates to the domestic use of drones.,dfa7fec09a4600306e141027cc29fbf8
+IRRELEVANT,,,,The statement relates to the domestic use of drones.,aa825688a556df924a243d55692bfa17
+IRRELEVANT,,,,The statement relates to the domestic use of drones.,dbe359059059e2628c26da2bf5253a15
+IRRELEVANT,,,,The statement relates to the domestic use of drones.,dd86238eab4ec71000e57b28ce676eb2
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,"The statement quotes the title of an article, which discusses the use of drones.",9fe282680c0ae3c4f21c2531ead56cff
+RELEVANT,DISCLOSURE,ANTI,NEUTRAL,The statement criticizes how the Obama administration disclosed classified information for political purposes.,7fc4c182efa26ce08cc29e563b470ee6
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement describes national security meetings under the Obama administration.,a28591b539519423672f18c8aac43624
+RELEVANT,DISCLOSURE,ANTI,PRO,"The statement is critical of the ""officials"" who told the media about probe of the leaks relating to U.S. drone operations.",fd357159f49343487a18d138285eb6de
+RELEVANT,FOREIGNUSE,ANTI,,The statement explains why the speaker voted to authorize the use of military force in Iraq.,66759fc07a111676da8198983acc37e0
+RELEVANT,FOREIGNUSE,ANTI,,The statement mentions the potential use of drones by Iraq.,1eb37c06dc20353f440447318601bf67
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the use of AUMF to justify drone strikes. ,4d96437bc8606b5f2aa0b5ba4a351797
+RELEVANT,REFERENCE,PRO,PRO,The statement supports the idea of targeting an American citizen in a drone strike when he/she is a military threat.,945500f1e81063f8e9753fc346cc62ec
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement points out the irony in authorizing a drone strike an American citizen but opposing to detain him/her.,8dd05fcf9ebde48369515d3a58fee38e
+IRRELEVANT,,,,"The statement discusses the legality of drone strikes on U.S. soil, not overseas.",e05e1ed584570f95c299349e8341ab65
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,"The statement quotes the title of an article, which discusses the use of drones.",0f439d748034eb7ecf5a02f9dfc87972
+RELEVANT,"DOMESTIC-LEGALITY,HUMANITARIAN","NEUTRAL,NEUTRAL",NEUTRAL,"The statement argues that the current law does not grant the U.S. government the authority to launch drone strikes against American citizens on U.S. soil, or anywhere else for that matter.",141ed05c9df7de9061f8568287036c3b
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,ANTI,The statement conveys the significance of clarifying the legal and political foundation for drone operations.,7c5a63c6e8809fb15a26490b018681a8
+RELEVANT,"DOMESTIC-LEGALITY,HUMANITARIAN","NEUTRAL,NEUTRAL",ANTI,"The statement conveys the significance of clarifying the legal and political foundation for drone operations, but also points out that threats of lethal drones do not exist on U.S. soil.",b42c650b15c521f1aeee55b34c8f450c
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,The statement conveys the significance of clarifying the legal and political foundation for drone operations.,ea60e17c24c5bbf86e4bb59d66d32c6d
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,The statement questions if the U.S. President can define a target without designating that person as a threat.,217c08246898a99c702f12a1535be9ee
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement questions why senators are suddenly so concerned about drone strikes when they already knew the existence of lethal drone programs.,4d8c17ea5630526e6f2feedffba20c68
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions a drone strike in Yemen that killed al-Awlaki.,79a3cb743ae87a5c865ce3b683cc143f
+RELEVANT,REFERENCE,ANTI,NEUTRAL,The statement criticizes Senator Paul Rand's argument regarding the use of drones to kill an American.,97ff840485a84c1dd3866720edb08da8
+IRRELEVANT,,,,"The statement relates to drone strikes on U.S. soil, not overseas.",307ebc0a5f74d71af79b1c8b5a17c4ec
+IRRELEVANT,,,,"The statement relates to drone strikes on U.S. soil, not overseas.",5c13f60e61191c84f86a73dddc71baa5
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,ANTI,The statement discusses the applicability of the law of war to terrorists on U.S. soil. ,ed947fa03e5b1f00f779cc1206698309
+RELEVANT,"DISCLOSURE,DOMESTIC-LEGALITY","PRO,NEUTRAL",NEUTRAL,"The statement says that the use of the drone program can be more transparent, but is conducted with accountability in large. ",2131b49440fdabd4d74c18202b346c82
+RELEVANT,"HUMANITARIAN,DOMESTIC-LEGALITY","NEUTRAL,NEUTRAL",NEUTRAL,The statement argues that not answering a question does not mean the administration will target noncombatants with drones.,1ddb394b9116dd52fa0ddae2f6b5c40f
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement argues that in some cases drone strikes are the only viable option to get terrorists.,cada06775fa36d1a5b2cebe33b1e566b
+RELEVANT,"HUMANITARIAN,DOMESTIC-LEGALITY","ANTI,NEUTRAL",ANTI,The statement argues that it is wrong to oppose drone strikes unconditionally.,8d2968df63d4000b78899ccc211eb5d5
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement indicates that the speaker is willing to further discuss the use of drones. ,d3d35517a3972a6c65b5b1ed0a633c4e
+RELEVANT,FOREIGNUSE,ANTI,ANTI,"The statement argues that the real concern should be the potential use of WMDs against Americans, not drone strikes. ",abead13f97ddfb61c34ad7534cdd677e
+RELEVANT,REFERENCE,ANTI,ANTI,The statement explicitly points out that the drone is a weapon.,44630a8088d7f7cb61892f44f92d72f6
+RELEVANT,"HUMANITARIAN,DOMESTIC-LEGALITY","ANTI,NEUTRAL",ANTI,The statement argues that the use of drones should be regulated so they do not attack noncombatants.,371fa03826df17b7eee4ce0575377d55
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions that there will be a hearing on drone issues.,8e4a9d22b0852ccb53b2fa3ede043151
+RELEVANT,"DOMESTIC-LEGALITY,FOREIGNPOLICY","NEUTRAL,PRO",PRO,The statement argues checks and balances should exist to conduct drone operations more effectively.,8ade59d58582fee443fff7c8ca1c6d2d
+IRRELEVANT,,,,"The statement relates to drone strikes on U.S. soil, not overseas.",cdad8cf009dee9ed934328a0d399e4fe
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,The statement calls for more active role of Congress concerning the drone program. ,3aefb9944ab3ae6293a7ac406abb5348
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,The statement calls for more active role of Congress concerning the drone program. ,419358b4b3a4f8f33f914a02d59b9331
+IRRELEVANT,,,,"The statement relates to drone strikes on U.S. soil, not overseas.",0952a0044a4ef9cac789c43221a64bb8
+IRRELEVANT,,,,"The statement relates to drone strikes on U.S. soil, not overseas.",38fa7a802b8673e9d7b136f7915ffd33
+RELEVANT,"FOREIGNPOLICY,HUMANITARIAN","PRO,ANTI",NEUTRAL,"The statement acknowledges that drones have been effective in fighting the war on terrorism, but warns that the use of drones against civilians is increasing.",58718a7e7ee2539a8b2887fc71b18f26
+IRRELEVANT,,,,"The statement relates to drone strikes on U.S. soil, not overseas.",64190adf72d4df8cfede0c1b3b0da68d
+IRRELEVANT,,,,"The statement relates to drone strikes on U.S. soil, not overseas.",ab9c5400565dd9bb11c3f830faa11624
+IRRELEVANT,,,,"The statement relates to drone strikes on U.S. soil, not overseas.",427150492aa63d41f809fa18187bdb7d
+RELEVANT,"HUMANITARIAN,DOMESTIC-LEGALITY","ANTI,ANTI",ANTI,The statement calls for more stringent justification for selecting targets so noncombatants do not get sacrificed in drone strikes.,2e1e0246a30738cd762c63ee1fe34d33
+IRRELEVANT,,,,"The statement relates to drone strikes on U.S. soil, not overseas.",871aace7f54968436f3a8e29202a2609
+IRRELEVANT,,,,"The statement discusses the legality of drone strikes on U.S. soil, not overseas.",43e1d1f7f373006350c6c0dc9ea76b82
+IRRELEVANT,,,,"The statement quotes an anecdote that mentions drones, but the context is not clear.",4a2ef5b394e02b9cdc0421a2d114d07f
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,"[NON-OBVIOUS] Based on statements from row 577, 588, 599, 605, 612, 613 and 615, the speaker is primarily concerned with targeting noncombatants in the United States, not overseas, with drone strikes. That said, these seven statements as well as the rest of statements by the speaker (570-620) can be classified as IRRELEVANT. However, the speaker does not necessarily limit the scope to drone strikes on U.S. soil and refers to those in Yemen and Afghanistan as well. Accordingly, I classify his statements RELEVANT unless a statement explicitly refers to drone strikes on U.S. soil only. ",f4e9c172cad2dc5da04f829b412a8fb7
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of clear standard for targeting Americans with drones. ,7afa1993b651b0e4e3fff4613f41d71c
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of clear standard for targeting Americans with drones. ,4f72dd252f33f66ca454febb12e458ac
+RELEVANT,"DOMESTIC-LEGALITY,HUMANITARIAN","ANTI,ANTI",ANTI,The statement criticizes the lack of clear standard for targeting Americans with drones. ,9443b1d5702a1dce045777226997caff
+IRRELEVANT,,,,The statement relates to the use of drones on U.S. soil and the applicability of the fifth amendment.,8c0cec8026e9fd82ea793da1b3f916ab
+RELEVANT,"DOMESTIC-LEGALITY,HUMANITARIAN","ANTI,ANTI",ANTI,The statement criticizes the lack of clear standard for targeting Americans with drones. ,b9213a5901295b05b0c88ab6611a2b37
+RELEVANT,"DOMESTIC-LEGALITY,HUMANITARIAN","ANTI,ANTI",ANTI,The statement criticizes the lack of clear standard for targeting Americans with drones. ,39c4e831abdc48fb029dc7996109f60a
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of clear standard for targeting Americans with drones. ,19af5c00b5cd8898c41568836d29bbd5
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of clear standard for targeting Americans with drones. ,dff08ea23ec491aea233f1eb6bfe34f7
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of clear standard for targeting Americans with drones. ,d870a0f6c03ee7fc433752521122d53d
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of clear standard for targeting Americans with drones. ,82d2d1210da9498436d9bad782fa7ff2
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of clear standard for targeting Americans with drones. ,47d44fa0eabcdf8befdee1ea0fff410f
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of clear standard for targeting Americans with drones. ,842f756fa18eae6f3955e1bea1e3be12
+RELEVANT,REFERENCE,ANTI,ANTI,The statement criticizes Brennan and President Obama for denying the existence of the drone strike programs that actually existed for years.,392d8d09f27632806a7959a5a9146c4b
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of clear standard for targeting Americans with drones. ,0698840768be030b6181fa3b3cf8f17c
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of clear standard for targeting Americans with drones. ,c3d7ee2ae22f476240d9d1fafc11ee34
+RELEVANT,"DOMESTIC-LEGALITY,HUMANITARIAN","ANTI,ANTI",ANTI,The statement criticizes the lack of clear standard for targeting Americans with drones. ,ba0febbac2076d1968b7936e3ffa9844
+RELEVANT,"DOMESTIC-LEGALITY,HUMANITARIAN","ANTI,ANTI",ANTI,The statement criticizes the lack of clear standard for targeting Americans with drones. ,ebe86e933d62bf8b694bc3cafd47bd2c
+RELEVANT,"DOMESTIC-LEGALITY,HUMANITARIAN","ANTI,ANTI",ANTI,The statement criticizes the lack of clear standard for targeting Americans with drones. ,47df0bad926abef5d66e0d2c049f0d7b
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of clear standard for targeting Americans with drones. ,843d053f54ed31a43b940c35afc94da6
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,The statement acknowledges that some of the drone strikes have been justified.,768ddff20776193b3ceffd0d007ddd11
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,The statement mentions an article that discusses legal standards for selecting targets.,f9161295a6cc89a067d1641f688491f6
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,The statement questions whether sympathizing with the enemy automatically means he/she should be removed.,10758083b2c5732875ceaa42fbac8331
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of clear standard for targeting Americans with drones.,1c1e5fcfbd6beb81032b5958388d8de6
+RELEVANT,"DOMESTIC-LEGALITY,HUMANITARIAN","ANTI,ANTI",ANTI,The statement criticizes the lack of clear standard for targeting Americans with drones.,ff1886ca7d4dbca5f9db811831c2bfc1
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement questions whether sympathizing with the enemy automatically means he/she should be removed.,f5f5de08b9a7da4adefd591e43056995
+RELEVANT,REFERENCE,ANTI,ANTI,The statement deplores the change of Obama's attitude toward drone strikes.,8d7788a652ad15478dc9b48b7bc86bfb
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement deplores partisanship concerning regulation on drone programs.,2e5901dd11bc80f586b027f4b365751c
+IRRELEVANT,,,,"The statement discusses the legality of drone strikes on U.S. soil, not overseas.",6466f1ad762aa1a58468bfc11d294680
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of geographic and temporal limits regarding warfares.,9de4073cb508ac87a952a98164c78513
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of geographic limits regarding warfares.,6ae1913d88543c5eb64ca2ed96a2fc00
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of clear standard regarding drone strikes.,e242780acc25f6ab293a953b1e24015d
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement talks about the relationship between the freedom to worship and drone strikes.,b88a177585b289420dc1627e01a86100
+RELEVANT,HUMANITARIAN,ANTI,ANTI,The statement criticizes of drone strikes that target noncombatants. ,0db8a53d4e8d13afe86cb12de540982c
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",7d4f19f01f6c94409c156cd7395da331
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement argues that Congress should play its role to check the president's power concerning drone strikes.,6e154463ae0fd87b0d5abbf6f579117a
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of clear standard for defining what an imminent threat is and how to deal with it. ,9c55f4b244aa790e67cc3ed53bdb1873
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of clear standard for defining what an imminent threat is and how to deal with it. ,63b255290f1aad71a6a38ef6c148416c
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of clear standard for defining what terrorism is and how to deal with it. ,6c1cc357be1f0e321d6513eb41ade737
+RELEVANT,"DOMESTIC-LEGALITY,HUMANITARIAN","ANTI,ANTI",ANTI,The statement criticizes the President for not being explicit on excluding noncombatants from drone targets.,bd9fe8702471ba1f0a91080e57336b46
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of clear standard regarding drone strikes.,2ce8bf25f7f94cddfa0978418e82822e
+IRRELEVANT,,,,The statement opposes drone strikes in the United States.,5abca6ed45f13244cac311c5906d0e37
+IRRELEVANT,,,,The statement opposes drone strikes in the United States.,91166b6e7153b825099c60c71c17d147
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the President for not being explicit on excluding noncombatants from drone targets.,fa870e0e836e90a4445471f180ce94f9
+IRRELEVANT,,,,The statement opposes drone strikes in the United States.,59df9ebb3a9bd175e19bff1be0517553
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of clear standard regarding drone strikes.,7443d7aa0bab1f542e25a5188aa3c8a5
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of clear standard regarding drone strikes.,a91a5b84d93a2e1357264dd72e6a0f55
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,cdd3c825814e3f5717c71658a4827821
+IRRELEVANT,,,,The statement refers to the domestic use of drones.,f73e9aee641c7da4258b6658f506232e
+IRRELEVANT,,,,The statement refers to the domestic use of drones.,68d403f1ddea2cbf5745ea84e20e23bf
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of clear standard regarding drone strikes.,c668f321a2fbd35d21c896148841c255
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",bcd08d3cfa84f255e139aa16ba9ec293
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",5c73bb375018332c96a11a91165b7e32
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",23fceeabe56ac436aabefbf3c152fa0d
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of clear standard regarding drone strikes.,0685e4f54eba09173344e40eab33ad48
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",ed97d3a006d24881a17bf0f5a7afc072
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement concerns the possibility of using drones unconstitutionally to target an American citizen.,d3f8a574f660e54e82e2154009c10325
+RELEVANT,REFERENCE,NEUTRAL,ANTI,The statement concerns the possibility of using drones unconstitutionally to target an American citizen.,d396bca6c55baa1cfb1008c31f4e0451
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",29285ad7d026257e1484a58a42d0512d
+RELEVANT,"DOMESTIC-LEGALITY,HUMANITARIAN","ANTI,ANTI",ANTI,The statement argues that targeting an American with lethal drones wihtout due process is unlawful.,973c31d8c13083f93f0c5409f04d45e7
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",d1990d14ff6a05a01b0293f09b8b2f38
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",c1fd5cf3398966bdb6119ec7f2e7bbf1
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",77a24d653480b7f53608b234e2e51eb6
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",2f30dcdaf97ae44f75c86f51ac21e526
+RELEVANT,HUMANITARIAN,ANTI,ANTI,The statement questions whether there is any effective remedy to correct a tragic mistake in case the United States kills a wrong person.,daac1a8ecbe1c5c569a1334cbd3b46db
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",df7210c7aaf4d9cc2933a1c07c5edec5
+RELEVANT,FOREIGNPOLICY,ANTI,ANTI,The statement points out that drone strikes may be countereffective because the U.S. government cannot gather information once targets are killed.,0de1d523c755dc9f54a373be1ad3db6c
+RELEVANT,"DISCLOSURE,HUMANITARIAN","PRO,ANTI",NEUTRAL,"The statement says that noncombatants have been sacrificed in drone targets, even though the details remain classified.",b1c73c14a5369a7eec6c1cb83715ae1d
+RELEVANT,"DOMESTIC-LEGALITY,HUMANITARIAN","ANTI,ANTI",ANTI,The statement criticizes the lack of clear standard regarding drone strikes.,fce2e0548f3cc219c211cc5643517766
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",7b51a958525ad8768c4ac191c17bb72a
+RELEVANT,"DOMESTIC-LEGALITY,HUMANITARIAN","ANTI,ANTI",ANTI,The statement criticizes the lack of clear standard regarding drone strikes.,fdeeac5cdc5b186095aa232c83201694
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,The statement acknowledges that there may be circumstances in which the President can use lethal drones against U.S. citizens.,859e88abdc322b54d3934d94755c020f
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement discusses Brennan's role in drone operations.,0b329e05db0e05bb2f674e957dc9b3d9
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",63da72819707feb8597bfbde31de746b
+RELEVANT,"HUMANITARIAN,DOMESTIC-LEGALITY","ANTI,ANTI",ANTI,The statement criticizes the lack of clear standard regarding drone strikes.,6e18e4bcd33d2d527a8834f0d406155f
+RELEVANT,DISCLOSURE,PRO,PRO,The statement calls for more transparency regarding drone strikes.,002c5a3e5a374daca3c435fc81d4864a
+RELEVANT,"DOMESTIC-LEGALITY,DISCLOSURE","ANTI,PRO",ANTI,The statement calls for clear standards and transparency regarding drone strikes.,55de80ca9fcc9eea2d0ca4207b8ba839
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",e944d48ab2967a922f598bce116c9dd6
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to arguments by liberals regarding drone strikes.,bece2fd8e53882d658a74ba313d499f3
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement argues that standards for drone strikes at home and abroad should be differentiated.,1de8551ad7d73f883788a3dce2150d8b
+RELEVANT,FOREIGNPOLICY,ANTI,ANTI,The statement points out that drone strikes may be countereffective because the U.S. government cannot gather information once targets are killed.,e63dea34dc1600d5cb4597db2d7b3991
+RELEVANT,HUMANITARIAN,ANTI,NEUTRAL,"The statement does not oppose using drones overseas, but questions using them on U.S. soil.",d2ae496af95a7c73801d76942fadc0cc
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",19821850e189ba75a7bb207beda0715d
+RELEVANT,HUMANITARIAN,PRO,NEUTRAL,The statement refers to a senator's remark that the drone program will not target American citizens.,67e79be4efd24ec89aac74066cd974c6
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",7f2fa49a898239433e3e75cb704d50c7
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",1447cd632181c1c17549259cab43e02c
+RELEVANT,DISCLOSURE,NEUTRAL,NEUTRAL,The statement refers to an incident where the President was asked about the drone program.,e70333406277f48cefca405622ec7a68
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement emphasizes the significance of understanding the implications of using drones abroad.,852035390db4321ca76cdf32ba27b559
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement emphasizes the significance of understanding the implications of using drones abroad.,d9feacbd9cc8430ee36b36772d728b74
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",5a826146a324c73674c5f0881141ffc9
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",cb839ec3d1c1e50ece4b67a13e6b1c1c
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas. It does not explicitly mention it, but context clues suggest that the speaker is concerned with targeting American noncombatants in the United States.",4c0b9448405122eaff19eab5e9e42550
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,The statement argues that people should be an imminent threat to be qualified as targets. ,6f975e0c99161f6ed981e653fe9f64b8
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement concerns domestic implications of justifying drone strikes overseas arbitrarily without due process.,a7e79570e71f6aa31cc2cbcd2734f906
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",500a2ea3ca7cc2f7414cbc9a0be1c073
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",888468719c9dbd2d7e2f304c2d5f375b
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",ac13b576f01982049b5d9347bf442361
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",af6d4d8a13641e82593225c24873addb
+RELEVANT,HUMANITARIAN,ANTI,ANTI,The statement criticizes the current drone program because it attacks civilians as well. ,3716b821225e26f40742c6b1a0226702
+RELEVANT,HUMANITARIAN,ANTI,ANTI,The statement criticizes the current drone program because it attacks civilians as well. ,1be06086b282da861984abd1c20716eb
+RELEVANT,"DISCLOSURE,DOMESTIC-LEGALITY","PRO,NEUTRAL",NEUTRAL,The statement calls for more transparency and congressional oversight regarding drone operations.,32a5abb823467b052e1512be540f1005
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",0e344eb65f9b356f859341fcb5a9f977
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",336a91e3bb830ba98bde82349d952dea
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,"The statement questions distinguishing ""imminent"" and ""immediate.""",c88f21636f2f1c7065bbcffd3d4017e3
+RELEVANT,REFERENCE,ANTI,ANTI,The statement quotes the title of a piece that criticizes Obama for attacking Americans with drones.,fb006ac83492697721b0af9cd01cc6c6
+IRRELEVANT,,,,,b36c07310da225c7424402f074274a12
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement emphasizes the significance of understanding the implications of using drones abroad.,5693e0ca3f4a15e23bfd0766c79b81a8
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the way the United States justifies its drone attacks.,6917b7f92a6f78d5af7723f979c6e32b
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement calls for judiciary review on targeting Americans with drones. ,1afcaffbab4898046a998487107bb419
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement opposes drone strikes without due process or judicial review.,6c24bfc74a1bc5aba7099fa79672b76c
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,"The statement acknowledges complexities involving drone strikes, which have become the ""new normal.""",f972ab0154bc638a3b016abbc00d4cda
+IRRELEVANT,,,,The statement relates to the use of drones on U.S. soil and the applicability of the fifth amendment.,ea5fd84a275771ee3f1c98f34843fb2e
+RELEVANT,REFERENCE,ANTI,ANTI,The statement concerns domestic implications of justifying drone strikes overseas arbitrarily without due process.,20465b5345c1bab8b721fdbb8a79f754
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement concerns domestic implications of justifying drone strikes overseas arbitrarily without due process.,fad614b63d4c047fc929ff0d20d56f9d
+RELEVANT,FOREIGNPOLICY,ANTI,ANTI,The statement argues that drone strikes beget more drone strikes. ,0f6c34d87858e1e048fbffe71cbf5a35
+RELEVANT,FOREIGNPOLICY,ANTI,ANTI,The statement argues that drone strikes beget more drone strikes. ,dcc47e5ed2a78e0509b8976499aa94b7
+RELEVANT,FOREIGNPOLICY,NEUTRAL,NEUTRAL,"The statement criticizes that drone strikes beget more drone strikes, but acknowledges that they weaken terrorist organizations.",b608c98c8e0661a0752ad9753f1e0717
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,The statement argues that the use of drones at home and abroad should be distinguished.,df6944139c890c38eee59f575a1d969c
+IRRELEVANT,,,,,c7e04b559cdcb96a4fdc3196ad337de6
+RELEVANT,FOREIGNPOLICY,ANTI,ANTI,The statement points out that drone strikes may be countereffective because the U.S. government cannot gather information once targets are killed.,43adc0ff883ae2437875b943535acbd8
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to drone strikes in Yemen.,a1e4d5ebfab1ecb16e5195a0f2cf5e32
+RELEVANT,"FOREIGNPOLICY,DISCLOSURE",ANTI,ANTI,"The statement argues that drone strikes hit lower-level combatants, not top terrorists, and hence are not as effective as many assume.",cd39e7a12356d8d8416537ed936142ca
+RELEVANT,REFERENCE,ANTI,ANTI,"The statement refers to an organization that is concerned about Americans, at both home and abroad, involved in drone strikes.",71fd1fcc20d0c9e3f769931fa3a1cc0e
+RELEVANT,"DOMESTIC-LEGALITY,INTERNATIONAL-LEGALITY","ANTI,ANTI",ANTI,The statement quotes an opinion that argues drone strikes breach both domestic and international law. ,1e62e723b0465f99370495f6f5c7c81e
+RELEVANT,DISCLOSURE,NEUTRAL,ANTI,The statement refers to an incident in which an attorney was denied to access information on drone strikes.,c6be405bc189453bc7064cd3b07976a0
+RELEVANT,"FOREIGNPOLICY,HUMANITARIAN","ANTI,ANTI",ANTI,"The statement argues that it is impossible to kill every terrorist even with increased drone strikes, and points out that nearly 3,000 civilians have been sacrificed.",cfa2237e2429f2d1950bf582cfcf163d
+RELEVANT,"TRANSPARENCY,DOMESTIC-LEGALITY","PRO,ANTI",ANTI,The statement calls for greater transparency and legal basis for targeted killing.,c0f887fa1731bb9d53dd9a2be7e5bc73
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement argues that the justifications for the drone war have become more tenuous.,15ac0d7dc82820b6d2dff67011e468d2
+RELEVANT,REFERENCE,ANTI,ANTI,The statement points out that drone strikes will only beget drone strikes. ,e025e9d6ab695cd398b9d2371d821c74
+RELEVANT,REFERENCE,ANTI,ANTI,The statement points out that drone strikes will only beget drone strikes. ,fdf4f60a7514d5e310ca9d0d6d200cb6
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",d10c0da7166105684b2e38188f86876c
+RELEVANT,REFERENCE,ANTI,ANTI,The statement cites an article that criticizes drone strikes for attacking large groups without knowing who they are.,087a86e4b14c66a6cd6446b7ed69db60
+RELEVANT,HUMANITARIAN,ANTI,ANTI,The statement criticizes drone attacks for killing people without knowing who they are.,35f8cfedf0dc4a92fea172e8769b79a5
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement concerns domestic implications of launching drone strikes without clear standards.,a55069da4781db522945bedb959f9929
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement concerns domestic implications of launching drone strikes without clear standards.,3b74618049c8d67e9b8b35c42cfb9b3d
+RELEVANT,REFERENCE,ANTI,ANTI,The statement points out that many of CIA's drone strikes are signature strikes.,3836e87a03281b26345d60526ec5500b
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement concerns domestic implications of launching drone strikes without clear standards.,a14227f194a4a1086b7ae0a1189cb4eb
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement concerns domestic implications of launching drone strikes without clear standards.,b2284b997f23226f385c729314b9d35f
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",7c4cc73de68c3c3c79a41d58b6181389
+RELEVANT,"HUMANITARIAN,DOMESTIC-LEGALITY","ANTI,ANTI",ANTI,The statement criticizes drone strikes that end up killing noncombatants and calls for congressional oversight on them.,a75e5ffbea29528ae74bab6acf2d43de
+RELEVANT,REFERENCE,ANTI,ANTI,The statement discusses two disparate attitudes Pakistan takes toward drone strikes.,5a449c1d1d0810d2c4c7fa367df10f44
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of clear standard regarding drone strikes.,a9af42457e823199cadf91ce05f43c24
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement says that the Obama administration escalated targeted killing by drones as part of counterterrorism response.,fb807eaab23fc04e935cd596b1c8c4b2
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement explains the significance of a hearing on the issue of drones.,83261b68c08bc951184eb4c23cd77aaf
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to an article that discusses advantages and disadvantages of drone strikes.,2ea0d8a996a11d16b773a45984af0a20
+RELEVANT,FOREIGNUSE,ANTI,NEUTRAL,The statement concerns the possibility of the people who are being killed by the drones getting their own drones.,8c0e7a852cdc7fdd16e1ac34d123c2b0
+RELEVANT,DISCLOSURE,PRO,ANTI,"The statement welcomes increased transparency under the Obama administration, but calls for greater transparency. ",06007e46553e17968472ae9210d5c39c
+RELEVANT,"DOMESTIC-LEGALITY,FOREIGNUSE","ANTI,ANTI",ANTI,The statement criticizes the lack of clear standard regarding drone strikes.,1a744414f4830fa26b279cc6a5f9862e
+RELEVANT,"DOMESTIC-LEGALITY,INTERNATIONAL-LEGALITY,DISCLOSURE","ANTI,ANTI,PRO",ANTI,The statement calls for greater transparency and legal basis for targeted killing.,081457672c128d77d536291468dcdd01
+IRRELEVANT,,,,The statement refers to the domestic use of drones.,7f5f75a532340a0d2bd45be20e66d65c
+RELEVANT,FOREIGNUSE,ANTI,NEUTRAL,The statement concerns international implications of drone strikes by the United States.,cfa579355e858a9906d777c3eea5f143
+RELEVANT,FOREIGNPOLICY,ANTI,ANTI,The statement argues that drone strikes are not necessarily effective in fighting international terrorism.,363ea6aaea61526bebd6e3d4371c4ef6
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement cites an independent research reporting that thousands of lives have been killed in drone strikes.,37720d7ea3e007ce0c07773730dbc606
+RELEVANT,"HUMANITARIAN,DOMESTIC-LEGALITY","ANTI,ANTI",ANTI,"The statement criticizes the lack of clear standard regarding drone strikes, which end up killing noncombatants as well.",259380f3180e6bfce51c87c944f7fd1f
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of clear standard regarding drone strikes.,491639a6f321b198af65b40afcb053da
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the President's ambiguous standing on justification for drone strikes.,3513811b03b3839b2b23fd697bccca62
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement calls for Congress to play its role and regulate drone strikes.,dad1988330b1c1c88b31db1119b9d769
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the President's ambiguous standing on justification for drone strikes.,fe2b9df6efd92890e8402d21efe1f193
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of clear standard regarding drone strikes.,f373aa89054641243038339acf34d1a1
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the President's ambiguous standing on justification for drone strikes.,9f648c943936d391bca7410939b34720
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the President's ambiguous standing on justification for drone strikes.,cdee32ce1f9690abc4c9174499aec329
+RELEVANT,HUMANITARIAN,ANTI,ANTI,The statement argues that lots of drone strikes kill noncombatants.,cfa7967298887fb9cf3fbcab403ced2d
+IRRELEVANT,,,,The statement discusses drones in a surveillance role.,c3cd92ed464f38af991cc5e4ec89e248
+IRRELEVANT,,,,The statement discusses drones in a surveillance role.,16eaa62aaeeadd1e45cae46e118b82de
+IRRELEVANT,,,,The statement discusses drones in a surveillance role.,b042fbe93f94feeff2a61ea4b113fe3e
+RELEVANT,"HUMANITARIAN,DOMESTIC-LEGALITY","ANTI,ANTI",ANTI,"The statement criticizes the lack of clear standard regarding drone strikes, which end up killing noncombatants as well.",f7282e5d11dba51a2b91ed6844092318
+IRRELEVANT,,,,The statement discusses drones in a surveillance role.,7c4c274dc0f25c69388680df3c87e230
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",8dd777efd9c9e2d4fe5f89cb30d2ee72
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",79c4c5142f542ac1d1da300df1fcd497
+RELEVANT,FOREIGNUSE,ANTI,NEUTRAL,The statement concerns international implications of drone strikes by the United States.,0c405958184dcfe3b66475c8ed6ca081
+IRRELEVANT,,,,The statement refers to the domestic use of drones.,23d1af78c94372d8b43e6b47f6526af4
+IRRELEVANT,,,,The statement refers to the domestic use of drones.,88f54cd399ff6d1944bede29a1a5e95a
+IRRELEVANT,,,,"The statement specifically refers to drone strikes on U.S. soil, not overseas.",eb2cfaa978576d922d4f2a9dc55ffa33
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement quotes a remark that says drone technology will proliferate rapidly in the United States.,45d07dd05cda3f42113016460f110855
+IRRELEVANT,,,,"The statement specifically refers to the use of drones on U.S. soil, not overseas.",bbca8e99ae9bc86759adc03898ee992b
+IRRELEVANT,,,,The statement refers to the domestic and private use of drones.,dd44ac4d4aae42569af55af65b4bd2cb
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,cc7ec5f2108555a8e853375e5f00dc0b
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,7a3743863ba9bca8ed7558ba4c744195
+RELEVANT,REFERENCE,ANTI,ANTI,The statement criticizes Holder's reasoning for justifying drone strikes.,12d5ca8941964640991d82ee9826aa36
+RELEVANT,REFERENCE,ANTI,ANTI,The statement criticizes Holder's reasoning for justifying drone strikes.,66fe46c9e8930baf6f86b15cf956a484
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement introduces a case in which a senator requested information on drone strikes.,4582d8d93c66a08e205638c3792445f5
+IRRELEVANT,,,,"The statement specifically refers to the use of drones on U.S. soil, not overseas.",eea99f804eac117f2d9fabc0424ebdc1
+IRRELEVANT,,,,"The statement specifically refers to the use of drones on U.S. soil, not overseas.",88422af6df5044061d8de341081603b0
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of clear standard regarding drone strikes.,407840a9cd605cb1be729a4a391e16c1
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of clear standard regarding drone strikes.,60c523b373dcd19affe4bdade221ba83
+IRRELEVANT,,,,"The statement specifically refers to the use of drones on U.S. soil, not overseas.",62574fb78bc85875b9a5785bfc5abd57
+IRRELEVANT,,,,"The statement specifically refers to the use of drones on U.S. soil, not overseas.",9d02af785ecd0113168b40b1d5989af6
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement introduces a hearing on drones.,8121996394deb202688cebdb80a6d0d3
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement explains the significance of a hearing on the issue of drones.,8b46593ccaa0c2a1bea750465f4f55b7
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement explains that the speaker does not oppose drone strikes per se.,71dd767bbd88e609390e80bbfdfd1b9f
+IRRELEVANT,,,,"The statement specifically refers to the use of drones on U.S. soil, not overseas.",a3b2e90787a66b312a536381468e73b5
+RELEVANT,HUMANITARIAN,ANTI,ANTI,"The statement criticizes drone strikes overseas that kill noncombatants. It also criticizes having no clear standard at home regarding the use of drones, but I leave this justification out due to the scope of this project. ",8851d20b51c4d0f11f28f8b6b1730ace
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement discusses votes on the issue of drones. ,fbc7ff9440649f51709601ff7f55b82d
+RELEVANT,"HUMANITARIAN,DOMESTIC-LEGALITY","ANTI,ANTI",ANTI,"The statement criticizes the lack of clear standard regarding drone strikes, which end up killing noncombatants as well.",34f10069a9219f8ceccebd406fee0031
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drones in the context of voting for a political appointee.,d2caf6ab6c914fd73ee10332705fd19c
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drone strikes in discussing an extraordinary circumstance that would require an immediate response.,0d8a1dde5cad9d1013c969a147d96613
+IRRELEVANT,,,,"The statement specifically refers to the use of drones on U.S. soil, not overseas.",76580166b345b82105daae6f60936a70
+IRRELEVANT,,,,"The statement specifically refers to the use of drones on U.S. soil, not overseas.",b9290b6df740482dc6233b1d423d5c26
+IRRELEVANT,,,,"The statement specifically refers to the use of drones on U.S. soil, not overseas.",259fc5991be4b4ff0e4cf9fa383809b3
+IRRELEVANT,,,,"The statement specifically refers to the use of drones on U.S. soil, not overseas.",d52f988138c7519f5f1fef9012ae9822
+IRRELEVANT,,,,"The statement specifically refers to the use of drones on U.S. soil, not overseas.",d52f988138c7519f5f1fef9012ae9822
+IRRELEVANT,,,,"The statement specifically refers to the use of drones on U.S. soil, not overseas.",2de82c85ce4197a236f9d51528b57b24
+IRRELEVANT,,,,"The statement specifically refers to the use of drones on U.S. soil, not overseas.",40421168b43a72234112999cc6289252
+IRRELEVANT,,,,"The statement specifically refers to the use of drones on U.S. soil, not overseas.",bb9546771b2ef431361bc12c22f3a130
+RELEVANT,HUMANITARIAN,ANTI,ANTI,The statement criticizes drone programs for often targeting people who are not involved in combats.,4154c7c921cebb773870394f75d00967
+IRRELEVANT,,,,"The statement specifically refers to the use of drones on U.S. soil, not overseas.",a2379fe7a73df1f4d5191b110e657a69
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement discusses the contradiction of due process requirements between an individual overseas and the one at home.,863459079527e94ea104bb5295694d87
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement discusses the contradiction of due process requirements between an individual overseas and the one at home.,82732b18fe535c2e662bded43befa946
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement discusses the contradiction of due process requirements between an individual overseas and the one at home.,171965a3933261cd371ba46417beb1c0
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement lists questions that should be answered concerning drone strikes.,f17413ee7024d3369287e755b7ba0693
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drones in explaining the significance of clarifying standards for drone strikes.,d916bd6f9c23dafc6a74cdb0fff49054
+RELEVANT,HUMANITARIAN,NEUTRAL,NEUTRAL,The statement mentions an argument that claims no evidence exists to prove civilian casualties resulted from U.S. drone strikes.,8c3ce2f9fa2e362de333a8a925e154c6
+RELEVANT,REFERENCE,ANTI,ANTI,The statement questions the reliability of a statement that claims no evidence suggests U.S. drone programs targeted civilians.,51fb8fde46bebf055296e337482b75c6
+RELEVANT,HUMANITARIAN,ANTI,ANTI,The statement insinuates that civilians have been sacrificed in U.S. drone strikes.,87ca4da26117d62a5a2a523aa8700594
+RELEVANT,"DOMESTIC-LEGALITY,HUMANITARIAN","ANTI,ANTI",ANTI,"The statement criticizes the lack of clear standard regarding drone strikes, which end up killing noncombatants as well.",28386c7a5f66b45f0de7506926c7f894
+RELEVANT,"HUMANITARIAN,FOREIGNPOLICY","ANTI,ANTI",NEUTRAL,"The statement asks a question about the scope of U.S. drone strikes, which potentially kill civilians and antagonize the local population.",b813599607969fc9edddddf1a483bbda
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement asks a question about the frequency of U.S. drone strikes.,9b9d729fe65996da5c4ab5230dd5709e
+IRRELEVANT,,,,"The statement specifically refers to the use of drones on U.S. soil, not overseas.",fb25341d69e5a475d51e3b4723c5f923
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,The statement questions the legal basis of drone strikes.,c0befebe386caa6eb3985a2db3b33275
+RELEVANT,FOREIGNPOLICY,NEUTRAL,NEUTRAL,The statement asks a question about the scope of U.S. drone strikes as part of counterterrorism operations.,f6a270f2eccf7d501f2fb688e3b9c4eb
+RELEVANT,FOREIGNPOLICY,NEUTRAL,NEUTRAL,The statement asks a question about the scope of U.S. drone strikes as part of counterterrorism operations.,96703917e2482006931349ef34492d55
+IRRELEVANT,,,,"The statement specifically refers to the use of drones on U.S. soil, not overseas.",041fb569b0a0e8119e1e1439dd7f14e5
+IRRELEVANT,,,,"The statement specifically refers to the use of drones on U.S. soil, not overseas.",40b75d5c4d2a2b03c2d22f04f66bba4b
+IRRELEVANT,,,,,b7e77b71fb32fbd089c6acec8cebbb5e
+IRRELEVANT,,,,The statement relates to the use of drones on U.S. soil and the applicability of the fifth amendment.,9453ed036f08f54b3618411782906a00
+IRRELEVANT,,,,The statement relates to the use of drones on U.S. soil and the applicability of the fifth amendment.,1205087b5717462392a2b5f2ec42dba7
+IRRELEVANT,,,,The statement relates to the use of drones on U.S. soil.,fd91130737fbdc2ff5044f5218437c9f
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement discusses the contradiction of due process requirements between an individual overseas and the one at home.,26648a4229b6f107392880bed0c45c55
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement calls for clearer standards regarding targets for drone strikes.,022f956e9bd5fe54fbd2a79bd27cf2db
+IRRELEVANT,,,,The statement relates to the use of drones on U.S. soil.,d0f5351a61836b30dadb2abeee9ff9f8
+IRRELEVANT,,,,The statement relates to the use of drones on U.S. soil.,be982fcb2c530ddfb107bed6cbbb6fa7
+IRRELEVANT,,,,The statement relates to the use of drones on U.S. soil.,8b32d1f5bf33f814f35dd730875119bb
+IRRELEVANT,,,,The statement relates to the use of drones on U.S. soil.,e670dabb96775015f1eb32eed8376ccb
+IRRELEVANT,,,,The statement relates to the use of drones on U.S. soil.,cb12de50f2ab66060d3d3d2aede21729
+IRRELEVANT,,,,The statement relates to the use of drones on U.S. soil.,67be36d38b1f76c8b60cc764def281da
+IRRELEVANT,,,,The statement relates to the use of drones on U.S. soil.,d8c98bfe12fb62d76a5523d726d6589a
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement acknowledges that drones can be lethal.,ee0dea47d48dc54354c8c023d323600b
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of clear standard for targeting Americans with drones. ,ac52395dc5982e3a86d8df8433da45c6
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of clear standard for targeting Americans with drones. ,78847289260c054cd3fc54294f74936f
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement criticizes the lack of clear standard for targeting Americans with drones. ,f5aa860947bfdcbf44751c26bbf9c11e
+IRRELEVANT,,,,The statement relates to the use of drones on U.S. soil.,3a9a7bc197fe42b35b466dbe70d61ed8
+IRRELEVANT,,,,The statement relates to the use of drones on U.S. soil.,dcfabe8d80dc7f73d22a00a8abd377c0
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement praises drone strikes against terrorists.,b771d4f271e88999ad179909e5cf668f
+IRRELEVANT,,,,The statement relates to the use of drones on U.S. soil.,c67186bab9ebbb7aa01e95d4308221d9
+IRRELEVANT,,,,The statement relates to the use of drones on U.S. soil.,1608cc5b00716a80a2e675e1d2c7ae66
+RELEVANT,FINANCE,ANTI,ANTI,The statement criticizes two services doing essentially the same thing with the limited amount of resources.,849dcc7982fb19757c951d63ad8c61db
+RELEVANT,FINANCE,ANTI,ANTI,The statement criticizes two services doing essentially the same thing with the limited amount of resources.,4f47d3404cdce956829503c33eed2750
+RELEVANT,FINANCE,ANTI,ANTI,The statement criticizes two services doing essentially the same thing with the limited amount of resources.,1d96e62baf1c7f4e997d7479d7181c16
+RELEVANT,FINANCE,ANTI,ANTI,The statement criticizes two services doing essentially the same thing with the limited amount of resources.,49d1ad5e367db3266f689eb6871e799c
+RELEVANT,FOREIGNUSE,ANTI,ANTI,The statement refers to the Japanese attack at Pearl Harbor.,0ca54582bbbfec60cd6a8efd928c225c
+RELEVANT,HUMANITARIAN,NEUTRAL,NEUTRAL,"The statement points out that human lives are involved in military operations overseas, who are friends and families of someone.",51b40f2959d3db0799a132e3d29a05c2
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drones in discussing whether the president will rely on drones only or deploy people overseas.,79d93ce6161549ddfd31967db7d94f9b
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement supports the president's idea to use drones to destroy the Islamic State.,9deab9957de1ed19fd547634ff65dde8
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement supports the president's idea to use drones to destroy the Islamic State.,df42e99d12689ea576289f1dc689ecfb
+RELEVANT,FOREIGNPOLICY,ANTI,ANTI,The statement criticizes the president's idea to use drones to destroy the Islamic State. ,cb3c6d3bd6945ef070fe0e2c9af7752a
+RELEVANT,FOREIGNPOLICY,ANTI,ANTI,The statement criticizes the president's idea to use drones to destroy the Islamic State.,68b8df349df429fbb6f1644c295f73f4
+RELEVANT,FOREIGNPOLICY,ANTI,ANTI,The statement criticizes the president's idea to use drones to destroy the Islamic State. ,4171cf1be6e73ea8eed23d644a37108e
+IRRELEVANT,,,,The statement is irrelevant to drone strikes overseas.,c5925adc9b804dc334a49d7200384d78
+RELEVANT,REFERENCE,PRO,PRO,The statement supports the president's idea to use drones to fight terrorism.,7024ecd84b2a68964bae3f8b7890a835
+IRRELEVANT,,,,The statement relates to drones in a surveillance role.,e8b49265b5d914a1da80051b5811bddc
+RELEVANT,TECHNOLOGY,PRO,PRO,The statement discusses drone technology in the 1940s that enabled naval aviators to hit targets accurately while remaining out of danger.,ee92fcf6fffc3f8063fa12dfcc133619
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions the speaker's experience relevant to drone programs back in the 1940s.,45567aa791e919afa32386b32093923e
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions the speaker's experience relevant to drone programs back in the 1940s.,7f30d93eb0240d2f1ee9f42a063780a1
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions the speaker's experience relevant to drone programs back in the 1940s.,6df207dc675b575d4d839f4a22153f78
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drones in discussing rewarding members of the armed services who operate the drones.,1354c60182f98b36b1b308666fc80df3
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions a drone strike that killed al-Awlaki.,5474c890d9adc99e14cb07dad4a2e3c4
+IRRELEVANT,,,,The statement relates to the use of drones on U.S. soil.,2781c37eb9df86122fe6c1ae0fb7f16d
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drones in discussing rewarding members of the armed services who operate the drones.,fd904e45d4d0eb037c8f7ac7c43ff4aa
+IRRELEVANT,,,,The statement mentions drones in discussing filibusters.,62ae1c68fb56401ee3ed0ea5dc3db96f
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions a specific type of drone. ,5f931fc4d88a2e45f5ad8eb874a38e7c
+IRRELEVANT,,,,The statement mentions drones in introducing a filibuster.,a792063effdc66cc08017090c54f96c8
+IRRELEVANT,,,,The statement discusses drug and health issues.,b0b191f79fddb69081a98dec805e6923
+RELEVANT,TECHNOLOGY,PRO,PRO,"[NON-OBVIOUS] The statement argues how valuable Fort Rucker is for testing and developing UAVs. However, it is not necessarily clear whether the speaker talks about surveillance drones or lethal drones. ",5b886c8a4ee0ab9a5e8b95b812418b5a
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,df28c46c75c3c7b42b412d7ec98e0097
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,7d97d9c212a61790b700c80c3cd6fd5a
+IRRELEVANT,,,,The statement refers to drones in a domestic context.,d53a4c0d09d0d6c3706025b086ca213b
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,18c33331cded781e3d79f617d1e74ceb
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,1ec70b72e3f98794aa6207bcb723f546
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement mentions that drones strikes are an effective and professional way to fight warfare.,2456621a2d248209266d8f7bfa72e180
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement mentions that drones strikes are an effective and professional way to fight terrorism.,df685b359894f278ead715799680e1d4
+IRRELEVANT,,,,The statement refers to the domestic use of drones. ,908021904fcb100d7ff44948c6679be6
+RELEVANT,REFERENCE,PRO,PRO,The statement commemorates contribution of an individual to drones used in combat.,bba8a9947bcd84c8c52a31508f7d2ebd
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement commemorates contribution of an individual to lethal drones used in combat.,5c671beb758bcf6a0b2d94063f081aaa
+RELEVANT,FOREIGNPOLICY,ANTI,ANTI,The statement is critical of the administration launching drone strikes to fight al Qaeda.,b4846f996903327056dde635d60dc615
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drones in discussing the administration's decision to kill and torture radical jihadists.,56e98aca30917d4de8c83d62b02fedf2
+RELEVANT,"HUMANITARIAN,FOREIGNPOLICY","ANTI,ANTI",ANTI,The statement points out that drones entail civilian deaths and antagonize the local population.,f40c698afd72967a3e968f21427f6a87
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement calls for congressional oversight regarding drone strikes against American citizens.,894392b7e2f3fc9b88fc0b31c5a107c1
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement calls for congressional oversight regarding drone strikes against American citizens.,d7f9375025d7b122d5411baf0d91df52
+RELEVANT,"HUMANITARIAN,FOREIGNPOLICY","ANTI,ANTI",ANTI,The statement points out that drones entail civilian deaths and antagonize the local population.,b5f792f77a852a69cf88459245a63533
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to a drone strike that killed al-Awlaki.,0488ed0e91abc18ca633ab571b6653f4
+IRRELEVANT,,,,The statement mentions drones in discussing the suitability of a political appointee.,5b759dbf52557d364b3f82d1b86daeb8
+RELEVANT,"HUMANITARIAN,FOREIGNPOLICY","ANTI,ANTI",ANTI,The statement explicitly points out that drones bomb innocent people and implies that they are not effective in fighting terrorist organizations.,335941fcab17b26190e9ab72026370f8
+IRRELEVANT,,,,The statement mentions drones in discussing the suitability of a political appointee.,8c379cd00baae6891e999ee582bdac89
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement argues that high-tech drones are necessary to keep the United States safe. ,edce0867cdcc9cb417dc5c5de76f81ec
+RELEVANT,REFERENCE,ANTI,ANTI,The statement conveys the speaker's diasppointment regarding an amendment on drones. ,d453e6d84137ce326c42cbb1c3b2fbfb
+RELEVANT,HUMANITARIAN,ANTI,ANTI,The statement opposes drones based on humanitarian grounds.,ed962156efe9a6414e267ac0f7e469f7
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drones in discussing military training and testing areas.,b1ec2237e346d90fa97de3161388c362
+IRRELEVANT,,,,The statement relates to drones in a surveillance role in the domestic context. ,d7e3ad8f6e74886d09a3f47e786d1633
+IRRELEVANT,,,,The statement relates to drones in a surveillance role in the domestic context. ,6a93d7960b833b49a3a82c1460bbd7c4
+IRRELEVANT,,,,The statement relates to drones in a surveillance role in the domestic context. ,ca04bd60dffdd25b3133fd27b504f9fa
+IRRELEVANT,,,,The statement relates to drones in a surveillance role in the domestic context. ,853d6282d92c79a4d2c60801cbcb51bb
+IRRELEVANT,,,,The statement relates to drones in a surveillance role in the domestic context. ,70cc0e4e5e093b15ae9c024970beec1a
+IRRELEVANT,,,,The statement relates to drones in a surveillance role in the domestic context. ,04509cdc4c3093576a3c51cc7764cf75
+IRRELEVANT,,,,The statement relates to drones in a surveillance role in the domestic context. ,9e124e97187747cf6943cecdc95ccbe9
+IRRELEVANT,,,,The statement relates to drones in a surveillance role in the domestic context. ,e245d5eed2e9d26224c4492140f9c825
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drones in discussing bases in the United States. ,34662d9d0dafd1ebcbefe8f31b2916cf
+RELEVANT,"HUMANITARIAN,FOREIGNPOLICY","ANTI,ANTI",ANTI,The statement opposes drone strikes that entails civilian deaths and prolong conflicts in the Middle East.,e5ea093f11fb3c4a23a77084ad36de1a
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,7d234740a5d67536209a8a8fa5390f17
+RELEVANT,FOREIGNUSE,ANTI,,The statement refers to the potential use of drones by Iraq.,3c8fce72760d66c21f45c5397eec3d39
+RELEVANT,FINANCE,PRO,PRO,The statement supports a bill that funds military operations including drones. ,eab8cd16591eb02ecd79125f6d555a95
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,e1862a67f7443e433654a1c774707180
+RELEVANT,FINANCE,NEUTRAL,NEUTRAL,The statement explains what the government can do with $3 billion.,59183585e6ada5226df3960e3c632dd3
+RELEVANT,DISCLOSURE,PRO,ANTI,The statement is critical of CIA's authority to launch drone strikes in secrecy without congressional oversight.,6ff5428c2818cf9e41b72e903c93cdc3
+IRRELEVANT,,,,The statement discusses preservation of the nature. ,c8f8eb8a60590eb2a6eb22d1da1993a1
+IRRELEVANT,,,,The statement discusses drones in a surveillance role.,c77e1425bd1cdd19150661e35ef12c9f
+RELEVANT,"DOMESTIC-LEGALITY,INTERNATIONAL-LEGALITY","NEUTRAL,NEUTRAL",NEUTRAL,The statement explains how foreign government apply international law to sue drone striked by the United States.,85de4b2fe245656c6a2ae77b85ed27bd
+IRRELEVANT,,,,The statement is a tribute. ,6264c116ccabcaa5d0aa9ac821a37212
+RELEVANT,FOREIGNUSE,ANTI,,The statement refers to the potential use of drones by Iraq.,0ccd2bd9297168ae6e2a8346d36c77b9
+IRRELEVANT,,,,The statement relates to discussions at the Senate.,6588eb629cf64c84ee1dd72b3b12278e
+RELEVANT,"HUMANITARIAN,FOREIGNPOLICY","PRO,PRO",PRO,The statement says that drones can fight terrorism without putting American lives at risk. ,525df8f8fb0f113e3c829f6194a2d5b7
+RELEVANT,HUMANITARIAN,ANTI,ANTI,The statement criticizes drone programs as they potentially entail civilian deaths.,898e5821e250e8ed59a35a99408bd70a
+RELEVANT,FOREIGNPOLICY,ANTI,ANTI,The statement points out that drone strikes may enable terrorist groups to coordinate their actions.,0196132131e9c9e28a9882ad9020183e
+RELEVANT,REFERENCE,PRO,PRO,The statement highlights contributions by small firms to developing drones. ,5b202428b015dff62e1ed59972d34e7a
+RELEVANT,PTSD,NEUTRAL,ANTI,The statement points out that mental health challenges that members of military services suffer are understudied.,4a2fd7299ccf63b54934632130039472
+RELEVANT,FOREIGNUSE,ANTI,,The statement refers to the potential use of drones by Iraq.,f4df83a36f273671513b76815236cdf9
+RELEVANT,DISCLOSURE,PRO,ANTI,The statement points out that Congress was given false information. ,8087e4cf87d520e26991780a1a5991e7
+RELEVANT,DISCLOSURE,NEUTRAL,NEUTRAL,The statement discusses how to make sense of contradictory information that is now available.,0086a017df078e64bff02d2fffe7a671
+RELEVANT,"FOREIGNPOLICY,DOMESTIC-LEGALITY","PRO,ANTI",PRO,"The statement is critical of internal disputes on intelligence priorities that delayed development of the Predator, which is an effective asset. ",623e4128f96b27cc796dd2bbe14b63bf
+IRRELEVANT,,,,,d20f70ff9384c291a7b5425834df6380
+RELEVANT,FINANCE,PRO,PRO,The statement attributes the drone industry in Nevada to American taxpayers.,ac3fb6bf36f2d6c42f5a1eedebe02d12
+RELEVANT,FOREIGNUSE,ANTI,,The statement discusses China's military modernization.,c3c6f05f675c412a06397b3c6c0977b3
+RELEVANT,FOREIGNUSE,ANTI,,The statement discusses China's military modernization.,d2bdc4a8915b61ccb72815619d974cf5
+RELEVANT,FOREIGNUSE,ANTI,,The statement refers to the potential use of drones by Iraq.,7a62f0c285fda6a2fc292655b70a39d4
+RELEVANT,FOREIGNUSE,ANTI,,The statement refers to Ukraine's request for modernized weapons.,1f394f97b279db0e5c5960034f8a9526
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,4bd13222ac7c34de52dc69fc54c37e60
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,c3fc9cdc988c030436330158c802402d
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,419d5950132dcd6fbab3d6b4d119b191
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,769c56b150e0fda0d84dba21b1f9e5fe
+RELEVANT,"FOREIGNPOLICY,HUMANITARIAN","PRO,PRO",PRO,The statement argeus that drones are beneficial in fighting terrorism without putting American troops in danger.,80111e46f007480d59345a1a828822f4
+RELEVANT,FINANCE,PRO,PRO,The statement argues that earmarks for drones enabled what the U.S. military enjoys today.,dc90b874fca6fa1059a7178a3e053c6b
+RELEVANT,DISCLOSURE,PRO,NEUTRAL,The statement quotes a scholar calling for public disclosure of legal materials addressing the use of drones against American citizens.,1758b499933d83259640e7120efdf88a
+RELEVANT,DISCLOSURE,PRO,NEUTRAL,The statement quotes a scholar supporting public disclosure of legal materials addressing the use of drones against American citizens.,fc43a16cda6093339566d88c4de5177a
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement is critical of authorizing drone strikes both at home and abroad.,885bd58a9f356386d06895c661f8ffa6
+IRRELEVANT,,,,The statement is a tribute.,cc42ef2c4842cd1b9c59da20ddbbcce9
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,d558c2ea372c0ba492e5590d3a2c5dbc
+RELEVANT,REFERENCE, NEUTRAL,NEUTRAL,The statement mentions drone operations of the Predators.,31e579c11b82c5eb133b9238769eb1cb
+IRRELEVANT,,,,The statement is a tribute.,6289740d9219e3120406386b024946ab
+IRRELEVANT,,,,,9e5a1ba3fa93a73ffd68b4a63930b3ca
+RELEVANT,FINANCE,ANTI,ANTI,The statement prohibits funds relating to UAVs. ,697e9d28c309e1f148e9dc20aae69389
+RELEVANT,REFERENCE,PRO,PRO,The statement mentions drones as part of measures to protect the United States.,7af1976972d74bda6ac84b7d03c3a404
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drones in discussing Benghazi attacks. ,203a74e46340e39a2b03529036452a1e
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drones in discussing Benghazi attacks. ,9139e5cf3704ba9155ab0e2ff285c410
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drones in discussing Benghazi attacks. ,2d34a5dc08b94893689c827093d7c3b6
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement acknowledges that drones are effective in fighting terrorism.,2e3b3ecafb974b7022b0e6ba479cd3be
+RELEVANT,"FOREIGNPOLICY,HUMANITARIAN","PRO,PRO",PRO,The statement argues that drone operations fight against Qadhafi's forces in an effort to protect civilians.,53810f6c1b0b98afb72f657f7c1fc265
+IRRELEVANT,,,,The statement is a tribute.,092e79c144a5d17ba52204aa5baa0a86
+IRRELEVANT,,,,The statement discusses Russina politics.,83834350c4b12360802b6607f0f95f36
+IRRELEVANT,,,,The statement relates to health care negotiations.,f29134f84a18e1e703578da6779b1c27
+RELEVANT,FINANCE,PRO,PRO,"[NON-OBVIOUS] The statement worries that the cut would stop work on UAVs. That said, the speaker supports funding UAVs. However, it is ambiguous whether the speaker refers to lethal drones or surveillance drones. ",df178079641759e0d19bb547c73c1cbe
+RELEVANT,REFERENCE,PRO,PRO,"The statement introduces Arizona with pride that it offers ideal training environment to drone programs, which will ultimately used in combat overseas. ",a09b60cd5ecb0e498068a40dae9f9e33
+IRRELEVANT,,,,The statement discusses drug issues.,9e2751b6fba8dc191b5846fb5a0ff153
+RELEVANT,REFERENCE,PRO,PRO,The statement opposes drills that are incompatible with military activities including flying drones. ,b7a3551dec907b57ab8427d9a2c696a6
+RELEVANT,FOREIGNPOLICY,ANTI,ANTI,The statement argues that killing targets with drones may not be effective as dead targets do not give any information.,0523d72d8ef8b31a5338f89c95f7578f
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to a specific drone attack that killed a member of ISIS.,bd928fe96b06e9f3e6d84c67fa05e570
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to a specific drone attack that killed a member of ISIS.,357a6ef7dad57722efc40d252b2133b1
+RELEVANT,REFERENCE,PRO,PRO,"The statement takes pride in U.S. specialized assets, including drones. ",d76b102dd3e704d622c108e4d112b9a5
+RELEVANT,FINANCE,PRO,PRO,The statement requests funding for UAVs.,5f9f2872a8e4e99cb7c604ef20e5e898
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,4ebeed2c6ab634aaa8c5d72364a0fae9
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drones in introducing advanced missile defense system of the Toronto.,518f889497e368045fae0811e2d4f437
+RELEVANT,REFERENCE,ANTI,ANTI,The statement worries collateral damage caused by drone strikes. ,08c41ec979cf12e28b58aef85ecaaf74
+RELEVANT,REFERENCE,PRO,NEUTRAL,The statement mentions a drone strike that killed al-Awlaki.,678ba11eb9dc0cd6daaf5df42088fd30
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions a drone strike that killed al-Awlaki.,cf3b156ee892e3b8261b225a9dd4863b
+RELEVANT,REFERENCE,PRO,PRO,The statement mentions burgeoning drone industry in Idaho.,03518f7b45c77a2163b4756789bbf8aa
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,eab91663440fd042baafde5334cff4c4
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,7faf05173b52041b96f19db68ca6926b
+RELEVANT,REFERENCE,ANTI,ANTI,The statement is critical of Obama's counterterrorism policy.,923681492efbcc269b8fd5e2694dd1e3
+RELEVANT,REFERENCE,ANTI,ANTI,The statement is critical of Obama's counterterrorism policy.,1ff4bceb8ab9b46010827557ccbcf8b6
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,56bf354cab4e5c4ebacf4b7c163a134f
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,7236da9f5ac493f3fdfdeeb07c9cbd01
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,85bd8afd2cdad497f978e5e15b5f0024
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,0ca876e443ddfb39f676854b18d7c505
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,168c7d89ec06f2a7d5336c3fb36e2e8e
+RELEVANT,REFERENCE,ANTI,ANTI,"The statement is critical of drone strikes, which some people view as de facto acts of terrorism.",60e99b4973c55195f129245ab5f723c0
+IRRELEVANT,,,,The statement mentions drones in discussing a filibuster on drones.,ba1c894ad2404a230f27edc551039b18
+IRRELEVANT,,,,The statement mentions drones in discussing a filibuster on drones.,6fd7c1a1b4b49109c49c4732a5601b93
+IRRELEVANT,,,,The statement mentions drones in discussing a filibuster on drones.,f6c2d86faac29b164ca0feb4a169d521
+IRRELEVANT,,,,The statement mentions drones in discussing a filibuster on drones.,81e9db6a81959a3313122b62ca04edf8
+IRRELEVANT,,,,The statement mentions drones in discussing a filibuster on drones.,1f05bac43dc1ee0861d6d5ba1226792a
+RELEVANT,REFERENCE,ANTI,ANTI,The statement is critical of the Obama administration's drone policy.,887ad2aaceed3d25d827573f71046314
+RELEVANT,REFERENCE,ANTI,ANTI,The statement is critical of the Obama administration's drone policy.,cb2c2efeeb6698614388a28133e61701
+IRRELEVANT,,,,The statement mentions drones in discussing a filibuster on drones.,dae6e275cc1c1f4e386f3d8a33c49e58
+IRRELEVANT,,,,The statement mentions drones in a surveillance role.,149b2b81babf5d03578635be63ea54c1
+IRRELEVANT,,,,The statement mentions drones in a surveillance role.,f0e1fc01dbcf1393d58a5d210975983d
+IRRELEVANT,,,,The statement relates to agricultural issues.,123412e3ee3b6e142dd595bd73086395
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drones in discussing the presence of ISIS.,8ec4767191ca204edc15fcdc5c314c1e
+RELEVANT,FINANCE,PRO,PRO,The statement lists specific figures for drone programs. ,5cff685f0b820ef294e2268a907a586c
+IRRELEVANT,,,,The statement relates to agricultural issues.,96701ff19a4678cbe5bc10c91d675ddb
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement argues drones have great potential to support troops on the ground. ,c056bedff703d9c2f076af977c7eb0ed
+IRRELEVANT,,,,The statement is a tribute.,7470201db5165e51d37c989b0a39938b
+RELEVANT,FINANCE,PRO,PRO,The statement confirms funds for drone programs.,651db67528679f818ea3c3ea914769da
+IRRELEVANT,,,,The statement relates to agricultural issues.,563f0c2adbb0ee2820f8ef14ed84f4f2
+RELEVANT,REFERENCE,PRO,PRO,The statement mentions that drones can supplement military operations when indigenous forces prove insufficient.,31f576ead41999f54064e41e24ed3442
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to drone strikes in Pakistan.,131832f73182cfaac3b66968d293573a
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement says that drone strikes successfully killed the leader of the Taliban.,4331989c801016b1f507fe7342297056
+RELEVANT,FINANCE,ANTI,ANTI,The statement argues that there will be financial challenges in purchasing UAVs.,73c27d4f51bf6b7c0027ae84aa1f2fe2
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement explains the stance of the Air Force regarding UAVs.,9497e8bcf578990066846674796b01de
+RELEVANT,HUMANITARIAN,ANTI,ANTI,The statement is critical of drone strikes because they kill the innocent. ,04e200b525136275a3e5f4b450680958
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions a drone strike that killed al-Awlaki.,aba5beaaac76918fcdbd98b57383e2df
+IRRELEVANT,,,,The statement relates to durg issues. ,ea12e36e07b0c1e92c00e00bc1c7f5fa
+IRRELEVANT,,,,The statement relates to durg issues. ,050b088612c86eed783e0b12d31fe7ae
+RELEVANT,FINANCE,NEUTRAL,NEUTRAL,The statement explains what applies to a defense act in a certain fiscal year. ,c7182e8c6d3f85386983a713263a5887
+RELEVANT,FINANCE,NEUTRAL,NEUTRAL,The statement explains what applies to a defense act in a certain fiscal year. ,d26586aa99358d66f06875a3686f112a
+RELEVANT,FINANCE,NEUTRAL,NEUTRAL,The statement explains the defense budget. ,67b77ca308852dde31067788b46da8ef
+RELEVANT,FINANCE,NEUTRAL,NEUTRAL,The statement explains that the defense budget is limited and cannot purchase everything. ,ea8336c91187d362cb6a32be5c872fde
+RELEVANT,FINANCE,NEUTRAL,NEUTRAL,The statement explains that the defense budget is limited and cannot purchase everything. ,ebb83c9f092fcc1f34addff4b2671e1d
+RELEVANT,FINANCE,NEUTRAL,NEUTRAL,The statement explains that the defense budget is limited and cannot purchase everything. ,ac33f6b3de2002da012549deaf0af7da
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,8ca91e62914ce06e6857f5942e2c6183
+IRRELEVANT,,,,The statement relates to a senate's use of language.,07b28e5ea79222d31c1f2323b42b2ed5
+RELEVANT,TECHNOLOGY,NEUTRAL,NEUTRAL,The statement explains the significance of GPS technology in drone programs.,8e94a25eb0fcbe31b6f53de57a75bc99
+IRRELEVANT,,,,The statement is a tribute.,7c3e589bd0e596c1ecde6b6ade32379d
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drones in criticizing the contradictory attitude of the administration in dealing with terrorist organizations.,7efbb6092b1bdf1bdd42efa9997decc8
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,5c8b36e7c416bd0092587f7fb72f3fe9
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to a drone strike that killed al-Awlaki.,0db6fba51ade061b862559c8a7a5f317
+RELEVANT,FOREIGNPOLICY,ANTI,ANTI,The statement argues that the United States cannot defeat terrorism by relying on drone strike only.,22d064053a8ef2c8e85bf5b4ebf5dcbb
+RELEVANT,TECHNOLOGY,PRO,PRO,The statement introduces technology developed by a firm that will further advance drone operations. ,4c5d4ed64c15fb137f93293d10b4db93
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,18a9a378e23d89ce20a20ba48da57331
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,1022fa95d588d752e9ba028f8be813e3
+RELEVANT,FINANCE,PRO,PRO,The statement argues that drone programs should be funded for reforming the military.,44bab354ecd6d60fdd620865295eae31
+RELEVANT,FINANCE,PRO,PRO,The statement argues that drone programs should be funded for reforming the military.,11f2e6c132fa68af49edaac12b5df284
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement acknowledges contributions of drones in fighting terrorism.,3233020a10ac2051c94eecdb0f0b67d5
+RELEVANT,FOREIGNUSE,ANTI,,The statement mentions the scenario in which Iraq may use drones to attack the United States. ,d0d03c8f63ea79f5592a2f31d70ed4e3
+RELEVANT,FOREIGNUSE,ANTI,,"The statement mentions the scenario in which Iraq may use drones to attack the United States, and confirms that such a scenario turned out to be misinformation.",a81f559deb859ac29102a6b101f2c272
+RELEVANT,"FOREIGNPOLICY,FINANCE","PRO,PRO",PRO,The statement supports additional funding for drone programs because they are effective in fighting terrorism.,f2683c8a05f6dc2da8c9343c0c016706
+RELEVANT,FOREIGNUSE,ANTI,,The statement discusses Iranian drones.,362273f343b4b1faf6c3e930d2749bf8
+RELEVANT,FOREIGNUSE,ANTI,,The statement discusses Iranian drones.,4a86f2dd5ed61f62cac66e128e08385e
+RELEVANT,FINANCE,ANTI,ANTI,The statement argues the United States should scale back spending on drone operations.,b3233c699695947488556ff97f9dd979
+RELEVANT,FINANCE,ANTI,ANTI,The statement argues the United States should scale back spending on drone operations.,132f7b19c6e9e72eea2a2e4fdf07c343
+RELEVANT,FINANCE,NEUTRAL,NEUTRAL,The statement explains how the defense budget was spent. ,8d2e0a30d48d1f4b938c55b337471631
+RELEVANT,"HUMANITARIAN,FOREIGNPOLICY","ANTI,ANTI",ANTI,The statement argues that drone strikes not only kill civilians but also instigate anti-American sentiment to the extent terrorist organizations are empowered.,ee294f31b185de3c796808c4e69d7460
+RELEVANT,"HUMANITARIAN,FOREIGNPOLICY","ANTI,ANTI",ANTI,The statement argues that drone strikes not only kill civilians but also instigate anti-American sentiment to the extent terrorist organizations are empowered.,dcdf9c5e8663e1a0fb427bf067c13018
+RELEVANT,"HUMANITARIAN,DOMESTIC-LEGALITY","ANTI,ANTI",ANTI,"The statement is critical of the current oversignt capacities regarding drone strikes, which cause civilian deaths as well.",81eb494454feb074991c6efa65b1aee7
+RELEVANT,"HUMANITARIAN,DOMESTIC-LEGALITY,DISCLOSURE","PRO,PRO,ANTI",PRO,"The statement argues that drone strikes have to go through stringent legal processes and involve only very minor civilian casualties. Furthermore, it points out that what the media reports is not true all the time.",9bb08bba661141ff424acdd30a258d15
+RELEVANT,FINANCE,PRO,PRO,The statement advocates additional funds for UAVs.,1a99ef5cdfe56279a0fc9a396b8bcb84
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,aee4fc3b7ad0f80278487ac4b561e082
+IRRELEVANT,,,,The statement refers to the domestic use of drones. ,1c0df39a04fea4d2e0848f9393d3d3a1
+RELEVANT,FINANCE,PRO,PRO,The statement advocates investments in developing the Predator.,f240a379b365fc30fb5e2ded0434a589
+RELEVANT,"FINANCE,FOREIGNPOLICY","PRO,PRO",PRO,The statement advocates investments in developing the Predator.,a1725dc6c4b4f20bc21a767a5b729617
+RELEVANT,TECHNOLOGY,PRO,PRO,The statement explains a research program that will further advance drone technology. ,926f1889e47c54c4fe88a27d8431c8e9
+IRRELEVANT,,,,The statement refers to the domestic use of drones.,490260da19449be85c83bb36c481289d
+RELEVANT,FINANCE,ANTI,ANTI,The statement questions whether UAVs were part of unvetted earmarks.,d3068676e62e5c492c0723b1efced393
+RELEVANT,FINANCE,NEUTRAL,NEUTRAL,The statement explains earmarks for drone programs.,756a3ee734c6b3a34659342b46496056
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,,db51fe5e4f25d55169d1865c6d434c45
+RELEVANT,"FINANCE,TECHNOLOGY","PRO,PRO",PRO,The statement explains why and how funding for UAVs will advance their operation.,f6cad03f5fc7d7f340d2e538f1142d6c
+RELEVANT,"FINANCE,TECHNOLOGY","PRO,PRO",PRO,The statement explains why and how funding for UAVs will advance their operation.,01df588899d51b9d60736962da18c521
+RELEVANT,FINANCE,PRO,PRO,The statement requests earmarks for drone programs.,78b0e0184435d185a6e2b9190126a4d1
+RELEVANT,"FINANCE,TECHNOLOGY","PRO,PRO",PRO,The statement explains why and how funding for UAVs will advance their operation.,89341daf45c87440ff93e57a05433b0c
+RELEVANT,"FINANCE,TECHNOLOGY","PRO,PRO",PRO,The statement explains why and how funding for UAVs will advance their operation.,d659276ef606c5a93ab885825e875f41
+RELEVANT,REFERENCE,ANTI,ANTI,The statement criticizes a senator's remark on attacking people with drones.,d55a27a8206486949927ec17b03ccb3e
+IRRELEVANT,,,,The statement relates to the use of drones on U.S. soil.,e531eb8a1ad5e71d4f7dc363159f52ed
+IRRELEVANT,,,,The statement relates to the use of drones on U.S. soil.,3e22135fc5dd52565946228e1f6dfad5
+RELEVANT,"FOREIGNPOLICY,HUMANITARIAN,FINANCE","PRO,PRO,PRO",PRO,The statement advocates investing in drones because they are effective in fighting terrorism and ensures the safety of American soldiers and marines.,231043f7631e1b563b4504f53d237614
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,The statement is part of a security bill that relates to drones. ,dfad3b65993ca7ca7775f911e003d470
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,b5d0673a779aa315979debccf999efd4
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drones in discussing John Boehner's remarks.,00861f66a1b7455ad0b46f3c2084d67c
+IRRELEVANT,,,,The statement is a tribute.,198aed2b67de044cebf65f838a99ada0
+RELEVANT,"FOREIGNPOLICY,FINANCE","PRO,PRO",PRO,The statement lists drones as inexpensive and effective military assets in fighting terrorism.,5d6bfeafab3f4fd56003f9788e4b42ea
+IRRELEVANT,,,,The statement refers to the use of surveillance drones in the United States.,c692f57e8af7ff1a088aa961c02cc585
+IRRELEVANT,,,,The statement refers to the use of surveillance drones in the United States.,955e6e4e7a13f8f3b95327d1982ed06b
+IRRELEVANT,,,,The statement refers to the use of surveillance drones in the United States.,9f58a4327c6fd3feb43485614444ce86
+IRRELEVANT,,,,The statement refers to the use of surveillance drones in the United States.,b318fecaa64458e3868b1f8d40b19547
+RELEVANT,FOREIGNPOLICY,NEUTRAL,PRO,The statement explains circumstances in which the United States can carry out drone strikes.,eb2fb6e5c22a75cb14372987ccc6667c
+RELEVANT,TECHNOLOGY,NEUTRAL,NEUTRAL,The statement explains impact of PAC-3 missiles.,b94150e0e465cd2d30adee59a856e6ec
+RELEVANT,FINANCE,NEUTRAL,NEUTRAL,The statement explains the 1033 program.,ccd92b53ceee9c7ec75110e5b303d7eb
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,The statement points out that UAVs are not mentioned in the amendment in question.,4689d24130e7264064179f788aa07eec
+RELEVANT,"DOMESTIC-LEGALITY,DISCLOSURE","ANTI,PRO",ANTI,The statement calls for more transparency regarding drone strikes.,bc49bda4b6a5c6fe9e28149907217350
+RELEVANT,FINANCE,ANTI,ANTI,"The statement argues that a SEAL is not worth $200,000 and dolphins perform better at lower costs.",0c6db2edefcf4da096af34a39b22c0b2
+RELEVANT,FOREIGNUSE,ANTI,,The statement explains Iran's use of drones.,ac9ba15e2abf7a94d1cea26508d96585
+IRRELEVANT,,,,"The statement refers to drone strikes on U.S. soil, not overseas.",a25ebea984b65de61dd849e94538e184
+RELEVANT,HUMANITARIAN,ANTI,ANTI,The statement emphasizes that human lives are at stake when launching drone strikes.,83faec278e38cc1910da72c91bb3604f
+IRRELEVANT,,,,The statement relates to a filibuster.,2352a0d2aedbe70de4d9d32b158384d1
+RELEVANT,DISCLOSURE,PRO,ANTI,The statement calls for more transparency regarding drone strikes.,84105184e41dba32c2d5a6625a9091af
+RELEVANT,FOREIGNPOLICY,ANTI,ANTI,The statement argues that drone strikes do not make the United States safer.,fb587d8d0dbeef4a8be80c5272d3a704
+RELEVANT,FOREIGNPOLICY,ANTI,ANTI,The statement argues that drone strikes do not make the United States safer.,fc869c5a43b6f79c13e284b9e4f91181
+IRRELEVANT,,,,The statement refers to the domestic use of drones.,fd3657175a9db44988ef6d38b2255731
+RELEVANT,FOREIGNUSE,ANTI,,The statement explains Iran's use of drones.,c874a1e0cd968a86ccfa6332834aa7b8
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,17c535b7077dd9f93b7a6b7e764ba105
+RELEVANT,FOREIGNUSE,ANTI,,The statement calls for reaction to Iran's use of military drones.,bfc629a63f2ccaf0dd48eb99656b8b70
+RELEVANT,"FOREIGNPOLICY,HUMANITARIAN,DOMESTIC-LEGALITY","PRO,ANTI,ANTI",ANTI,The statement argues that the United States is exercising national security discretion to launch drone strikes.,2cdc00d5bf92245a0b1ab9ecde8c98da
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,"The statement argues that the United States is exercising national security discretion to launch drone strikes, and that this has to be changed.",64b4ea79605fd9fc9d5128cfdfafe2dc
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,"The statement argues that the United States is exercising national security discretion to launch drone strikes, and that this has to be changed.",b0124aa2c9b3cfb3a975b02206151088
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,"The statement argues that the United States is exercising national security discretion to launch drone strikes, and that this has to be changed.",1c1230655e8fece823c2a448a419a767
+RELEVANT,"FOREIGNPOLICY,HUMANITARIAN,DOMESTIC-LEGALITY","PRO,ANTI,NEUTRAL",NEUTRAL,The statement argues that exercising national security discretion in launching drone strikes does not necessarily mean the United States is liable for them.,90200620535b34b9afc989b0e188af15
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions a drone strike that killed al-Awlaki.,f2e1ff5330fa232a67e0df89698bed1c
+RELEVANT,FINANCE,PRO,PRO,The statement explains fundings for drone programs for the past couple years.,efe55ea76c9c5e33b174e2d011c8b9d1
+RELEVANT,"DISCLOSURE,DOMESTIC-LEGALITY","PRO,NEUTRAL",ANTI,The statement proposes a bill that demands intelligence sharing between the FBI and CIA for effective drone operations.,3c468ebc794c3108c906f84f9585e252
+IRRELEVANT,,,,The statement refers to drones in a surveillance role based on its title.,070df3f189e9af6e18a8c753f3bdb9f7
+RELEVANT,FOREIGNPOLICY,ANTI,ANTI,The statement argues that military operations prolong conflicts.,1b8f3cd6625c7f60b1a4d4bfb5ab3dfd
+IRRELEVANT,,,,The statement relates to health and education issues based on the title.,d9e5ec861ff134436c833c0c3c524c2d
+IRRELEVANT,,,,The statement relates to health and education issues based on the title.,b18d870819add1d66d4b211f64eb2ac0
+IRRELEVANT,,,,The statement relates to health and education issues based on the title.,aabbba592847fee7fb836f4bcf9f413d
+IRRELEVANT,,,,The statement is a tribute.,ee3edd8ed5b77aeb1c08d3ee10032cb5
+RELEVANT,REFERENCE,ANTI,ANTI,The statement is critical of how President Bush diverted drones to Iraq from Afghanistan.,5ed275b0cb7449258aafa32074e8eb33
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,The statement argues that the amendment in question will not interrupt training activities of UAVs.,9b635d225a8784dc67b48ce0d93cb74a
+RELEVANT,HUMANITARIAN,ANTI,ANTI,The statement opposes drone strikes because they result in the deaths of innocent civilians.,9a0bcb675047d60a4c736318dd5cdb6c
+RELEVANT,HUMANITARIAN,ANTI,ANTI,The statement opposes drone strikes because they result in the deaths of innocent civilians.,570457ab81f2b3c776211a2d24edbb33
+RELEVANT,HUMANITARIAN,ANTI,ANTI,The statement opposes drone strikes because they result in the deaths of innocent civilians.,e38e5512506b7f2ab9284c4c3724f740
+RELEVANT,HUMANITARIAN,ANTI,ANTI,The statement opposes drone strikes because they result in the deaths of innocent civilians.,232be2cf0e335f4ee205e0b2807fe940
+RELEVANT,HUMANITARIAN,ANTI,PRO,The statement argues that the administration is capable of striking a balance between moral obligation to avoid arbitrary attacks on innocent people and moral obligation to defend our country.,364b238f982d3777e136213bf881db7e
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement explains the administration's stance regarding drone strikes. ,cbe7ae7497aff78536bc133bf504a606
+RELEVANT,HUMANITARIAN,ANTI,ANTI,The statement proposes an amendment that will ensure drone strike target terrorists only.,0a29ff47ddd101f993adb60a6dd435ad
+RELEVANT,DOMESTIC-LEGALITY,ANTI,NEUTRAL,The statement is critical of the current system and calls for greater congressional accountability concerning drone strikes.,e028fb4e254faf018a020c0ffbcc4450
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,The statement argues that drone policy is rooted in adherence to law.,59ab97b053a95b4d25bc8f28cadc84ea
+RELEVANT,"DISCLOSURE,DOMESTIC-LEGALITY,HUMANITARIAN","PRO,ANTI,ANTI",ANTI,The statement calls for more legal accountability and congressional oversight over drone programs.,0170b1fae0ce78157aade9319c44d824
+RELEVANT,"HUMANITARIAN,FOREIGNPOLICY,DOMESTIC-LEGALITY","ANTI,ANTI,ANTI",ANTI,The statement opposes drone strikes that kill civilians and prolong wars. It also criticizes that Congress did not give the President an unlimited power to launch such lethal strikes.,f996c0f6e072a1e6f746156cccc44ec7
+RELEVANT,FOREIGNUSE,ANTI,,The statement refers to the potential use of drones by Saddam Hussein.,fa92b386831e0ad9cc36296ad58ef17b
+RELEVANT,FOREIGNUSE,ANTI,,The statement refers to the potential use of drones by Saddam Hussein.,30c0193e045e37e259b90fc7b376b3cc
+RELEVANT,"FOREIGNUSE,DISCLOSURE","ANTI,PRO",,"The statement refers to the potential use of drones by Saddam Hussein, but admits it is challenging to support the resolution in question because the speaker does not have access to classified information.",bf2a6c792b427b2771f1426cc11702c8
+RELEVANT,FOREIGNUSE,ANTI,,The statement refers to the potential use of drones by Saddam Hussein.,725e79fe1de0304c4447a0285de31950
+RELEVANT,FOREIGNUSE,ANTI,,The statement refers to the potential use of drones by Saddam Hussein.,43363d97ec11434fbf3681c1530fa842
+RELEVANT,FOREIGNUSE,ANTI,,The statement refers to the potential use of drones by Saddam Hussein.,b5778d61aa3debfa9b5a60d6a0366467
+RELEVANT,FOREIGNUSE,ANTI,,The statement refers to the potential use of drones by Saddam Hussein.,001321bb1ac7b233736ef5b383d1343c
+RELEVANT,FOREIGNUSE,ANTI,,The statement refers to the potential use of drones by Saddam Hussein.,cb253f2b8ff6ddfb8f9a1323d995681d
+RELEVANT,FOREIGNUSE,ANTI,,The statement refers to the potential use of drones by Saddam Hussein.,ce7b959366c324b76e726e219ff2b9a4
+RELEVANT,FOREIGNUSE,ANTI,,The statement refers to the potential use of drones by Saddam Hussein.,112b3986058018ea1b4984968e1c6310
+RELEVANT,FOREIGNUSE,ANTI,,The statement refers to the potential use of drones by Saddam Hussein.,ccc8c42a4a5b0df22ab482298befa2f9
+IRRELEVANT,,,,The statement is a tribute.,b14a5e86790efebd5582704ededc8076
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,49d26cdfb3ff7574a7948ee088763b9f
+IRRELEVANT,,,,The statement refers to the domestic use of drones.,c02d3e4d5ccb5eb2e0e4828bbafe60da
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,d51a7371c9e846903718478059de2714
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,c018161eaf5629b8c5f8d72faadb34cd
+IRRELEVANT,,,,The statement is a tribute.,ebf8cb517e0d586a38f29606246f73ca
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,6175e83522d55659e07a2d746aef732e
+RELEVANT,HUMANITARIAN,ANTI,ANTI,The statement is concerned about collateral damages caused by drone strikes.,c19d196c459dc311d5521e04a989f1bf
+IRRELEVANT,,,,The statement refers to the domestic use of drones.,1701c4fc8bf086dca78c9f39ce63300c
+IRRELEVANT,,,,The statement refers to the domestic use of drones.,0eee759284c8fa5debe64cd046c57d64
+IRRELEVANT,,,,The statement refers to the domestic use of drones.,f5b1a2f12a3aacd17733f44b133a439b
+IRRELEVANT,,,,The statement refers to the domestic use of drones.,5956959da04b18d5aeea9370fd20dbf4
+IRRELEVANT,,,,The statement refers to the domestic use of drones.,1c82f1f783bf8b808bc41bef7dd44024
+IRRELEVANT,,,,The statement refers to the domestic use of drones.,1e5172f49be5e67595f58aa57fbb1866
+IRRELEVANT,,,,The statement refers to the domestic use of drones.,5a663bd4f69f8472bad529c96a418807
+RELEVANT,TECHNOLOGY,PRO,PRO,The statement argues that knowing how drones operate is a valuable asset to an individual.,710f7fbecf714e8464ccbbc6ac21b988
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement argues that drones have contributed to fighting terrorism effectively.,e4d446055ec2cabd87032ab65410ab8e
+RELEVANT,REFERENCE,ANTI,ANTI,The statement refers to a drone strike that accidentally killed an individual who was not supposed to be killed.,c8d1cad5e6305b4ae7dfc3f00dfdade1
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,e477c3eadf2458ff49d5053ab8665e34
+RELEVANT,"FOREIGNPOLICY,HUMANITARIAN","ANTI,ANTI",ANTI,The statement argues that drone strikes are not so efficient.,906efee0e31bfc9425e504151839c8fd
+RELEVANT,"FOREIGNPOLICY,HUMANITARIAN","ANTI,ANTI",ANTI,The statement argues that drone strikes are not so efficient.,338f7512a0b329b2a1ee278a3a80bb58
+RELEVANT,"FOREIGNPOLICY,HUMANITARIAN","ANTI,ANTI",ANTI,The statement argues that drone strikes are not so efficient.,4fb1f82715f5c35712695d60b262cc50
+RELEVANT,"FOREIGNPOLICY,HUMANITARIAN","ANTI,ANTI",ANTI,The statement argues that drone strikes are not so efficient.,ffaee93b254f28d58e85410e0bc033c0
+RELEVANT,"HUMANITARIAN,DISCLOSURE","ANTI,PRO",ANTI,The statement says that drone operations in Pakistan resulted in the deaths of hundreds of innocent civilians.,8e8af564bb43cc94acf0b03015003de5
+RELEVANT,"FOREIGNPOLICY,DISCLOSURE","ANTI,PRO",ANTI,The statement says that the U.S. presence in the Middle East is counterproductive.,2c999081e664f25be39483a0ca6cf182
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement argues that the U.S. presence in Pakistan has nothing to do with drone strikes against terrorists.,7cc121b40fe2addd157fb77d25916952
+RELEVANT,"HUMANITARIAN,DISCLOSURE,FOREIGNPOLICY","ANTI,PRO,ANTI",ANTI,The statement argues aggressive military operations in Pakistan should stop before conflicts escalate.,73372a668975dbcdaa7fc82782485f81
+RELEVANT,"FOREIGNPOLICY,FINANCE","PRO,PRO",PRO,The statement supports additional funding for drones.,0f37882f33e5017059db8374b13f5375
+RELEVANT,"FOREIGNPOLICY,FINANCE","PRO,PRO",PRO,The statement supports additional funding for drones.,f9bf167c6c30b9ff12a85f17c5f2ab86
+RELEVANT,FOREIGNUSE,NEUTRAL,,"The statement argues that there was no credible threat connected to ""their""--potentially Iraq's--drones.",0c73ba048ab9d79cc050c69c3a217ac1
+IRRELEVANT,,,,The statement discusses Russian politics.,6e729194ae3f70f5f89ff0e62fc177ab
+RELEVANT,FINANCE,NEUTRAL,NEUTRAL,The statement says that the F-22 is not the only aircraft that will be included in the budget.,ff239cdd0b2278bae58b72982847bb54
+RELEVANT,FINANCE,ANTI,ANTI,The statement says that investing in state-of-the-art aircrafts did not produce any tangible results.,e6fb2d3e455b0f0f3f852f1bcaed260c
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement compares flight hours of different aircrafts and UAVs.,9bc12d33edcb3f4b84eb81fc84e7144f
+IRRELEVANT,,,,The statement relates to commercial drones.,ad40f0719f7cbe95bcd8037f495c7e1f
+IRRELEVANT,,,,The statement is a tribute.,8cf2177fa5f7eea0b6176d063c5209bb
+RELEVANT,REFERENCE,PRO,PRO,The statement mentions drones in awarding a lieutenant.,6a428c6f505ffacc515d5a1a20308fff
+RELEVANT,FINANCE,PRO,PRO,The statement supports the bill that funds drones.,f857766409db88af0818296594dc7c51
+RELEVANT,"FOREIGNPOLICY,FINANCE","PRO,PRO",PRO,The statement calls for additional funding for drone programs as they have proven effective in fighting terrorism.,e5f4dce24a8fc1b57e8a3cc61403024e
+RELEVANT,REFERENCE,PRO,PRO,The statement mentions drones in discussing an Air Force base in Las Vegas.,2394a70ff347a94494b1d1c8fd848a5f
+RELEVANT,TECHNOLOGY,ANTI,ANTI,"The statement warns the ""lethal autonomy"" system in controlling drones.",eb6c33c41f1de41e0410549313d2d354
+RELEVANT,TECHNOLOGY,ANTI,ANTI,"The statement warns the ""lethal autonomy"" system in controlling drones.",b9bf61ce85b542b6e7e1c600faf3542b
+RELEVANT,TECHNOLOGY,ANTI,ANTI,"The statement warns the ""lethal autonomy"" system in controlling drones.",fe386f6d71e809976cad47b792412953
+RELEVANT,"TECHNOLOGY,INTERNATIONAL-LEGALITY","ANTI,ANTI",ANTI,"The statement warns the ""lethal autonomy"" system in controlling drones.",aba3004fcd73f188bbad0ed94deab2c6
+IRRELEVANT,,,,The statement relates to commercial drones.,6da07f3079aaa268ed4206d7eeee23c7
+RELEVANT,HUMANITARIAN,ANTI,ANTI,The statement is critical of sending intelligent people overseas for drone operations and putting their lives in harm's way.,b4f4c5b8f6343bfa09995f8bce41d6a3
+RELEVANT,DOMESTIC-LEGALITY,ANTI,ANTI,The statement proposes a resolution that will remove one of the underlying legal justifications for targeted drone killings,bce841856286096641372edaed90f714
+RELEVANT,"FOREIGNPOLICY,DOMESTIC-LEGALITY","ANTI,NEUTRAL",ANTI,The statement argues drone operations antagonize the local population and criticizes the lack of oversight over those operations.,1cf94dbfb45c37ac6a3e41f6bdfb147d
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,ANTI,The statement calls for more legal accountability and congressional oversight over drone programs.,f9748efca79f692a28057287a0966813
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions a drone strike that killed al-Awlaki.,d44f12ce415f80f1ccc3b04985a88dc7
+RELEVANT,REFERENCE,PRO,PRO,The statement mentions a drone strike that killed al-Awlaki.,bfe8068fba65a6f8ce84425c73da912d
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement discusses how the United States would respond to a hypothetical situation in which an American citizen contemplates attacks in the United States.,88de8f32b4e62768379ad0ebdc8281ce
+RELEVANT,"DOMESTIC-LEGALITY,FOREIGNPOLICY","NEUTRAL,NEUTRAL",NEUTRAL,The statement proposes a hearing on constitutional and counterterrorism implications of targeted killings.,432ddcfd00a9ce04fe1ef01df5fefe39
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement says that Nevada is one of many places in which drones are constructed.,0013d0c6d1f5361568d3e5e6e0793a27
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drones in discussing military bases.,ac2ad026027bbc6a8bd6c1cf30e36507
+RELEVANT,"HUMANITARIAN,FINANCE","ANTI,ANTI",ANTI,The statement argues that SMART Security is more humanitarian and inexpensive compared to military operations.,0881c641970d82d04f992a8848cda7bc
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drones in explaining who counts as a veteran.,50d8690a89e1ba990662d9f759af3996
+RELEVANT,FOREIGNPOLICY,PRO,PRO,The statement lists drone strikes as one of the effectiveness of American forces.,0dc523a1a52c89360235b99d6c735c42
+RELEVANT,HUMANITARIAN,ANTI,ANTI,The statement concerns the difficulty of selecting targets for drone strikes.,8681abe3a106163e678e89aae8a901ef
+RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,ANTI,The statement calls for more legal accountability and congressional oversight over drone programs.,a6c684d970fd2ed8bebbb9080c5597cf
+RELEVANT,"DOMESTIC-LEGALITY,HUMANITARIAN","NEUTRAL,ANTI",ANTI,The statement calls for more legal accountability and congressional oversight over drone programs.,275dbc9670789df540ff0c903922f0a3
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,771f641c5cc1b62ad1a148707459b6a8
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,98a1acda42735bd4cd0698b3de8201d5
+IRRELEVANT,,,,The statement relates to aviation security and safety.,f0f590f01195512f927ba62074adb5c6
+RELEVANT,REFERENCE,PRO,PRO,The statement acknowledges DARPA's achievements in developing UAVs.,7981c19d9423bb6748caa4233a2a910b
+IRRELEVANT,,,,The statement relates to aviation security and safety.,6d10b3221c15a65528de6c4a6f09b5a5
+IRRELEVANT,,,,The statement relates to aviation security and safety.,97f871cf39d6cafa7698ac2f8d8a3bb5
+IRRELEVANT,,,,The statement refers to the domestic use of drones.,c0154b067e5ec64d7de1e50e9a0a157c
+IRRELEVANT,,,,The statement relates to aviation security reforms.,13d724b113aca8522aadce9cf5ee5748
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement mentions drones in introducing a naval officer's experience.,bf1c90d5f5e97c92bc2736a4143db108
+IRRELEVANT,,,,The statement relates to the use of drones in the domestic arena.,8087f612dac8b5ce186205799e9b43fd
+IRRELEVANT,,,,The statement is a tribute.,1aac22128e1248ad00cda361dc4d718d
+IRRELEVANT,,,,The statement relates to fiscal accountability.,bc36f71319e99f7628abce72f521acc3
+IRRELEVANT,,,,The statement refers to drones in a surveillance role.,17fa64b7d8e1529253f0cc984e6a02b6
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement introduces what drones are and how they function.,9be4daf4ad5e49a77bb5e86f35565771
+RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement says that the Air Force has made the right choice regarding drones.,b5ca0a67ee35e73ac3eb9194bb40e414
