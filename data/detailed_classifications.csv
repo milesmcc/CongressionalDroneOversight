@@ -689,7 +689,7 @@ RELEVANT,DOMESTIC-LEGALITY,NEUTRAL,NEUTRAL,The statement argues that the use of 
 IRRELEVANT,,,,,c7e04b559cdcb96a4fdc3196ad337de6
 RELEVANT,FOREIGNPOLICY,ANTI,ANTI,The statement points out that drone strikes may be countereffective because the U.S. government cannot gather information once targets are killed.,43adc0ff883ae2437875b943535acbd8
 RELEVANT,REFERENCE,NEUTRAL,NEUTRAL,The statement refers to drone strikes in Yemen.,a1e4d5ebfab1ecb16e5195a0f2cf5e32
-RELEVANT,"FOREIGNPOLICY,DISCLOSURE",ANTI,ANTI,"The statement argues that drone strikes hit lower-level combatants, not top terrorists, and hence are not as effective as many assume.",cd39e7a12356d8d8416537ed936142ca
+RELEVANT,"FOREIGNPOLICY,DISCLOSURE","ANTI,ANTI",ANTI,"The statement argues that drone strikes hit lower-level combatants, not top terrorists, and hence are not as effective as many assume.",cd39e7a12356d8d8416537ed936142ca
 RELEVANT,REFERENCE,ANTI,ANTI,"The statement refers to an organization that is concerned about Americans, at both home and abroad, involved in drone strikes.",71fd1fcc20d0c9e3f769931fa3a1cc0e
 RELEVANT,"DOMESTIC-LEGALITY,INTERNATIONAL-LEGALITY","ANTI,ANTI",ANTI,The statement quotes an opinion that argues drone strikes breach both domestic and international law. ,1e62e723b0465f99370495f6f5c7c81e
 RELEVANT,DISCLOSURE,NEUTRAL,ANTI,The statement refers to an incident in which an attorney was denied to access information on drone strikes.,c6be405bc189453bc7064cd3b07976a0
