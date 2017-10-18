@@ -1,7 +1,3 @@
-"""
-Beware: this is Spaghetti code
-"""
-
 import sys
 import json
 import datetime
