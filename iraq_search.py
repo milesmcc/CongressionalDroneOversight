@@ -4,6 +4,7 @@ import datetime
 import re
 import unicodecsv as csv
 from dateutil.parser import parse
+from tqdm import tqdm
 
 def match(record):
     """
@@ -126,13 +127,13 @@ with open(cgrecord_location, "r") as infile:
 print "Loaded {} records from the annotated congressional record!".format(str(len(records)))
 print "Performing search..."
 matched = []
-for record in records:
+for record in tqdm(records):
     if match(record):
         matched.append(record)
 print "Search completed... found {} matched records ({}% matched).".format(str(len(matched)), str((len(matched)+0.0)*100/len(records)))
 print "Compiling output..."
 output = []
-for record in matched:
+for record in tqdm(matched):
     trimmed_record = {}
     # try:
     if "bio" in record:
@@ -165,6 +166,6 @@ if csv_location is not None:
     with open(csv_location, "w") as csvfile:
         writer = csv.writer(csvfile, encoding="utf-8")
         writer.writerow(output_columns["order"])
-        for match in matched:
+        for match in tqdm(matched):
             writer.writerow(generate_row(match))
 print "Done!"
