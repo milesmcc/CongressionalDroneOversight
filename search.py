@@ -104,14 +104,14 @@ def generate_row(record):
     for column in output_columns['order']:
         value = "Unknown"
         if column in output_columns["bio_columns"]:
-            if record['bio'] is not None:
+            if 'bio' in record and record['bio'] is not None:
                 if column in record['bio']:
                     value = record['bio'][column]
         if column in output_columns['record_columns']:
             if column in record:
                 value = record[column]
         if column in output_columns['nominate_columns']:
-            if record['nominate'] is not None:
+            if 'nominate' in record and record['nominate'] is not None:
                 if column in record['nominate']:
                     value = record['nominate'][column]
         row.append(value)
