@@ -30,7 +30,7 @@ def match(record):
 
         # general terms
         required = [
-            re.compile("(iraq|sadaam hussein|red dawn|desert fox|oplan 1003|al-faw|nasiriyah|talil|ba'ath|fedayeen|ramadan offensive)")
+            re.compile("(iraq|saddam hussein|red dawn|desert fox|oplan 1003|al-faw|nasiriyah|talil|ba'ath|fedayeen|ramadan offensive|fallujah|abu ghraib)")
         ]
         disallowed = [
             re.compile("")
