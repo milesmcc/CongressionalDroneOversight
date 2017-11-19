@@ -33,9 +33,7 @@ def match(record):
         required = [
             re.compile("(iraq|saddam hussein|red dawn|desert fox|oplan 1003|al-faw|nasiriyah|talil|ba'ath|fedayeen|ramadan offensive|fallujah|abu ghraib)")
         ]
-        disallowed = [
-            re.compile("")
-        ]
+        disallowed = []
         for term in required:
             if not term.search(text):
                 return False
@@ -127,13 +125,13 @@ with open(cgrecord_location, "r") as infile:
 print "Loaded {} records from the annotated congressional record!".format(str(len(records)))
 print "Performing search..."
 matched = []
-for record in tqdm(records):
+for record in tqdm(records, desc="search"):
     if match(record):
         matched.append(record)
 print "Search completed... found {} matched records ({}% matched).".format(str(len(matched)), str((len(matched)+0.0)*100/len(records)))
 print "Compiling output..."
 output = []
-for record in tqdm(matched):
+for record in tqdm(matched, desc="compile"):
     trimmed_record = {}
     # try:
     if "bio" in record:
@@ -166,6 +164,6 @@ if csv_location is not None:
     with open(csv_location, "w") as csvfile:
         writer = csv.writer(csvfile, encoding="utf-8")
         writer.writerow(output_columns["order"])
-        for match in tqdm(matched):
+        for match in tqdm(matched, desc="write"):
             writer.writerow(generate_row(match))
 print "Done!"
