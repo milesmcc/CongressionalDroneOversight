@@ -93,3 +93,4 @@ annotated_congressional_record.json
 out.csv
 out.json
 abbreviated_annotated_congressional_record.json
+*.json
