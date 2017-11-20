@@ -4,6 +4,7 @@ import datetime
 import re
 import unicodecsv as csv
 from dateutil.parser import parse
+from tqdm import tqdm
 
 def match(record):
     """
